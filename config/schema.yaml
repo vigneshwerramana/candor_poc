@@ -1,0 +1,68 @@
+# Dataset schema: how snapshots are loaded, normalized, and compared.
+# Adding a field to the dataset = adding one entry here. No code change needed
+# if the field uses an existing normalizer.
+
+load:
+  # Every column loads as string. Pandas type inference is never trusted:
+  # it corrupts leading-zero zips and turns NPIs into floats.
+  dtype: str
+  na_values: ["", "N/A", "n/a", "NA", "null", "NULL", "None", "none", "nan"]
+  keep_default_na: false
+
+# insurance_accepted cells hold pipe-separated lists: "Aetna|BlueCross"
+list_delimiter: "|"
+
+key_field: npi
+
+fields:
+  npi:
+    type: string
+    normalize: none
+    compare_as: scalar
+    diff: false          # join key, never a field change
+  name:
+    type: string
+    normalize: name      # casefold, strip titles/suffixes/punct, sort tokens
+    compare_as: scalar
+    diff: true
+  phone:
+    type: string
+    normalize: phone     # digits only, US 10-digit
+    compare_as: scalar
+    diff: true
+  address:
+    type: string
+    normalize: text      # casefold + whitespace collapse
+    compare_as: scalar
+    diff: true
+  zip:
+    type: string
+    normalize: zip       # zero-pad to 5, ZIP+4 truncated to 5
+    compare_as: scalar
+    diff: true
+  state:
+    type: string
+    normalize: state     # uppercase 2-letter
+    compare_as: scalar
+    diff: true
+  specialty:
+    type: string
+    normalize: text
+    compare_as: scalar
+    diff: true
+  insurance_accepted:
+    type: list
+    normalize: list      # split, trim, casefold; order preserved (set compare handles order)
+    compare_as: set      # order-insensitive diff
+    diff: true
+  last_updated:
+    type: date
+    normalize: date      # ISO 8601
+    compare_as: scalar
+    diff: false          # feeds the freshness metric ONLY — a refresh timestamp
+                         # change is not a data change and must not flood the delta
+  pipeline_version:
+    type: string
+    normalize: none
+    compare_as: scalar
+    diff: false          # run metadata

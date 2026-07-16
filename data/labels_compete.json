@@ -1,0 +1,299 @@
+{
+  "field_changes": [
+    {
+      "npi": "1000001622",
+      "field": "phone",
+      "old": "(312) 982-5449",
+      "new": "3036845504",
+      "truth_label": "valid_update",
+      "note": "compete: B's value corroborated by 2 sources"
+    },
+    {
+      "npi": "1000002273",
+      "field": "phone",
+      "old": "(212) 838-6631",
+      "new": "4156738997",
+      "truth_label": "valid_update",
+      "note": "compete: B's value corroborated by 2 sources"
+    },
+    {
+      "npi": "1000000517",
+      "field": "phone",
+      "old": "(206) 737-8263",
+      "new": "6174108562",
+      "truth_label": "valid_update",
+      "note": "compete: B's value corroborated by 2 sources"
+    },
+    {
+      "npi": "1000001119",
+      "field": "phone",
+      "old": "512-787-2982",
+      "new": "6171884852",
+      "truth_label": "valid_update",
+      "note": "compete: B's value corroborated by 2 sources"
+    },
+    {
+      "npi": "1000000939",
+      "field": "phone",
+      "old": "310-531-9520",
+      "new": "4014346810",
+      "truth_label": "valid_update",
+      "note": "compete: B's value corroborated by 2 sources"
+    },
+    {
+      "npi": "1000000764",
+      "field": "phone",
+      "old": "(404) 388-5160",
+      "new": "4045101749",
+      "truth_label": "valid_update",
+      "note": "compete: B's value corroborated by 2 sources"
+    },
+    {
+      "npi": "1000001572",
+      "field": "phone",
+      "old": "(415) 513-4125",
+      "new": "5123998935",
+      "truth_label": "valid_update",
+      "note": "compete: B's value corroborated by 2 sources"
+    },
+    {
+      "npi": "1000000426",
+      "field": "phone",
+      "old": "310-671-9022",
+      "new": "4156831589",
+      "truth_label": "valid_update",
+      "note": "compete: B's value corroborated by 2 sources"
+    },
+    {
+      "npi": "1000002281",
+      "field": "phone",
+      "old": "(303) 608-8019",
+      "new": "2061266110",
+      "truth_label": "valid_update",
+      "note": "compete: B's value corroborated by 2 sources"
+    },
+    {
+      "npi": "1000001705",
+      "field": "phone",
+      "old": "4019940438",
+      "new": "2063715869",
+      "truth_label": "valid_update",
+      "note": "compete: B's value corroborated by 2 sources"
+    },
+    {
+      "npi": "1000003495",
+      "field": "phone",
+      "old": "401-504-1027",
+      "new": "3129767762",
+      "truth_label": "valid_update",
+      "note": "compete: B's value corroborated by 2 sources"
+    },
+    {
+      "npi": "1000003842",
+      "field": "phone",
+      "old": "(312) 301-8718",
+      "new": "2067288137",
+      "truth_label": "valid_update",
+      "note": "compete: B's value corroborated by 2 sources"
+    },
+    {
+      "npi": "1000003636",
+      "field": "phone",
+      "old": "6179021962",
+      "new": "4045196115",
+      "truth_label": "valid_update",
+      "note": "compete: B's value corroborated by 2 sources"
+    },
+    {
+      "npi": "1000001275",
+      "field": "phone",
+      "old": "(415) 265-6766",
+      "new": "4042154544",
+      "truth_label": "valid_update",
+      "note": "compete: B's value corroborated by 2 sources"
+    },
+    {
+      "npi": "1000002935",
+      "field": "phone",
+      "old": "206-310-9678",
+      "new": "4159604432",
+      "truth_label": "valid_update",
+      "note": "compete: B's value corroborated by 2 sources"
+    },
+    {
+      "npi": "1000003974",
+      "field": "phone",
+      "old": "310-256-6383",
+      "new": "2121851067",
+      "truth_label": "valid_update",
+      "note": "compete: B's value corroborated by 2 sources"
+    },
+    {
+      "npi": "1000002604",
+      "field": "phone",
+      "old": "6175651269",
+      "new": "2065679228",
+      "truth_label": "valid_update",
+      "note": "compete: B's value corroborated by 2 sources"
+    },
+    {
+      "npi": "1000002737",
+      "field": "phone",
+      "old": "(303) 472-9293",
+      "new": "2062519966",
+      "truth_label": "valid_update",
+      "note": "compete: B's value corroborated by 2 sources"
+    },
+    {
+      "npi": "1000003537",
+      "field": "phone",
+      "old": "(401) 269-2124",
+      "new": "5128074120",
+      "truth_label": "valid_update",
+      "note": "compete: B's value corroborated by 2 sources"
+    },
+    {
+      "npi": "1000002687",
+      "field": "phone",
+      "old": "(312) 341-6518",
+      "new": "4041813989",
+      "truth_label": "valid_update",
+      "note": "compete: B's value corroborated by 2 sources"
+    },
+    {
+      "npi": "1000003883",
+      "field": "phone",
+      "old": "(312) 714-6273",
+      "new": "4043780182",
+      "truth_label": "valid_update",
+      "note": "compete: B's value corroborated by 2 sources"
+    },
+    {
+      "npi": "1000000251",
+      "field": "phone",
+      "old": "212-443-6995",
+      "new": "6179718956",
+      "truth_label": "valid_update",
+      "note": "compete: B's value corroborated by 2 sources"
+    },
+    {
+      "npi": "1000002398",
+      "field": "phone",
+      "old": "3108268861",
+      "new": "2125626085",
+      "truth_label": "valid_update",
+      "note": "compete: B's value corroborated by 2 sources"
+    },
+    {
+      "npi": "1000000822",
+      "field": "phone",
+      "old": "6177788925",
+      "new": "3101824224",
+      "truth_label": "valid_update",
+      "note": "compete: B's value corroborated by 2 sources"
+    },
+    {
+      "npi": "1000000996",
+      "field": "phone",
+      "old": "4046814473",
+      "new": "3126209520",
+      "truth_label": "valid_update",
+      "note": "compete: B's value corroborated by 2 sources"
+    },
+    {
+      "npi": "1000001465",
+      "field": "phone",
+      "old": "(303) 046-6183",
+      "new": "3031526546",
+      "truth_label": "valid_update",
+      "note": "compete: B's value corroborated by 2 sources"
+    },
+    {
+      "npi": "1000000962",
+      "field": "phone",
+      "old": "(415) 845-1154",
+      "new": "2123399378",
+      "truth_label": "valid_update",
+      "note": "compete: B's value corroborated by 2 sources"
+    },
+    {
+      "npi": "1000000814",
+      "field": "phone",
+      "old": "(401) 807-9359",
+      "new": "3104057861",
+      "truth_label": "valid_update",
+      "note": "compete: B's value corroborated by 2 sources"
+    },
+    {
+      "npi": "1000002463",
+      "field": "phone",
+      "old": "(415) 394-3129",
+      "new": "6170489138",
+      "truth_label": "valid_update",
+      "note": "compete: B's value corroborated by 2 sources"
+    },
+    {
+      "npi": "1000003347",
+      "field": "phone",
+      "old": "(401) 979-5453",
+      "new": "3129671832",
+      "truth_label": "valid_update",
+      "note": "compete: B's value corroborated by 2 sources"
+    },
+    {
+      "npi": "1000003396",
+      "field": "phone",
+      "old": "(415) 902-2784",
+      "new": "6178687007",
+      "truth_label": "regression",
+      "note": "compete: evidence supports A's value"
+    },
+    {
+      "npi": "1000003263",
+      "field": "phone",
+      "old": "(212) 155-6990",
+      "new": "3122007494",
+      "truth_label": "regression",
+      "note": "compete: evidence supports A's value"
+    },
+    {
+      "npi": "1000000053",
+      "field": "phone",
+      "old": "(312) 238-8496",
+      "new": "3035398402",
+      "truth_label": "regression",
+      "note": "compete: evidence supports A's value"
+    },
+    {
+      "npi": "1000003073",
+      "field": "phone",
+      "old": "212-164-5104",
+      "new": "4011416128",
+      "truth_label": "regression",
+      "note": "compete: evidence supports A's value"
+    },
+    {
+      "npi": "1000001077",
+      "field": "phone",
+      "old": "212-469-6325",
+      "new": "3033985547",
+      "truth_label": "regression",
+      "note": "compete: evidence supports A's value"
+    }
+  ],
+  "record_events": {
+    "additions": {
+      "3000000000": "valid_addition",
+      "3000000018": "valid_addition",
+      "3000000026": "valid_addition",
+      "3000000034": "valid_addition",
+      "3000000042": "valid_addition",
+      "3000000059": "valid_addition",
+      "3000000067": "valid_addition",
+      "3000000075": "valid_addition",
+      "3000000083": "valid_addition",
+      "3000000091": "valid_addition"
+    }
+  },
+  "row_events": {}
+}

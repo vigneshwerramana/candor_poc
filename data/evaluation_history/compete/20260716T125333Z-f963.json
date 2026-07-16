@@ -1,0 +1,663 @@
+{
+  "run_id": "20260716T125333Z-f963",
+  "pipeline_version": null,
+  "comparison_mode": "model_compete",
+  "config_fingerprint": "011208b056ffe185",
+  "regression_mode": "baseline",
+  "baseline_label": "Scraper A",
+  "candidate_label": "Scraper B",
+  "volume_summary": {
+    "baseline_count": 400,
+    "candidate_count": 410,
+    "added_count": 10,
+    "deleted_count": 0,
+    "updated_count": 35,
+    "unchanged_count": 365,
+    "added_pct": 0.025,
+    "deleted_pct": 0.0
+  },
+  "dedupe_report_baseline": {
+    "raw_count": 400,
+    "duplicate_npi_count": 0,
+    "dropped_duplicate_rows": 0,
+    "null_npi_count": 0
+  },
+  "dedupe_report_candidate": {
+    "raw_count": 410,
+    "duplicate_npi_count": 0,
+    "dropped_duplicate_rows": 0,
+    "null_npi_count": 0
+  },
+  "normalization_report_baseline": {
+    "failure_counts": {},
+    "row_count": 400
+  },
+  "normalization_report_candidate": {
+    "failure_counts": {},
+    "row_count": 410
+  },
+  "suppressed_by_normalization": 0,
+  "suppressed_by_set_compare": 0,
+  "total_field_changes": 35,
+  "metrics_baseline": [
+    {
+      "name": "completeness",
+      "score": 0.9971428571428571,
+      "weight": 0.25,
+      "direction": "higher_is_better",
+      "status": "ok",
+      "sample_size": 400
+    },
+    {
+      "name": "phone_validity",
+      "score": 0.9925,
+      "weight": 0.2,
+      "direction": "higher_is_better",
+      "status": "ok",
+      "sample_size": 400
+    },
+    {
+      "name": "npi_validity",
+      "score": 1.0,
+      "weight": 0.0,
+      "direction": "higher_is_better",
+      "status": "ok",
+      "sample_size": 400
+    },
+    {
+      "name": "duplicate_rate",
+      "score": 0.0,
+      "weight": 0.15,
+      "direction": "lower_is_better",
+      "status": "ok",
+      "sample_size": 400
+    },
+    {
+      "name": "address_completeness",
+      "score": 0.9875,
+      "weight": 0.0,
+      "direction": "higher_is_better",
+      "status": "ok",
+      "sample_size": 400
+    },
+    {
+      "name": "freshness",
+      "score": 0.85,
+      "weight": 0.15,
+      "direction": "higher_is_better",
+      "status": "ok",
+      "sample_size": 400
+    },
+    {
+      "name": "state_zip_consistency",
+      "score": 1.0,
+      "weight": 0.05,
+      "direction": "higher_is_better",
+      "status": "ok",
+      "sample_size": 398
+    },
+    {
+      "name": "normalization_failure_rate",
+      "score": 0.0,
+      "weight": 0.0,
+      "direction": "lower_is_better",
+      "status": "ok",
+      "sample_size": 400
+    }
+  ],
+  "metrics_candidate": [
+    {
+      "name": "completeness",
+      "score": 0.997212543554007,
+      "weight": 0.25,
+      "direction": "higher_is_better",
+      "status": "ok",
+      "sample_size": 410
+    },
+    {
+      "name": "phone_validity",
+      "score": 0.9926829268292683,
+      "weight": 0.2,
+      "direction": "higher_is_better",
+      "status": "ok",
+      "sample_size": 410
+    },
+    {
+      "name": "npi_validity",
+      "score": 1.0,
+      "weight": 0.0,
+      "direction": "higher_is_better",
+      "status": "ok",
+      "sample_size": 410
+    },
+    {
+      "name": "duplicate_rate",
+      "score": 0.0,
+      "weight": 0.15,
+      "direction": "lower_is_better",
+      "status": "ok",
+      "sample_size": 410
+    },
+    {
+      "name": "address_completeness",
+      "score": 0.9878048780487805,
+      "weight": 0.0,
+      "direction": "higher_is_better",
+      "status": "ok",
+      "sample_size": 410
+    },
+    {
+      "name": "freshness",
+      "score": 0.8634146341463415,
+      "weight": 0.15,
+      "direction": "higher_is_better",
+      "status": "ok",
+      "sample_size": 410
+    },
+    {
+      "name": "state_zip_consistency",
+      "score": 1.0,
+      "weight": 0.05,
+      "direction": "higher_is_better",
+      "status": "ok",
+      "sample_size": 408
+    },
+    {
+      "name": "normalization_failure_rate",
+      "score": 0.0,
+      "weight": 0.0,
+      "direction": "lower_is_better",
+      "status": "ok",
+      "sample_size": 410
+    },
+    {
+      "name": "change_quality",
+      "score": 0.8571428571428571,
+      "weight": 0.25,
+      "direction": "higher_is_better",
+      "status": "ok",
+      "sample_size": 35
+    },
+    {
+      "name": "addition_quality",
+      "score": 1.0,
+      "weight": 0.1,
+      "direction": "higher_is_better",
+      "status": "ok",
+      "sample_size": 10
+    },
+    {
+      "name": "deletion_quality",
+      "score": null,
+      "weight": 0.0,
+      "direction": "higher_is_better",
+      "status": "n/a",
+      "sample_size": 0
+    }
+  ],
+  "overall_score": 0.9493,
+  "metrics_included": [
+    "completeness",
+    "phone_validity",
+    "duplicate_rate",
+    "freshness",
+    "state_zip_consistency",
+    "change_quality",
+    "addition_quality"
+  ],
+  "metrics_excluded": [
+    "npi_validity",
+    "address_completeness",
+    "normalization_failure_rate",
+    "deletion_quality"
+  ],
+  "change_quality": {
+    "auto_accepted": 30,
+    "judged_valid": 0,
+    "judged_regression": 5,
+    "review_approved": 0,
+    "review_rejected": 0,
+    "auto_flagged": 0,
+    "uncertain": 0,
+    "budget_deferred": 0
+  },
+  "addition_quality": {
+    "auto_accepted": 10,
+    "judged_valid": 0,
+    "judged_invalid": 0,
+    "structural_rejected": 0,
+    "review_approved": 0,
+    "review_rejected": 0,
+    "auto_flagged": 0,
+    "uncertain": 0,
+    "budget_deferred": 0
+  },
+  "deletion_verdicts": [],
+  "judge_coverage": 1.0,
+  "judge_calls_made": 5,
+  "estimated_judge_cost": 0.01,
+  "judge_accuracy": {
+    "n_labeled_judged": 5,
+    "regression_precision": 1.0,
+    "regression_recall": 1.0,
+    "planted_regressions": 5,
+    "planted_regressions_caught": 5,
+    "traps_flagged": 0,
+    "planted_invalid_additions": 0,
+    "planted_invalid_additions_caught": 0
+  },
+  "competition_summary": {
+    "baseline_label": "Scraper A",
+    "candidate_label": "Scraper B",
+    "shared_npi_count": 400,
+    "disagreement_count": 35,
+    "field_win_rate": 0.8571,
+    "snapshot_score_delta": 0.0028,
+    "addition_quality": 1.0,
+    "coverage_delta": 10,
+    "regressions_in_candidate": 5,
+    "recommendation": "candidate_wins"
+  },
+  "prod_recommendation": "Deploy Scraper B to PROD",
+  "prod_rationale": [
+    "Candidate won 86% of evidence/judge-decided disagreements.",
+    "Snapshot health Δ: +0.3%.",
+    "Extra coverage: +10 records."
+  ],
+  "field_change_summaries": [
+    {
+      "npi": "1000000053",
+      "field": "phone",
+      "old_value": "3122388496",
+      "new_value": "3035398402",
+      "change_kind": "modified",
+      "disposition": "regression",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000000251",
+      "field": "phone",
+      "old_value": "2124436995",
+      "new_value": "6179718956",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000000426",
+      "field": "phone",
+      "old_value": "3106719022",
+      "new_value": "4156831589",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000000517",
+      "field": "phone",
+      "old_value": "2067378263",
+      "new_value": "6174108562",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000000764",
+      "field": "phone",
+      "old_value": "4043885160",
+      "new_value": "4045101749",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000000814",
+      "field": "phone",
+      "old_value": "4018079359",
+      "new_value": "3104057861",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000000822",
+      "field": "phone",
+      "old_value": "6177788925",
+      "new_value": "3101824224",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000000939",
+      "field": "phone",
+      "old_value": "3105319520",
+      "new_value": "4014346810",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000000962",
+      "field": "phone",
+      "old_value": "4158451154",
+      "new_value": "2123399378",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000000996",
+      "field": "phone",
+      "old_value": "4046814473",
+      "new_value": "3126209520",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000001077",
+      "field": "phone",
+      "old_value": "2124696325",
+      "new_value": "3033985547",
+      "change_kind": "modified",
+      "disposition": "regression",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000001119",
+      "field": "phone",
+      "old_value": "5127872982",
+      "new_value": "6171884852",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000001275",
+      "field": "phone",
+      "old_value": "4152656766",
+      "new_value": "4042154544",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000001465",
+      "field": "phone",
+      "old_value": "3030466183",
+      "new_value": "3031526546",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000001572",
+      "field": "phone",
+      "old_value": "4155134125",
+      "new_value": "5123998935",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000001622",
+      "field": "phone",
+      "old_value": "3129825449",
+      "new_value": "3036845504",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000001705",
+      "field": "phone",
+      "old_value": "4019940438",
+      "new_value": "2063715869",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000002273",
+      "field": "phone",
+      "old_value": "2128386631",
+      "new_value": "4156738997",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000002281",
+      "field": "phone",
+      "old_value": "3036088019",
+      "new_value": "2061266110",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000002398",
+      "field": "phone",
+      "old_value": "3108268861",
+      "new_value": "2125626085",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000002463",
+      "field": "phone",
+      "old_value": "4153943129",
+      "new_value": "6170489138",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000002604",
+      "field": "phone",
+      "old_value": "6175651269",
+      "new_value": "2065679228",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000002687",
+      "field": "phone",
+      "old_value": "3123416518",
+      "new_value": "4041813989",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000002737",
+      "field": "phone",
+      "old_value": "3034729293",
+      "new_value": "2062519966",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000002935",
+      "field": "phone",
+      "old_value": "2063109678",
+      "new_value": "4159604432",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000003073",
+      "field": "phone",
+      "old_value": "2121645104",
+      "new_value": "4011416128",
+      "change_kind": "modified",
+      "disposition": "regression",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000003263",
+      "field": "phone",
+      "old_value": "2121556990",
+      "new_value": "3122007494",
+      "change_kind": "modified",
+      "disposition": "regression",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000003347",
+      "field": "phone",
+      "old_value": "4019795453",
+      "new_value": "3129671832",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000003396",
+      "field": "phone",
+      "old_value": "4159022784",
+      "new_value": "6178687007",
+      "change_kind": "modified",
+      "disposition": "regression",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000003495",
+      "field": "phone",
+      "old_value": "4015041027",
+      "new_value": "3129767762",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000003537",
+      "field": "phone",
+      "old_value": "4012692124",
+      "new_value": "5128074120",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000003636",
+      "field": "phone",
+      "old_value": "6179021962",
+      "new_value": "4045196115",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000003842",
+      "field": "phone",
+      "old_value": "3123018718",
+      "new_value": "2067288137",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000003883",
+      "field": "phone",
+      "old_value": "3127146273",
+      "new_value": "4043780182",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000003974",
+      "field": "phone",
+      "old_value": "3102566383",
+      "new_value": "2121851067",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    }
+  ],
+  "record_event_summaries": [
+    {
+      "npi": "3000000000",
+      "kind": "added",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "3000000018",
+      "kind": "added",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "3000000026",
+      "kind": "added",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "3000000034",
+      "kind": "added",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "3000000042",
+      "kind": "added",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "3000000059",
+      "kind": "added",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "3000000067",
+      "kind": "added",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "3000000075",
+      "kind": "added",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "3000000083",
+      "kind": "added",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "3000000091",
+      "kind": "added",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    }
+  ],
+  "field_change_summaries_truncated": false,
+  "review_queue": [],
+  "regression": {
+    "mode": "baseline",
+    "compared_run_id": null,
+    "config_mismatch": false,
+    "metric_deltas": {},
+    "notes": [
+      "Coverage difference: +10 / -0 records (volume alerts suppressed in model_compete mode)."
+    ]
+  },
+  "critical_alerts": [],
+  "warnings": [],
+  "release_decision": "BASELINE_ESTABLISHED",
+  "top_findings": [
+    "35 field changes; 30/35 judged/verified as valid."
+  ]
+}

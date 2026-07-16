@@ -1,0 +1,406 @@
+npi,name,phone,address,zip,state,specialty,insurance_accepted,last_updated,pipeline_version
+1000000004,Dr. John Okafor,,"433 Main St, Cambridge",02139,MA,cardiology,UnitedHealth|BlueCross,2026-02-01,v121
+1000000012,Dr. Raj Okafor,(512) 990-0489,"715 Park Blvd, Boston",02115,MA,internal medicine,Cigna|BlueCross|Medicaid,2026-02-10,v121
+1000000020,Dr. Aisha Nguyen,5129407816,"81 Cedar Ln, Austin",78701,TX,orthopedics,Kaiser|Humana|BlueCross|Aetna|Cigna,2026-06-21,v121
+1000000038,Dr. Fatima Garcia,617-164-7525,"364 Oak Ave, Hartford",06103,CT,orthopedics,Medicaid|Kaiser|Humana|BlueCross,2026-01-26,v121
+1000000046,Dr. Luis Brown,312-835-0305,"411 Elm St, Providence",02903,RI,family medicine,Kaiser|BlueCross,2025-12-05,v121
+1000000053,Dr. Luis Chen,(312) 238-8496,"920 Cedar Ln, Austin",78701,TX,neurology,UnitedHealth|BlueCross|Humana,2026-03-09,v121
+1000000061,Dr. Aisha Chen,,"542 Elm St, Boston",02115,MA,cardiology,BlueCross|Kaiser|Humana|Cigna,2026-06-21,v121
+1000000079,Dr. Fatima Brown,415-704-8281,"892 Maple Dr, Cambridge",2139,MA,orthopedics,UnitedHealth|BlueCross|Cigna|Medicare,2026-04-18,v121
+1000000087,Dr. James Khan,2121543039,N/A,02115,MA,family medicine,Medicaid|Medicare|Aetna|Humana,2026-03-01,v121
+1000000095,Dr. Emily Johnson,4049638346,"688 Maple Dr, Denver",80202,CO,internal medicine,Medicaid|Aetna|BlueCross,2026-06-12,v121
+1000000103,Dr. John Martinez,404-393-0103,"70 Main St, Chicago",60601,IL,internal medicine,UnitedHealth|Cigna,2026-06-28,v121
+1000000111,Dr. Carlos Okafor,401-973-7631,"311 Cedar Ln, Denver",80202,CO,neurology,Medicare|UnitedHealth|Medicaid,2026-03-12,v121
+1000000129,Dr. Maria Brown,(512) 133-3872,"433 Oak Ave, Cambridge",02139,MA,orthopedics,UnitedHealth|Medicare|Aetna,2025-08-29,v121
+1000000137,Dr. Maria Wilson,(404) 013-2677,"219 Park Blvd, Cambridge",02139,MA,cardiology,Medicare|Aetna,2026-02-24,v121
+1000000145,Dr. Fatima Brown,(404) 723-4309,"754 Cedar Ln, Denver",80202,CO,cardiology,Kaiser|Aetna|Medicare|Humana,2026-05-08,v121
+1000000152,Dr. Emily Smith,404-121-9136,"123 Cedar Ln, Seattle",98101,WA,dermatology,Aetna|Humana|Medicaid|UnitedHealth,2026-03-08,v121
+1000000160,Dr. James Johnson,6175346247,"324 Main St, Atlanta",30303,GA,cardiology,BlueCross|Aetna|Humana,2026-02-15,v121
+1000000178,Dr. Carlos Nguyen,(310) 354-2784,"627 Maple Dr, New York",10001,NY,cardiology,Humana|Kaiser|Aetna|BlueCross,2025-11-11,v121
+1000000186,Dr. Carlos Johnson,3129353487,"258 Main St, Cambridge",02139,MA,family medicine,Medicare|Medicaid|Cigna|Aetna,2025-11-28,v121
+1000000194,Dr. David Chen,(206) 868-0112,"559 Main St, Providence",02903,RI,internal medicine,Cigna|UnitedHealth|BlueCross|Aetna,2025-10-03,v121
+1000000202,"PATEL, ELENA, MD",(617) 158-6923,"886 Oak Ave, Boston",02115,MA,pediatrics,Aetna|BlueCross|Kaiser,2026-04-12,v121
+1000000210,Dr. David Chen,,"313 Oak Ave, Hartford",06103,CT,dermatology,UnitedHealth|Medicaid,2026-03-31,v121
+1000000228,Dr. David Nguyen,404-685-0142,"595 Elm St, Cambridge",02139,MA,cardiology,Cigna|Medicare,2026-05-04,v121
+1000000236,Dr. Aisha Brown,(401) 340-6088,"704 Maple Dr, Austin",78701,TX,dermatology,Medicare|Aetna|Kaiser,2026-04-25,v121
+1000000244,Dr. Aisha Okafor,312-846-5648,"131 Oak Ave, Chicago",60601,IL,neurology,Medicare|Kaiser|Medicaid|BlueCross,2025-10-14,v121
+1000000251,Dr. Omar Lee,212-443-6995,"477 Park Blvd, New York",10001,NY,oncology,UnitedHealth|Humana|Medicaid|BlueCross,2026-02-19,v121
+1000000269,Dr. James Garcia,(617) 433-2003,"487 Cedar Ln, New York",10001,NY,family medicine,Medicare|Kaiser|Humana,2026-06-23,v121
+1000000277,Dr. Omar Patel,(415) 016-3287,"52 Cedar Ln, Denver",80202,CO,dermatology,Medicaid|BlueCross,2026-04-07,v121
+1000000285,Dr. James Silva,206-986-8727,"461 Elm St, Seattle",98101,WA,dermatology,Humana|Medicare|Medicaid|UnitedHealth,2026-03-01,v121
+1000000293,Dr. Luis Garcia,(312) 345-5812,"155 Oak Ave, New York",10001,NY,dermatology,Cigna|Kaiser|BlueCross|Aetna,2026-05-14,v121
+1000000301,Dr. Luis Brown,212-366-9096,"350 Oak Ave, New York",10001,NY,internal medicine,Medicare|Medicaid|UnitedHealth,2026-04-01,v121
+1000000319,Dr. Sarah Khan,617-467-0656,"742 Oak Ave, Atlanta",30303,GA,oncology,Aetna|UnitedHealth,2026-02-25,v121
+1000000327,Dr. Wei Wilson,303-272-0465,"217 Park Blvd, Boston",02115,MA,internal medicine,Medicare|Cigna|UnitedHealth,2026-02-20,v121
+1000000335,Dr. John Okafor,404-053-1003,"205 Main St, Denver",80202,CO,pediatrics,Cigna|UnitedHealth,2026-06-24,v121
+1000000343,Dr. Raj Khan,3125299124,"111 Cedar Ln, Atlanta",30303,GA,cardiology,Medicare|UnitedHealth|Kaiser,2026-06-15,v121
+1000000350,Dr. Sarah Garcia,3129190586,"678 Elm St, Atlanta",30303,GA,family medicine,Medicaid|UnitedHealth|Aetna|Kaiser,2026-06-25,v121
+1000000376,Dr. Luis Martinez,(401) 650-7527,"218 Elm St, Hartford",06103,TX,orthopedics,Humana|Medicaid|Kaiser,2025-09-03,v121
+1000000384,Dr. Raj Garcia,6176783777,"812 Main St, Boston",02115,OH,family medicine,UnitedHealth|Medicaid|Kaiser,2025-08-07,v121
+1000000392,Dr. Elena Khan,4048568557,"278 Elm St, Atlanta",30303,GA,orthopedics,BlueCross|Kaiser,2025-10-10,v121
+1000000400,Dr. Emily Patel,(617) 749-8941,"853 Oak Ave, Cambridge",02139,MA,orthopedics,Kaiser|BlueCross|Cigna,2026-04-25,v121
+1000000418,Dr. Carlos Johnson,2120842710,"588 Elm St, Seattle",98101,WA,orthopedics,Medicaid|Cigna|BlueCross,2026-07-11,v121
+1000000426,Dr. Aisha Cohen,310-671-9022,"831 Cedar Ln, Denver",80202,CO,orthopedics,UnitedHealth|Aetna,2026-05-11,v121
+1000000434,Dr. Sarah Silva,(404) 677-4964,"583 Cedar Ln, Atlanta",30303,GA,cardiology,BlueCross|Medicare|Medicaid|Kaiser,2026-03-30,v121
+1000000442,Dr. Emily Patel,(303) 642-1476,"482 Elm St, Cambridge",02139,MA,cardiology,Humana|Kaiser,2026-01-26,v121
+1000000459,Dr. Sarah Johnson,,"847 Oak Ave, Cambridge",02139,MA,family medicine,Cigna|Medicare,2026-03-20,v121
+1000000467,Dr. Fatima Khan,3107464887,"449 Main St, Atlanta",30303,GA,cardiology,Kaiser|Humana|Cigna,2025-09-24,v121
+1000000475,Dr. John Silva,(312) 902-7874,"186 Cedar Ln, Hartford",06103,CT,neurology,Medicaid|Aetna|UnitedHealth|Cigna,2025-09-09,v121
+1000000491,Dr. Luis Brown,2123859770,"209 Elm St, Seattle",98101,WA,pediatrics,Medicaid|Kaiser|UnitedHealth,2026-07-14,v121
+1000000509,Dr. Sarah Okafor,415-480-8613,"862 Main St, Atlanta",30303,GA,oncology,Cigna|UnitedHealth,2026-07-07,v121
+1000000517,Dr. David Brown,(206) 737-8263,"944 Cedar Ln, Seattle",98101,WA,pediatrics,Humana|Medicare,2026-05-01,v121
+1000000525,Dr. David Cohen,2124499727,"552 Park Blvd, Seattle",98101,WA,internal medicine,Medicare|UnitedHealth|Cigna,2026-04-18,v121
+1000000533,Dr. Omar Patel,3030576627,"988 Main St, Atlanta",30303,GA,pediatrics,Kaiser|Medicare|Aetna|UnitedHealth,2025-11-05,v121
+1000000541,Dr. John Okafor,415-621-7459,"710 Park Blvd, Denver",80202,CO,family medicine,Medicare|Cigna|Kaiser,2025-09-17,v121
+1000000558,Dr. Maria Martinez,3103431611,"455 Oak Ave, Seattle",98101,WA,orthopedics,Aetna|Cigna,2026-03-12,v121
+1000000566,Dr. Elena Brown,4153869222,"81 Cedar Ln, Chicago",60601,IL,neurology,UnitedHealth|Medicaid|Humana|BlueCross,2026-04-30,v121
+1000000574,Dr. Luis Johnson,(212) 748-2175,"602 Elm St, New York",10001,NY,neurology,Humana|UnitedHealth|Cigna|BlueCross,2025-07-31,v121
+1000000582,Dr. Sarah Brown,401-594-4064,"9 Cedar Ln, Cambridge",02139,MA,cardiology,Medicaid|Medicare|Cigna|BlueCross,2025-08-26,v121
+1000000608,Dr. Raj Chen,4045884247,"991 Elm St, Providence",02903,RI,internal medicine,Medicaid|Aetna,2026-03-30,v121
+1000000616,Dr. Elena Garcia,3030481754,"599 Park Blvd, Austin",78701,FL,internal medicine,UnitedHealth|Medicaid,2026-05-18,v121
+1000000624,Dr. James Martinez,617-174-6120,"969 Main St, Seattle",98101,WA,orthopedics,BlueCross|Aetna|Medicaid,2026-02-06,v121
+1000000632,Dr. Luis Nguyen,(404) 692-6179,"418 Elm St, Austin",78701,TX,cardiology,Kaiser|BlueCross|UnitedHealth|Medicaid,2026-06-10,v121
+1000000640,Dr. Elena Lee,5120643171,"679 Oak Ave, Cambridge",02139,MA,cardiology,Kaiser|BlueCross,2025-08-15,v121
+1000000657,Dr. Wei Cohen,4043933529,"3 Elm St, Hartford",06103,CT,pediatrics,Humana|Medicare,2026-02-20,v121
+1000000665,Dr. Carlos Smith,(512) 395-0240,"940 Main St, Cambridge",02139,MA,neurology,BlueCross|Kaiser|Aetna|UnitedHealth,2026-06-16,v121
+1000000673,Dr. Aisha Khan,(404) 390-8470,"63 Park Blvd, Seattle",98101,WA,neurology,BlueCross|UnitedHealth|Kaiser,2025-11-23,v121
+1000000681,Dr. James Martinez,4151249985,"391 Cedar Ln, Cambridge",02139,MA,orthopedics,Medicare|Aetna|Kaiser,2026-06-26,v121
+1000000699,Dr. Raj Brown,2063657661,"321 Park Blvd, Seattle",98101,WA,internal medicine,Humana|Cigna|BlueCross|UnitedHealth,2025-09-14,v121
+1000000707,Dr. Wei Brown,(310) 528-0988,"338 Maple Dr, Cambridge",02139,MA,family medicine,Medicaid|Medicare|Kaiser,2026-06-21,v121
+1000000715,"NGUYEN, FATIMA, MD",3109832731,"359 Cedar Ln, New York",10001,NY,internal medicine,Humana|Medicaid,2026-07-01,v121
+1000000723,Dr. John Martinez,(415) 745-6449,"186 Oak Ave, Seattle",98101,WA,neurology,Cigna|Kaiser,2026-03-27,v121
+1000000731,Dr. Raj Brown,303-752-5459,"611 Main St, Cambridge",02139,MA,cardiology,Cigna|Medicare,2025-10-06,v121
+1000000749,Dr. David Khan,303-797-6438,"862 Oak Ave, New York",10001,NY,neurology,Humana|Kaiser,2026-07-02,v121
+1000000756,Dr. Fatima Smith,(617) 690-0343,"786 Oak Ave, Denver",80202,CO,orthopedics,Kaiser|Aetna|Medicare,2026-02-13,v121
+1000000764,Dr. Carlos Brown,(404) 388-5160,"447 Main St, Providence",02903,RI,oncology,Kaiser|Humana,2026-03-26,v121
+1000000772,Dr. Grace Johnson,(310) 605-2975,"91 Park Blvd, Austin",78701,TX,family medicine,Medicare|Humana,2025-08-23,v121
+1000000780,Dr. Omar Cohen,3125352181,"544 Cedar Ln, Cambridge",02139,MA,dermatology,Kaiser|Medicaid|Medicare,2025-08-15,v121
+1000000798,Dr. Carlos Johnson,6172921277,"773 Cedar Ln, Cambridge",2139,MA,oncology,Kaiser|Medicare|Medicaid|Cigna,2025-10-28,v121
+1000000806,Dr. Priya Khan,(312) 490-5814,"473 Park Blvd, Cambridge",02139,MA,cardiology,Kaiser|Medicare,2026-03-24,v121
+1000000814,Dr. Omar Khan,(401) 807-9359,"488 Cedar Ln, Cambridge",02139,MA,pediatrics,Medicaid|Aetna,2026-06-25,v121
+1000000822,Dr. Emily Smith,6177788925,"382 Elm St, Seattle",98101,WA,neurology,Kaiser|Medicaid|Humana,2026-06-23,v121
+1000000848,Dr. Wei Johnson,(404) 652-8168,"371 Main St, Providence",02903,RI,internal medicine,Cigna|BlueCross|Medicaid,2026-04-05,v121
+1000000855,Dr. Carlos Chen,310-418-8805,N/A,06103,CT,pediatrics,Medicare|BlueCross|Medicaid|Kaiser,2026-05-26,v121
+1000000863,Dr. Luis Smith,303-537-9473,"547 Oak Ave, Providence",02903,RI,orthopedics,UnitedHealth|Cigna|Kaiser,2026-02-05,v121
+1000000871,Dr. Fatima Silva,,"894 Elm St, Denver",80202,CO,cardiology,Medicaid|Medicare|Cigna|Humana,2026-03-24,v121
+1000000889,Dr. Fatima Garcia,(415) 478-2613,"837 Park Blvd, Cambridge",02139,MA,internal medicine,Medicare|Aetna,2025-09-08,v121
+1000000897,Dr. Sarah Brown,(206) 617-0758,"141 Main St, Chicago",60601,IL,orthopedics,Cigna|Medicare|Kaiser,2026-03-08,v121
+1000000905,Dr. John Garcia,(212) 432-8986,"114 Elm St, Atlanta",30303,GA,dermatology,BlueCross|Aetna|Medicaid,2026-03-22,v121
+1000000913,Dr. Luis Garcia,3107980893,"736 Oak Ave, Atlanta",30303,GA,orthopedics,Aetna|Humana|Cigna,2026-02-01,v121
+1000000921,Dr. Emily Wilson,(310) 851-8888,"568 Main St, Austin",78701,TX,neurology,Aetna|Kaiser|UnitedHealth|Medicare,2026-02-18,v121
+1000000939,Dr. Elena Silva,310-531-9520,"361 Cedar Ln, Boston",02115,MA,internal medicine,Cigna|Medicare|Kaiser|UnitedHealth,2026-05-11,v121
+1000000947,Dr. Carlos Garcia,,"956 Elm St, Providence",02903,RI,neurology,Medicaid|Cigna|Aetna|BlueCross,2026-03-14,v121
+1000000962,Dr. Grace Martinez,(415) 845-1154,"314 Park Blvd, Cambridge",02139,MA,neurology,Medicaid|Cigna,2026-03-28,v121
+1000000970,Dr. Grace Johnson,(401) 411-8005,"870 Cedar Ln, Chicago",60601,IL,oncology,Cigna|Aetna,2025-12-17,v121
+1000000988,Dr. Omar Martinez,(212) 927-5571,"588 Oak Ave, Chicago",60601,IL,internal medicine,Kaiser|Medicaid|Cigna,2025-09-25,v121
+1000000996,Dr. Emily Khan,4046814473,"627 Elm St, Boston",02115,MA,oncology,BlueCross|Medicaid,2025-11-28,v121
+1000001002,Dr. Luis Garcia,5125188442,"729 Maple Dr, Providence",02903,RI,pediatrics,UnitedHealth|Aetna|BlueCross|Humana,2026-03-21,v121
+1000001010,Dr. John Nguyen,404-957-8291,"68 Elm St, Denver",80202,CO,neurology,Medicaid|Humana|UnitedHealth|Kaiser,2026-05-15,v121
+1000001028,Dr. James Wilson,3107785289,"187 Oak Ave, Providence",02903,RI,neurology,Aetna|Medicare|Medicaid|Humana,2026-06-26,v121
+1000001036,Dr. Emily Nguyen,617-584-1438,"282 Oak Ave, Providence",02903,RI,orthopedics,BlueCross|Humana|Kaiser|Medicaid,2026-04-28,v121
+1000001051,Dr. Priya Wilson,(404) 447-3647,"75 Maple Dr, Boston",02115,FL,cardiology,Medicaid|UnitedHealth,2026-02-01,v121
+1000001069,Dr. James Martinez,(415) 555-6258,"576 Main St, Hartford",06103,CT,internal medicine,Medicaid|Aetna,2025-09-02,v121
+1000001077,Dr. Carlos Garcia,212-469-6325,"957 Cedar Ln, Hartford",06103,CT,internal medicine,Cigna|UnitedHealth,2026-03-21,v121
+1000001085,Dr. Fatima Khan,212-168-7339,"362 Main St, Denver",80202,CO,cardiology,Medicaid|Humana|Kaiser,2026-03-17,v121
+1000001093,Dr. John Cohen,310-624-5650,"411 Main St, New York",10001,NY,dermatology,Humana|Aetna|UnitedHealth,2025-11-02,v121
+1000001101,Dr. David Cohen,4019121655,"572 Elm St, Seattle",98101,WA,pediatrics,Medicare|Humana,2025-11-09,v121
+1000001119,Dr. Carlos Okafor,512-787-2982,"336 Cedar Ln, Boston",02115,MA,internal medicine,Medicare|Humana,2026-07-03,v121
+1000001127,Dr. James Lee,9999999999,"340 Maple Dr, Atlanta",30303,GA,family medicine,Humana|Medicare|Kaiser,2026-04-29,v121
+1000001135,Dr. Priya Johnson,3106423610,"645 Maple Dr, Boston",02115,MA,neurology,UnitedHealth|Aetna,2026-02-03,v121
+1000001150,"NGUYEN, OMAR, MD",(415) 785-8549,"496 Oak Ave, Denver",80202,CO,dermatology,Humana|BlueCross|Cigna,2026-01-26,v121
+1000001168,Dr. James Khan,(512) 844-1986,"918 Park Blvd, Denver",80202,CO,internal medicine,Humana|Aetna,2025-08-04,v121
+1000001176,Dr. Luis Wilson,(206) 499-6165,"141 Main St, Chicago",60601,IL,dermatology,Aetna|Kaiser,2025-12-07,v121
+1000001184,Dr. Maria Garcia,(303) 571-2082,"417 Maple Dr, Hartford",06103,CT,oncology,UnitedHealth|Medicare|Cigna,2025-10-31,v121
+1000001192,Dr. Wei Wilson,4013802620,"857 Park Blvd, Boston",02115,MA,oncology,Humana|Aetna,2025-10-15,v121
+1000001200,Dr. Aisha Nguyen,312-788-7287,"280 Oak Ave, Atlanta",30303,GA,family medicine,Cigna|Kaiser|UnitedHealth,2026-04-29,v121
+1000001218,Dr. John Okafor,(512) 493-2966,"528 Elm St, Providence",02903,RI,family medicine,BlueCross|Medicaid|Medicare,2025-10-16,v121
+1000001226,Dr. John Johnson,(303) 374-5499,"12 Elm St, Hartford",06103,CT,internal medicine,Medicare|Kaiser|Aetna|UnitedHealth,2026-04-23,v121
+1000001234,Dr. Omar Wilson,4044145933,"981 Oak Ave, Providence",02903,RI,oncology,Medicaid|Kaiser,2026-04-27,v121
+1000001242,Dr. Priya Silva,6174591123,"721 Elm St, Austin",78701,TX,family medicine,BlueCross|Aetna|Humana|Kaiser,2026-04-10,v121
+1000001259,Dr. Carlos Chen,512-871-3971,"921 Cedar Ln, Seattle",98101,WA,oncology,Medicaid|BlueCross,2026-02-18,v121
+1000001267,Dr. Maria Lee,2064064039,"75 Main St, Denver",80202,CO,neurology,BlueCross|Humana|Aetna,2026-03-30,v121
+1000001275,Dr. Fatima Brown,(415) 265-6766,"83 Maple Dr, Boston",02115,MA,pediatrics,Kaiser|Aetna|BlueCross|Humana,2026-03-16,v121
+1000001283,Dr. Sarah Cohen,2120478686,"844 Oak Ave, Providence",02903,RI,dermatology,Kaiser|BlueCross|Cigna,2026-03-01,v121
+1000001291,Dr. Grace Martinez,(212) 331-1907,"613 Maple Dr, Boston",02115,MA,cardiology,Aetna|UnitedHealth,2025-10-15,v121
+1000001309,Dr. Raj Silva,212-284-3959,"613 Maple Dr, Seattle",98101,WA,internal medicine,Humana|BlueCross|Aetna,2026-05-16,v121
+1000001317,Dr. Grace Johnson,3120892687,"49 Elm St, Hartford",06103,CT,neurology,Kaiser|Medicaid|UnitedHealth|Medicare,2026-03-03,v121
+1000001325,Dr. Emily Silva,4047334270,"576 Park Blvd, Austin",78701,TX,neurology,Cigna|UnitedHealth|BlueCross|Medicaid,2025-10-22,v121
+1000001333,Dr. Luis Cohen,5121830469,"618 Main St, Cambridge",02139,MA,family medicine,UnitedHealth|Medicaid,2026-04-21,v121
+1000001341,Dr. John Patel,(617) 173-9363,"566 Elm St, New York",10001,NY,orthopedics,Medicaid|Humana|Kaiser,2026-04-20,v121
+1000001358,Dr. Elena Lee,206-717-5355,"424 Main St, New York",10001,NY,dermatology,Cigna|Aetna|Medicaid|Humana,2025-11-09,v121
+1000001366,Dr. Fatima Chen,617-536-9378,"671 Maple Dr, Austin",78701,TX,internal medicine,Medicaid|Kaiser|Medicare,2025-08-31,v121
+1000001374,Dr. Emily Okafor,5122287280,"537 Main St, Denver",80202,CO,family medicine,Aetna|Medicare|Medicaid|UnitedHealth,2025-11-03,v121
+1000001382,Dr. Carlos Smith,6178750997,"676 Park Blvd, Cambridge",02139,MA,cardiology,Medicare|Aetna,2025-10-31,v121
+1000001390,Dr. Fatima Smith,4046211823,"197 Cedar Ln, New York",10001,NY,orthopedics,Humana|Medicare|UnitedHealth,2025-08-14,v121
+1000001408,Dr. Luis Martinez,6173410166,"387 Cedar Ln, Austin",78701,TX,oncology,Aetna|Kaiser,2025-11-14,v121
+1000001416,Dr. Grace Wilson,5129180339,"487 Elm St, Denver",80202,CO,cardiology,Humana|Medicaid,2026-06-23,v121
+1000001424,Dr. Emily Cohen,(512) 039-2614,"167 Cedar Ln, Boston",02115,MA,dermatology,Medicare|Kaiser|Humana|Cigna,2026-01-27,v121
+1000001432,Dr. Elena Smith,4159657724,"407 Elm St, Cambridge",02139,MA,cardiology,Humana|Medicare|UnitedHealth|Kaiser,2026-06-09,v121
+1000001440,Dr. Omar Brown,(415) 961-9431,"85 Elm St, Seattle",98101,WA,pediatrics,Cigna|Kaiser|UnitedHealth,2025-08-07,v121
+1000001457,Dr. Wei Smith,(312) 754-1212,"442 Park Blvd, Cambridge",02139,MA,neurology,Aetna|Medicaid,2026-04-13,v121
+1000001465,Dr. James Cohen,(303) 046-6183,"586 Cedar Ln, Cambridge",02139,MA,pediatrics,Medicare|BlueCross|Medicaid|Cigna,2026-02-23,v121
+1000001473,Dr. Carlos Garcia,(415) 646-4715,"258 Oak Ave, Denver",80202,CO,oncology,UnitedHealth|Medicaid|Aetna|BlueCross,2025-09-16,v121
+1000001481,Dr. James Cohen,(401) 657-5692,"308 Elm St, Austin",78701,TX,dermatology,Kaiser|BlueCross|UnitedHealth,2025-10-21,v121
+1000001499,Dr. Sarah Nguyen,(303) 465-1939,"559 Oak Ave, Denver",80202,CO,oncology,Medicaid|Kaiser|BlueCross|UnitedHealth,2026-05-01,v121
+1000001507,Dr. Priya Chen,312-342-6617,"613 Park Blvd, Austin",78701,TX,neurology,Medicare|Humana|Aetna|Cigna,2026-06-27,v121
+1000001515,Dr. Wei Garcia,6175290965,"989 Park Blvd, Atlanta",30303,GA,family medicine,BlueCross|Cigna,2025-12-20,v121
+1000001549,Dr. Emily Okafor,,"982 Park Blvd, Cambridge",02139,MA,dermatology,Cigna|BlueCross|Kaiser,2026-01-30,v121
+1000001556,Dr. John Okafor,(401) 379-6603,"211 Elm St, Austin",78701,TX,family medicine,BlueCross|Medicare|Humana|Medicaid,2026-03-26,v121
+1000001564,Dr. Luis Garcia,312-785-9696,"602 Main St, Hartford",06103,CT,internal medicine,Medicaid|Humana|BlueCross,2026-04-22,v121
+1000001572,Dr. Wei Wilson,(415) 513-4125,"711 Oak Ave, Atlanta",30303,GA,neurology,Cigna|Humana|UnitedHealth,2025-10-12,v121
+1000001580,Dr. Emily Lee,415-742-2579,"55 Elm St, Denver",80202,TX,cardiology,Cigna|BlueCross|UnitedHealth,2025-11-10,v121
+1000001598,Dr. Grace Wilson,206-677-2190,"815 Oak Ave, Denver",80202,CO,orthopedics,Humana|BlueCross,2025-08-20,v121
+1000001606,Dr. Luis Martinez,2068819148,"844 Elm St, Providence",02903,RI,cardiology,Medicaid|Humana|BlueCross|UnitedHealth,2025-11-19,v121
+1000001614,Dr. Fatima Cohen,2127451713,"215 Maple Dr, Hartford",06103,CT,internal medicine,Medicare|BlueCross|Humana|Medicaid,2026-01-28,v121
+1000001622,Dr. Elena Lee,(312) 982-5449,"274 Cedar Ln, Boston",02115,MA,family medicine,Medicare|Aetna,2026-05-23,v121
+1000001630,Dr. Carlos Patel,(401) 230-4501,"643 Park Blvd, Providence",02903,RI,neurology,BlueCross|Kaiser|Aetna,2026-01-28,v121
+1000001648,Dr. Elena Khan,2065901751,"815 Cedar Ln, New York",10001,NY,neurology,Medicare|Medicaid,2026-03-05,v121
+1000001655,Dr. James Cohen,9999999999,"916 Maple Dr, New York",10001,NY,cardiology,BlueCross|Kaiser,2026-03-10,v121
+1000001663,Dr. Emily Khan,206-063-2424,"96 Maple Dr, Cambridge",02139,MA,internal medicine,BlueCross|Cigna|Kaiser,2026-07-10,v121
+1000001671,Dr. Omar Wilson,3123611037,"80 Oak Ave, Boston",02115,MA,dermatology,Medicaid|Aetna|Medicare|Cigna,2026-06-02,v121
+1000001689,Dr. Priya Garcia,6176111554,"141 Park Blvd, Providence",02903,RI,pediatrics,Cigna|Aetna|Humana|Kaiser,2026-03-28,v121
+1000001697,Dr. Luis Nguyen,6172697311,"144 Main St, Providence",02903,RI,neurology,Medicare|Cigna|BlueCross,2025-11-05,v121
+1000001705,Dr. Sarah Lee,4019940438,"622 Cedar Ln, Cambridge",02139,MA,dermatology,Medicare|Cigna|Kaiser|Aetna,2026-05-05,v121
+1000001713,Dr. Aisha Patel,2069180552,"445 Cedar Ln, Cambridge",02139,MA,neurology,Cigna|Medicare|UnitedHealth,2026-03-10,v121
+1000001721,Dr. Wei Smith,312-300-6848,"786 Park Blvd, Atlanta",30303,GA,neurology,Medicare|Aetna|Kaiser|Humana,2026-07-10,v121
+1000001739,Dr. David Garcia,3121832856,"601 Maple Dr, Providence",02903,RI,family medicine,Medicare|Kaiser|BlueCross,2026-02-07,v121
+1000001747,Dr. Grace Garcia,206-990-4210,"725 Oak Ave, Cambridge",02139,MA,cardiology,Medicaid|Cigna,2026-05-13,v121
+1000001754,Dr. Emily Nguyen,4154105648,"66 Elm St, New York",10001,NY,family medicine,Medicaid|Humana|Cigna,2026-03-04,v121
+1000001762,Dr. Emily Nguyen,(415) 419-1380,"46 Main St, Atlanta",30303,GA,dermatology,Medicaid|Cigna,2026-03-09,v121
+1000001770,Dr. Maria Lee,3033536541,"586 Elm St, Providence",02903,TX,family medicine,Aetna|BlueCross|Medicare|Humana,2025-11-19,v121
+1000001788,Dr. Luis Cohen,(312) 451-8705,"206 Elm St, Cambridge",02139,MA,orthopedics,UnitedHealth|Medicaid|Cigna|Humana,2025-09-16,v121
+1000001796,Dr. Sarah Chen,2126038505,"2 Maple Dr, Seattle",98101,WA,neurology,Humana|Aetna|BlueCross|Medicaid,2025-11-07,v121
+1000001804,Dr. Maria Chen,3121038657,"998 Maple Dr, Denver",80202,CO,family medicine,BlueCross|Humana|Medicaid|UnitedHealth,2026-03-29,v121
+1000001812,Dr. Maria Brown,415-344-5655,N/A,30303,GA,dermatology,UnitedHealth|BlueCross,2026-02-13,v121
+1000001820,Dr. Aisha Chen,206-756-1853,"463 Elm St, Providence",02903,RI,oncology,BlueCross|Aetna|Medicaid,2026-06-17,v121
+1000001838,Dr. Maria Patel,(512) 213-5680,"694 Elm St, Atlanta",30303,GA,orthopedics,Aetna|UnitedHealth,2025-10-28,v121
+1000001846,Dr. Sarah Garcia,2061210032,"203 Park Blvd, Seattle",98101,WA,internal medicine,BlueCross|Humana|Medicare|Cigna|Kaiser,2026-02-22,v121
+1000001853,Dr. Raj Wilson,206-215-1070,"173 Cedar Ln, Cambridge",02139,MA,neurology,Medicare|UnitedHealth|Aetna|Medicaid|Kaiser,2026-07-09,v121
+1000001861,Dr. Elena Patel,4154472099,"632 Oak Ave, Providence",02903,RI,orthopedics,Medicare|Humana|UnitedHealth,2026-03-27,v121
+1000001879,Dr. Omar Chen,3033838065,"492 Cedar Ln, New York",10001,NY,oncology,Kaiser|UnitedHealth|Cigna,2026-06-22,v121
+1000001887,Dr. Sarah Smith,9999999999,"103 Oak Ave, Chicago",60601,IL,dermatology,Aetna|Medicare|BlueCross,2026-07-08,v121
+1000001895,Dr. Emily Chen,2062158624,"578 Oak Ave, Chicago",60601,IL,dermatology,Humana|BlueCross|UnitedHealth,2026-04-06,v121
+1000001903,Dr. Sarah Martinez,6170870593,"826 Oak Ave, Boston",02115,MA,internal medicine,Cigna|Medicare|Medicaid|Aetna,2025-10-25,v121
+1000001929,Dr. James Chen,4049539264,"752 Maple Dr, Denver",80202,CO,orthopedics,Cigna|Kaiser,2026-02-01,v121
+1000001937,Dr. Maria Chen,4015939172,"340 Maple Dr, Austin",78701,TX,family medicine,Kaiser|Cigna,2026-02-18,v121
+1000001945,Dr. James Khan,2124331541,"738 Main St, Cambridge",02139,MA,cardiology,Medicaid|Kaiser|UnitedHealth,2026-02-02,v121
+1000001952,Dr. Omar Nguyen,4046179327,"76 Main St, Denver",80202,CO,orthopedics,Kaiser|Cigna,2026-03-31,v121
+1000001960,Dr. Emily Brown,4151815997,"722 Main St, Chicago",60601,IL,neurology,Cigna|Humana|UnitedHealth|BlueCross,2026-06-26,v121
+1000001978,Dr. Raj Patel,9999999999,"51 Park Blvd, Chicago",60601,IL,oncology,Aetna|Cigna,2025-12-02,v121
+1000001986,Dr. Fatima Cohen,401-731-0324,"84 Park Blvd, Cambridge",02139,MA,pediatrics,Medicare|UnitedHealth|Medicaid,2025-09-09,v121
+1000001994,Dr. Omar Chen,512-652-7047,"477 Elm St, Cambridge",02139,MA,dermatology,Aetna|BlueCross|Kaiser,2025-10-21,v121
+1000002000,Dr. Elena Silva,(404) 693-8068,"429 Cedar Ln, Cambridge",02139,MA,oncology,UnitedHealth|Medicaid|Cigna|Aetna,2026-06-20,v121
+1000002018,Dr. Carlos Garcia,206-223-3206,"81 Maple Dr, Seattle",98101,WA,neurology,Cigna|Medicare,2025-09-10,v121
+1000002026,Dr. Wei Garcia,3038685487,"940 Main St, Chicago",60601,IL,neurology,Medicare|BlueCross,2025-12-24,v121
+1000002034,Dr. Aisha Garcia,,"671 Park Blvd, Atlanta",30303,GA,oncology,Cigna|Medicaid,2026-02-19,v121
+1000002042,Dr. Omar Smith,303-530-7450,"346 Elm St, Atlanta",30303,GA,orthopedics,Medicaid|Medicare|Kaiser,2026-06-08,v121
+1000002059,Dr. Carlos Johnson,(206) 546-9137,"217 Park Blvd, Hartford",06103,CT,oncology,Kaiser|Medicare|Aetna|Humana,2026-06-19,v121
+1000002067,Dr. Omar Chen,(404) 902-3303,"34 Park Blvd, New York",10001,NY,cardiology,UnitedHealth|Cigna|Medicare,2026-06-28,v121
+1000002075,Dr. Aisha Wilson,212-357-9727,"601 Cedar Ln, Austin",78701,TX,internal medicine,Cigna|Medicare|Medicaid,2026-03-07,v121
+1000002083,Dr. John Brown,2122933334,"668 Park Blvd, New York",10001,NY,cardiology,Aetna|UnitedHealth|BlueCross|Kaiser,2026-06-21,v121
+1000002091,Dr. David Martinez,312-466-5743,"478 Elm St, Hartford",06103,CT,family medicine,BlueCross|Aetna|Humana|Cigna,2026-07-12,v121
+1000002109,Dr. Fatima Johnson,3107154544,"672 Maple Dr, Atlanta",30303,GA,orthopedics,Cigna|Humana,2026-01-30,v121
+1000002117,Dr. Omar Wilson,303-591-5201,"398 Maple Dr, Atlanta",30303,GA,cardiology,UnitedHealth|Cigna|Kaiser|BlueCross,2026-06-30,v121
+1000002125,Dr. Elena Lee,(312) 282-4172,"759 Elm St, Denver",80202,CO,pediatrics,Kaiser|Medicaid|Aetna|BlueCross,2025-11-24,v121
+1000002133,Dr. Grace Silva,404-147-6174,"55 Maple Dr, New York",10001,NY,family medicine,UnitedHealth|Humana|Aetna,2026-05-18,v121
+1000002141,"BROWN, FATIMA, MD",212-223-5697,"147 Elm St, Seattle",98101,WA,pediatrics,Medicaid|Cigna,2026-04-08,v121
+1000002158,Dr. Maria Smith,(206) 432-9271,"133 Cedar Ln, Chicago",60601,IL,neurology,Medicare|UnitedHealth|Medicaid|Kaiser,2025-12-15,v121
+1000002166,Dr. Raj Okafor,512-058-3003,"232 Maple Dr, Boston",02115,MA,internal medicine,Cigna|Aetna|UnitedHealth,2025-08-23,v121
+1000002174,Dr. Emily Garcia,2124478985,"445 Maple Dr, New York",10001,NY,pediatrics,Medicaid|Cigna|BlueCross,2025-07-30,v121
+1000002182,Dr. Sarah Patel,415-309-8215,"729 Maple Dr, Boston",02115,OH,cardiology,Humana|Medicare|Medicaid,2025-09-15,v121
+1000002190,Dr. Maria Wilson,(310) 001-6761,"561 Elm St, Atlanta",30303,GA,oncology,Cigna|BlueCross|Kaiser|Aetna,2025-12-15,v121
+1000002208,Dr. David Martinez,(401) 261-8914,"117 Main St, Cambridge",02139,MA,oncology,UnitedHealth|Medicare,2026-03-29,v121
+1000002216,Dr. Elena Okafor,303-420-8737,"339 Oak Ave, Hartford",06103,CT,cardiology,BlueCross|Aetna,2026-03-03,v121
+1000002224,Dr. Wei Silva,(404) 114-3744,"476 Main St, Providence",02903,RI,family medicine,Aetna|Medicare,2025-11-20,v121
+1000002240,Dr. Luis Johnson,9999999999,"107 Park Blvd, Austin",78701,TX,oncology,Medicaid|BlueCross|Humana|UnitedHealth,2026-04-03,v121
+1000002257,Dr. Carlos Khan,,"13 Maple Dr, Boston",02115,MA,dermatology,Kaiser|Humana|Medicare|Medicaid,2026-02-08,v121
+1000002265,Dr. Priya Nguyen,(303) 289-0028,"870 Park Blvd, Hartford",06103,CT,oncology,BlueCross|Medicare,2026-03-26,v121
+1000002273,Dr. James Johnson,(212) 838-6631,"471 Park Blvd, Hartford",06103,CT,oncology,Medicaid|UnitedHealth,2026-04-23,v121
+1000002281,Dr. John Garcia,(303) 608-8019,"987 Cedar Ln, Denver",80202,CO,orthopedics,UnitedHealth|Kaiser|Medicare|Medicaid,2026-06-14,v121
+1000002299,Dr. Sarah Cohen,9999999999,"117 Main St, Boston",02115,MA,dermatology,Kaiser|Cigna,2026-04-12,v121
+1000002307,Dr. Elena Okafor,(310) 027-2614,"626 Oak Ave, Seattle",98101,WA,dermatology,Medicare|BlueCross,2026-05-01,v121
+1000002315,Dr. Aisha Silva,,"138 Park Blvd, Chicago",60601,IL,cardiology,Aetna|Humana|UnitedHealth|Medicare,2026-05-27,v121
+1000002323,Dr. Emily Okafor,(415) 169-9586,"429 Cedar Ln, Providence",02903,RI,dermatology,Medicare|Cigna|Medicaid,2026-03-06,v121
+1000002331,Dr. Grace Martinez,3031371504,"640 Maple Dr, Providence",02903,RI,orthopedics,Kaiser|Medicaid|BlueCross|Medicare,2026-06-10,v121
+1000002349,Dr. Aisha Silva,5128799684,"899 Park Blvd, Chicago",60601,IL,cardiology,BlueCross|Aetna|UnitedHealth|Medicaid,2025-10-20,v121
+1000002356,Dr. David Silva,415-442-0438,"34 Elm St, Hartford",06103,CT,oncology,UnitedHealth|Kaiser,2026-06-30,v121
+1000002364,Dr. Sarah Lee,3120666580,"14 Maple Dr, Austin",78701,TX,orthopedics,Medicaid|Medicare,2025-12-06,v121
+1000002372,"SILVA, RAJ, MD",6174721228,"123 Park Blvd, Atlanta",30303,GA,cardiology,Humana|Medicaid|Cigna,2025-09-24,v121
+1000002380,Dr. David Smith,(512) 720-2590,"793 Maple Dr, Atlanta",30303,GA,orthopedics,Kaiser|Aetna|Medicaid,2025-11-16,v121
+1000002398,Dr. Emily Lee,3108268861,"358 Oak Ave, Hartford",06103,CT,dermatology,Kaiser|Cigna|Medicare|Medicaid,2025-08-15,v121
+1000002406,Dr. Priya Lee,212-157-3993,"982 Main St, Seattle",98101,WA,internal medicine,BlueCross|UnitedHealth|Cigna,2026-02-06,v121
+1000002414,Dr. Elena Lee,404-770-4358,"85 Main St, Boston",02115,FL,pediatrics,Aetna|Kaiser|Medicaid|BlueCross,2026-05-03,v121
+1000002422,Dr. Grace Cohen,3103861207,"735 Elm St, Hartford",06103,CT,cardiology,BlueCross|Aetna|UnitedHealth,2026-02-03,v121
+1000002430,Dr. Wei Martinez,6174667665,"18 Park Blvd, Seattle",98101,WA,family medicine,Aetna|Kaiser|Medicare|Humana,2026-05-11,v121
+1000002463,Dr. Carlos Chen,(415) 394-3129,"873 Main St, Seattle",98101,WA,oncology,BlueCross|Cigna|Kaiser|Aetna,2026-03-31,v121
+1000002471,Dr. Priya Nguyen,5122314913,"326 Park Blvd, Hartford",06103,CT,oncology,Humana|Kaiser|Medicaid,2025-11-07,v121
+1000002489,Dr. Elena Silva,(512) 620-5336,"284 Elm St, Atlanta",30303,GA,pediatrics,Kaiser|UnitedHealth|Medicare|Medicaid,2026-02-20,v121
+1000002497,Dr. Aisha Chen,(401) 142-8341,"745 Main St, Denver",80202,CO,cardiology,Aetna|Medicare|Humana|Kaiser,2026-04-27,v121
+1000002505,Dr. Maria Lee,312-887-2563,"913 Cedar Ln, Hartford",06103,CT,orthopedics,Medicaid|Humana,2026-02-13,v121
+1000002513,Dr. Elena Lee,(212) 392-8272,"184 Cedar Ln, Austin",78701,TX,pediatrics,Medicaid|Cigna|Aetna|BlueCross,2026-06-21,v121
+1000002521,Dr. David Nguyen,617-038-5677,"903 Main St, Cambridge",02139,MA,cardiology,Kaiser|Aetna|Medicaid|Humana,2026-05-16,v121
+1000002539,Dr. Emily Brown,303-591-8463,"529 Park Blvd, New York",10001,NY,internal medicine,Medicaid|Medicare|UnitedHealth,2026-05-05,v121
+1000002547,Dr. Carlos Khan,(415) 318-4322,"162 Elm St, Seattle",98101,WA,family medicine,UnitedHealth|Medicaid|Cigna|Aetna,2026-07-13,v121
+1000002554,Dr. Raj Martinez,4156030299,"165 Oak Ave, Denver",80202,CO,cardiology,Cigna|Aetna|BlueCross|Medicaid,2026-03-14,v121
+1000002562,Dr. John Okafor,(312) 137-9772,"225 Park Blvd, Austin",78701,TX,pediatrics,Cigna|Humana|Kaiser|Medicare,2025-09-20,v121
+1000002570,Dr. Luis Martinez,(401) 136-6210,"208 Cedar Ln, Chicago",60601,IL,neurology,BlueCross|Medicaid,2025-09-21,v121
+1000002588,Dr. Aisha Garcia,(206) 298-0686,"380 Main St, Seattle",98101,WA,neurology,Medicaid|Medicare,2025-12-18,v121
+1000002596,Dr. Aisha Brown,415-473-1498,"419 Elm St, Atlanta",30303,GA,dermatology,Aetna|Humana,2025-09-29,v121
+1000002604,Dr. John Brown,6175651269,"260 Elm St, Seattle",98101,WA,neurology,Kaiser|Humana|Cigna|UnitedHealth,2026-06-14,v121
+1000002612,Dr. Priya Chen,512-887-4495,"793 Maple Dr, Seattle",98101,WA,neurology,Cigna|Medicare|Kaiser|Aetna,2026-03-31,v121
+1000002638,Dr. Wei Johnson,(617) 519-0669,"672 Cedar Ln, Cambridge",02139,MA,orthopedics,UnitedHealth|BlueCross|Medicare|Aetna,2026-03-25,v121
+1000002646,Dr. Fatima Patel,4044993908,"369 Oak Ave, Hartford",06103,CT,cardiology,BlueCross|Cigna,2026-07-12,v121
+1000002653,Dr. Omar Martinez,6178011848,"937 Cedar Ln, Austin",78701,TX,internal medicine,Humana|BlueCross|Medicaid,2025-09-24,v121
+1000002661,Dr. John Johnson,415-681-8184,"349 Main St, Austin",78701,TX,orthopedics,Humana|Kaiser|UnitedHealth|Medicare,2026-03-20,v121
+1000002679,Dr. James Silva,(206) 790-7141,"392 Maple Dr, Hartford",06103,CT,dermatology,UnitedHealth|Medicare|Cigna|Medicaid|Aetna,2026-03-13,v121
+1000002687,Dr. John Okafor,(312) 341-6518,"954 Oak Ave, Seattle",98101,WA,oncology,Kaiser|BlueCross|Humana,2026-03-04,v121
+1000002695,Dr. Priya Okafor,,"857 Cedar Ln, Hartford",06103,CT,internal medicine,BlueCross|Aetna,2026-05-29,v121
+1000002703,Dr. John Silva,9999999999,"890 Elm St, Denver",80202,CO,oncology,Humana|UnitedHealth,2026-01-26,v121
+1000002711,Dr. Maria Lee,3037808562,"469 Main St, Providence",02903,RI,oncology,Aetna|Medicaid|Kaiser,2025-11-14,v121
+1000002729,Dr. Aisha Nguyen,5129428434,"483 Cedar Ln, Atlanta",30303,CA,internal medicine,Cigna|UnitedHealth|Medicare,2026-04-08,v121
+1000002737,Dr. Elena Cohen,(303) 472-9293,"834 Main St, Chicago",60601,IL,orthopedics,Medicare|Medicaid,2026-03-29,v121
+1000002745,Dr. Carlos Khan,212-267-2885,"805 Park Blvd, Providence",02903,RI,orthopedics,Aetna|UnitedHealth|Medicaid,2025-12-25,v121
+1000002752,Dr. Raj Cohen,(312) 717-5455,"574 Cedar Ln, Boston",2115,MA,orthopedics,Aetna|UnitedHealth|Medicaid,2026-06-03,v121
+1000002760,Dr. Emily Silva,(312) 558-7716,"629 Elm St, Hartford",06103,CT,oncology,Cigna|Medicare|BlueCross|Medicaid,2026-02-09,v121
+1000002778,Dr. Wei Garcia,415-535-5449,"661 Park Blvd, Austin",78701,TX,orthopedics,Kaiser|Medicaid|Humana,2025-08-03,v121
+1000002786,Dr. Emily Chen,2122341326,"106 Main St, Austin",78701,TX,family medicine,Aetna|Medicaid|UnitedHealth,2025-09-03,v121
+1000002794,Dr. David Martinez,(415) 164-3347,"642 Oak Ave, Cambridge",02139,MA,pediatrics,Cigna|Aetna|Medicare|Medicaid,2025-12-06,v121
+1000002802,Dr. David Lee,(206) 282-9979,"446 Cedar Ln, Denver",80202,CO,orthopedics,Medicaid|Humana|BlueCross,2026-03-15,v121
+1000002810,Dr. Elena Brown,3122400825,"294 Park Blvd, New York",10001,NY,oncology,Medicaid|Medicare|UnitedHealth|Cigna,2026-03-23,v121
+1000002828,Dr. Sarah Silva,(212) 853-6866,"256 Oak Ave, New York",10001,NY,neurology,UnitedHealth|Cigna|Aetna,2025-09-03,v121
+1000002836,Dr. David Johnson,(404) 463-1224,"114 Maple Dr, Hartford",06103,CT,oncology,Medicaid|Cigna|Kaiser|Humana,2026-02-04,v121
+1000002844,Dr. John Chen,303-108-5732,"733 Park Blvd, Chicago",60601,IL,cardiology,BlueCross|Medicaid,2026-05-27,v121
+1000002851,Dr. James Brown,3127570512,"58 Elm St, Hartford",06103,CT,neurology,Medicaid|BlueCross,2026-03-10,v121
+1000002869,Dr. John Garcia,(617) 673-0371,"534 Maple Dr, Austin",78701,TX,dermatology,Medicare|Kaiser|Cigna,2026-05-11,v121
+1000002877,Dr. Aisha Johnson,(206) 435-0313,"649 Park Blvd, Boston",02115,MA,internal medicine,Cigna|Medicare,2026-06-04,v121
+1000002885,Dr. Omar Silva,617-009-7925,"790 Main St, Cambridge",02139,MA,dermatology,Aetna|Medicaid,2026-02-15,v121
+1000002893,Dr. Maria Smith,512-281-2735,"572 Maple Dr, Chicago",60601,IL,internal medicine,UnitedHealth|Aetna|Kaiser,2026-02-06,v121
+1000002901,Dr. David Smith,9999999999,"192 Cedar Ln, Providence",02903,RI,internal medicine,Medicaid|Cigna|Humana,2026-04-14,v121
+1000002919,Dr. Carlos Khan,(312) 485-7086,"752 Oak Ave, Cambridge",02139,MA,cardiology,Kaiser|Medicare|Humana|BlueCross,2026-06-03,v121
+1000002927,Dr. Omar Patel,4047829456,"657 Elm St, Seattle",98101,WA,family medicine,BlueCross|Aetna,2026-06-28,v121
+1000002935,Dr. Raj Garcia,206-310-9678,"639 Maple Dr, Boston",02115,MA,orthopedics,Kaiser|BlueCross,2026-05-30,v121
+1000002943,Dr. Raj Wilson,(206) 170-5865,"814 Maple Dr, Boston",02115,MA,cardiology,Humana|Medicaid|Aetna|Kaiser,2025-11-27,v121
+1000002950,Dr. Aisha Garcia,(617) 863-3839,N/A,06103,CT,neurology,BlueCross|Medicare|Kaiser|Humana,2026-06-25,v121
+1000002968,Dr. Aisha Chen,4045700272,"454 Elm St, Austin",78701,TX,internal medicine,Kaiser|Medicare|Cigna|UnitedHealth,2026-03-19,v121
+1000002976,Dr. Sarah Martinez,404-368-4577,"983 Park Blvd, Chicago",60601,IL,cardiology,Aetna|Cigna|Humana|Medicaid,2025-09-08,v121
+1000002984,Dr. John Johnson,(617) 350-4888,"585 Cedar Ln, New York",10001,NY,pediatrics,Aetna|UnitedHealth,2025-11-23,v121
+1000002992,Dr. David Nguyen,401-334-4196,"583 Oak Ave, Providence",02903,RI,family medicine,Kaiser|Medicare|UnitedHealth|BlueCross,2025-11-18,v121
+1000003008,Dr. Fatima Smith,4016105566,"602 Maple Dr, Chicago",60601,IL,dermatology,Aetna|Kaiser|Medicare|UnitedHealth,2026-02-17,v121
+1000003016,Dr. Maria Nguyen,(404) 925-8320,"690 Maple Dr, Seattle",98101,WA,neurology,BlueCross|Medicaid|UnitedHealth,2025-09-11,v121
+1000003024,Dr. Carlos Nguyen,310-790-8641,"409 Cedar Ln, Providence",02903,RI,neurology,Cigna|Medicare|BlueCross|UnitedHealth,2026-04-05,v121
+1000003032,Dr. Omar Wilson,(401) 389-8331,"273 Park Blvd, Denver",80202,CO,internal medicine,BlueCross|Aetna|Kaiser|UnitedHealth,2026-05-25,v121
+1000003040,Dr. Raj Nguyen,512-904-2597,"639 Oak Ave, Chicago",60601,IL,oncology,UnitedHealth|BlueCross,2026-04-12,v121
+1000003057,"GARCIA, WEI, MD",212-392-4051,"313 Park Blvd, Providence",02903,RI,oncology,Kaiser|BlueCross,2026-04-10,v121
+1000003065,Dr. Raj Lee,4044879206,"597 Maple Dr, Hartford",06103,CT,cardiology,Cigna|Aetna|Medicaid,2026-02-27,v121
+1000003073,Dr. Maria Khan,212-164-5104,"889 Maple Dr, New York",10001,NY,neurology,Medicare|Humana,2026-02-06,v121
+1000003081,Dr. Priya Cohen,(401) 812-3878,"949 Maple Dr, Chicago",60601,IL,cardiology,UnitedHealth|Humana,2026-06-19,v121
+1000003099,Dr. Omar Okafor,4150555438,"283 Main St, Denver",80202,CO,orthopedics,Aetna|Humana|Cigna,2026-04-20,v121
+1000003107,Dr. Omar Wilson,4151689363,"587 Oak Ave, Chicago",60601,IL,neurology,Humana|UnitedHealth|Kaiser,2026-06-06,v121
+1000003115,Dr. Raj Cohen,4154826292,"677 Maple Dr, Denver",80202,CO,family medicine,Kaiser|Medicare,2026-05-23,v121
+1000003123,Dr. Grace Brown,3127423122,"27 Cedar Ln, Chicago",60601,IL,orthopedics,UnitedHealth|Humana|BlueCross|Kaiser,2026-07-07,v121
+1000003131,Dr. Wei Okafor,,"504 Park Blvd, Chicago",60601,IL,pediatrics,UnitedHealth|BlueCross,2026-07-08,v121
+1000003149,Dr. David Brown,3102481569,"705 Elm St, Boston",02115,MA,oncology,Medicare|UnitedHealth,2026-04-01,v121
+1000003156,Dr. James Brown,(401) 998-8081,"463 Park Blvd, Austin",78701,TX,cardiology,Medicare|Kaiser,2026-02-09,v121
+1000003164,Dr. Maria Patel,3127644726,"302 Cedar Ln, Austin",78701,TX,cardiology,Cigna|UnitedHealth|Kaiser|Medicare,2026-02-22,v121
+1000003172,Dr. Emily Silva,206-749-0509,"184 Park Blvd, Cambridge",02139,MA,dermatology,BlueCross|Cigna|Medicare,2025-08-21,v121
+1000003180,Dr. Wei Garcia,206-518-6892,"388 Cedar Ln, Cambridge",02139,MA,neurology,Cigna|Medicaid,2025-11-16,v121
+1000003198,Dr. Carlos Chen,(212) 644-7421,"921 Oak Ave, Providence",02903,RI,dermatology,Humana|Aetna,2025-11-19,v121
+1000003206,Dr. John Martinez,206-339-7767,"82 Cedar Ln, Denver",80202,CO,cardiology,Humana|Medicaid,2026-03-09,v121
+1000003214,Dr. Maria Chen,4150502099,"306 Elm St, Hartford",06103,CT,family medicine,BlueCross|UnitedHealth,2026-02-22,v121
+1000003222,Dr. Emily Khan,4015014556,"840 Main St, New York",10001,NY,oncology,BlueCross|Cigna|UnitedHealth|Medicaid,2026-06-03,v121
+1000003230,Dr. Grace Lee,617-390-1981,"496 Maple Dr, Chicago",60601,IL,orthopedics,Kaiser|Cigna|Humana,2026-05-05,v121
+1000003248,Dr. Carlos Martinez,(401) 787-7293,"726 Elm St, Chicago",60601,IL,dermatology,BlueCross|Aetna,2026-02-05,v121
+1000003255,Dr. Raj Silva,2060320320,"12 Maple Dr, Cambridge",02139,MA,dermatology,Humana|Cigna|Aetna|Medicare,2026-02-04,v121
+1000003263,Dr. James Silva,(212) 155-6990,"853 Oak Ave, Seattle",98101,WA,dermatology,Kaiser|Medicaid|UnitedHealth,2026-03-07,v121
+1000003271,Dr. Priya Chen,(206) 857-6084,"579 Maple Dr, Providence",02903,RI,internal medicine,Aetna|BlueCross|Humana|Cigna,2026-07-05,v121
+1000003289,Dr. David Cohen,(212) 568-2996,"192 Cedar Ln, Providence",02903,RI,family medicine,Aetna|Medicaid|Kaiser,2026-06-28,v121
+1000003297,Dr. Priya Patel,5127438421,"384 Main St, Cambridge",02139,MA,dermatology,Medicaid|Humana,2026-03-31,v121
+1000003305,Dr. Carlos Patel,5127845218,"693 Oak Ave, Seattle",98101,WA,dermatology,Aetna|UnitedHealth|Medicare|Humana,2025-12-22,v121
+1000003313,Dr. Maria Wilson,(401) 157-0184,"24 Cedar Ln, New York",10001,NY,orthopedics,UnitedHealth|Cigna|BlueCross|Kaiser|Aetna,2026-07-13,v121
+1000003321,Dr. James Silva,(206) 142-2410,"982 Cedar Ln, Seattle",98101,WA,family medicine,Kaiser|Humana,2026-05-05,v121
+1000003339,"MARTINEZ, FATIMA, MD",6172149587,"52 Oak Ave, Providence",02903,RI,cardiology,Aetna|Medicaid|UnitedHealth,2026-05-06,v121
+1000003347,Dr. Omar Chen,(401) 979-5453,"731 Maple Dr, Austin",78701,TX,family medicine,Cigna|Aetna|Kaiser,2026-06-22,v121
+1000003354,Dr. Fatima Wilson,2067332945,"402 Oak Ave, Denver",80202,CO,neurology,Medicaid|UnitedHealth|Aetna,2026-06-20,v121
+1000003362,Dr. Elena Khan,2062459928,"106 Park Blvd, Cambridge",02139,MA,family medicine,BlueCross|Medicare|Cigna,2026-03-15,v121
+1000003370,Dr. Grace Patel,(401) 382-7615,"214 Maple Dr, Austin",78701,TX,neurology,Kaiser|Humana|Medicaid,2025-08-31,v121
+1000003388,Dr. Priya Garcia,(401) 975-8172,"316 Park Blvd, Cambridge",02139,MA,family medicine,BlueCross|Kaiser|Humana|UnitedHealth,2025-11-13,v121
+1000003396,Dr. Wei Patel,(415) 902-2784,"400 Cedar Ln, Boston",02115,MA,oncology,UnitedHealth|Kaiser,2025-08-23,v121
+1000003404,Dr. Fatima Brown,,"873 Elm St, Atlanta",30303,GA,cardiology,Aetna|Medicaid|Kaiser,2026-04-29,v121
+1000003412,Dr. Fatima Cohen,212-369-6566,"391 Park Blvd, Cambridge",02139,MA,dermatology,Cigna|UnitedHealth|BlueCross|Kaiser,2026-04-14,v121
+1000003420,Dr. Grace Chen,,"674 Park Blvd, Chicago",60601,IL,pediatrics,Cigna|Kaiser,2026-04-07,v121
+1000003438,Dr. Grace Martinez,9999999999,"232 Oak Ave, Atlanta",30303,GA,neurology,Aetna|Humana|UnitedHealth|BlueCross,2026-03-20,v121
+1000003446,Dr. Grace Lee,401-500-9751,"595 Park Blvd, New York",10001,NY,family medicine,Humana|UnitedHealth,2026-03-08,v121
+1000003461,Dr. Fatima Johnson,4150949407,"593 Oak Ave, Chicago",60601,IL,family medicine,Humana|Medicare|Kaiser|Medicaid,2026-03-29,v121
+1000003479,Dr. Wei Chen,404-144-2944,"879 Elm St, Denver",80202,CO,cardiology,BlueCross|Humana|Medicaid|Medicare,2026-05-02,v121
+1000003487,Dr. Elena Silva,4154372805,"87 Oak Ave, Denver",80202,CO,pediatrics,Medicare|Medicaid|UnitedHealth,2026-06-06,v121
+1000003495,Dr. Emily Patel,401-504-1027,"409 Park Blvd, Denver",80202,CO,orthopedics,UnitedHealth|Medicaid|Kaiser,2026-01-26,v121
+1000003503,Dr. David Chen,4046047658,"700 Main St, Denver",80202,CO,family medicine,Kaiser|Medicare|UnitedHealth|Humana,2026-04-06,v121
+1000003511,Dr. David Johnson,3104967393,"533 Elm St, Chicago",60601,IL,pediatrics,Aetna|Kaiser|Medicaid,2026-05-06,v121
+1000003529,Dr. Aisha Lee,310-753-4430,"25 Cedar Ln, Austin",78701,TX,family medicine,UnitedHealth|Humana,2026-07-11,v121
+1000003537,Dr. Wei Cohen,(401) 269-2124,"302 Park Blvd, Cambridge",02139,MA,family medicine,Medicaid|Cigna|UnitedHealth|Medicare,2026-06-13,v121
+1000003545,"SILVA, DAVID, MD",212-665-0442,"452 Main St, Cambridge",02139,MA,oncology,Medicare|BlueCross,2026-06-03,v121
+1000003552,Dr. Carlos Lee,303-391-7410,"75 Main St, Cambridge",02139,MA,orthopedics,Aetna|UnitedHealth|BlueCross,2026-03-11,v121
+1000003560,Dr. Maria Wilson,3034256908,"472 Maple Dr, Denver",80202,CO,oncology,Medicare|Medicaid|Kaiser,2026-02-01,v121
+1000003578,Dr. John Brown,(206) 198-5546,"57 Maple Dr, Hartford",06103,CT,family medicine,Kaiser|Aetna|UnitedHealth,2025-12-22,v121
+1000003586,Dr. Maria Brown,617-461-5717,"753 Oak Ave, Providence",02903,RI,pediatrics,UnitedHealth|Aetna,2025-11-06,v121
+1000003594,Dr. Omar Garcia,404-478-7005,"58 Elm St, Denver",202,CO,cardiology,BlueCross|Medicaid|Kaiser,2025-10-27,v121
+1000003602,Dr. Carlos Okafor,4013102707,"929 Cedar Ln, Denver",80202,OH,cardiology,Cigna|Aetna,2026-03-03,v121
+1000003610,Dr. Fatima Cohen,(310) 792-9111,"510 Cedar Ln, Boston",02115,MA,dermatology,UnitedHealth|Medicaid,2026-02-03,v121
+1000003628,Dr. Aisha Wilson,4018253092,"344 Main St, Chicago",60601,IL,family medicine,Cigna|Medicare|UnitedHealth,2025-11-27,v121
+1000003636,Dr. Emily Khan,6179021962,"17 Park Blvd, Seattle",98101,WA,family medicine,Aetna|BlueCross,2026-04-11,v121
+1000003644,Dr. Fatima Brown,2062324876,"245 Oak Ave, Atlanta",303,GA,cardiology,Cigna|Kaiser|UnitedHealth|Humana,2026-01-29,v121
+1000003651,Dr. Elena Brown,2128331819,"371 Cedar Ln, New York",10001,NY,dermatology,UnitedHealth|Cigna|Aetna,2026-02-04,v121
+1000003669,"KHAN, PRIYA, MD",4152005436,"258 Elm St, Providence",02903,RI,oncology,BlueCross|Kaiser,2026-06-16,v121
+1000003677,Dr. Emily Silva,310-215-1342,"594 Elm St, Providence",02903,RI,neurology,Kaiser|BlueCross,2026-02-27,v121
+1000003685,Dr. Aisha Patel,(303) 363-1797,N/A,06103,CT,pediatrics,Medicaid|BlueCross,2026-04-22,v121
+1000003693,Dr. Luis Okafor,9999999999,"62 Elm St, Providence",02903,RI,pediatrics,Medicaid|UnitedHealth,2026-04-10,v121
+1000003719,Dr. Grace Okafor,617-356-9392,"936 Cedar Ln, Boston",02115,MA,cardiology,Aetna|Medicaid|UnitedHealth,2026-05-04,v121
+1000003727,Dr. Grace Lee,(303) 717-7318,"772 Main St, Boston",02115,MA,neurology,Cigna|Medicaid,2025-12-05,v121
+1000003735,Dr. John Khan,(312) 279-9077,"791 Oak Ave, Cambridge",02139,MA,neurology,Kaiser|Medicaid,2026-05-14,v121
+1000003743,Dr. Wei Brown,512-804-6498,"590 Oak Ave, Boston",02115,MA,family medicine,Kaiser|Medicaid|Aetna|Humana,2026-02-02,v121
+1000003750,Dr. Aisha Brown,512-790-5528,"722 Main St, Boston",02115,MA,dermatology,Kaiser|BlueCross,2026-04-12,v121
+1000003768,Dr. Raj Silva,6175548640,"65 Elm St, Denver",80202,CO,internal medicine,Medicaid|Humana|Medicare,2025-09-07,v121
+1000003776,Dr. Fatima Khan,(401) 513-7116,"788 Cedar Ln, Cambridge",02139,MA,orthopedics,BlueCross|Medicaid,2025-08-29,v121
+1000003784,Dr. Priya Chen,6178046827,"864 Park Blvd, Providence",02903,RI,oncology,Aetna|Cigna|BlueCross|Medicaid,2025-11-29,v121
+1000003792,Dr. James Brown,4015579887,"469 Elm St, Seattle",98101,WA,pediatrics,Cigna|Medicare|Medicaid,2025-10-29,v121
+1000003800,Dr. Fatima Silva,,"729 Cedar Ln, Chicago",60601,IL,orthopedics,Cigna|Medicare,2026-03-13,v121
+1000003818,"GARCIA, SARAH, MD",(212) 592-7452,"211 Cedar Ln, Providence",02903,RI,cardiology,Kaiser|Cigna|BlueCross|Medicare,2026-06-05,v121
+1000003826,Dr. Fatima Garcia,212-672-7520,"994 Maple Dr, Providence",02903,RI,internal medicine,Humana|UnitedHealth|Cigna|Medicaid,2026-02-26,v121
+1000003834,Dr. Luis Nguyen,3107028140,"412 Cedar Ln, Atlanta",30303,GA,dermatology,Kaiser|Aetna|Cigna,2026-06-07,v121
+1000003842,Dr. Sarah Silva,(312) 301-8718,"404 Oak Ave, Hartford",06103,CT,oncology,Aetna|Kaiser|Cigna,2026-02-09,v121
+1000003859,Dr. Elena Brown,5120455478,"90 Oak Ave, Austin",78701,TX,oncology,Medicare|Medicaid|UnitedHealth|Cigna,2025-10-30,v121
+1000003867,Dr. Carlos Cohen,401-912-3478,"344 Main St, Austin",78701,TX,neurology,Aetna|UnitedHealth,2025-10-21,v121
+1000003875,Dr. Emily Lee,2069232648,"503 Main St, Austin",78701,TX,orthopedics,Humana|UnitedHealth|Medicaid|Medicare,2026-05-06,v121
+1000003883,Dr. Carlos Johnson,(312) 714-6273,"30 Main St, Boston",02115,MA,orthopedics,BlueCross|Humana|Kaiser,2026-07-08,v121
+1000003891,Dr. Grace Cohen,3127158904,"167 Cedar Ln, Denver",80202,CO,cardiology,Kaiser|UnitedHealth,2026-02-16,v121
+1000003909,Dr. Emily Smith,3125650448,"655 Main St, Chicago",60601,IL,dermatology,Cigna|Medicare|Aetna|Humana,2025-09-01,v121
+1000003917,Dr. James Cohen,404-562-5728,"14 Oak Ave, Chicago",60601,IL,orthopedics,Medicaid|UnitedHealth|Cigna,2026-02-25,v121
+1000003925,Dr. Carlos Lee,(617) 389-8881,"428 Park Blvd, Hartford",06103,CT,family medicine,Aetna|Cigna,2026-06-18,v121
+1000003933,Dr. Elena Chen,(512) 280-9242,"228 Oak Ave, New York",10001,NY,pediatrics,UnitedHealth|Cigna|BlueCross|Kaiser,2026-04-16,v121
+1000003941,Dr. Aisha Garcia,2127603108,"608 Main St, Austin",78701,TX,oncology,Humana|Aetna,2026-06-24,v121
+1000003958,Dr. Aisha Silva,310-939-3250,"93 Oak Ave, Boston",02115,MA,orthopedics,Kaiser|Cigna|BlueCross|Humana,2026-04-28,v121
+1000003966,Dr. Wei Garcia,4010833428,"5 Maple Dr, Hartford",06103,CT,family medicine,Medicaid|Cigna,2026-02-08,v121
+1000003974,Dr. Luis Wilson,310-256-6383,"418 Main St, Providence",02903,RI,internal medicine,Medicaid|Aetna,2025-07-30,v121
+1000003982,Dr. Elena Okafor,(401) 251-5837,"291 Park Blvd, Denver",80202,CO,orthopedics,Medicaid|BlueCross|Humana|UnitedHealth,2025-11-23,v121
+1000003990,Dr. Wei Cohen,206-520-7167,"536 Maple Dr, Hartford",06103,CT,family medicine,Cigna|UnitedHealth,2025-09-09,v121
+2000000002,Dr. Luis Chen,2066012277,"483 Main St, New York",10001,NY,oncology,UnitedHealth|BlueCross|Cigna|Humana,2026-06-18,v121
+2000000010,Dr. Aisha Wilson,3036799840,"500 Park Blvd, Boston",02115,MA,oncology,Medicaid|BlueCross|Kaiser|Aetna,2026-06-28,v121
+2000000028,Dr. Wei Johnson,3037179576,"22 Oak Ave, Seattle",98101,WA,orthopedics,UnitedHealth|Medicaid|Cigna|Medicare,2026-07-07,v121
+2000000036,Dr. Luis Chen,3126657293,"290 Maple Dr, Chicago",60601,IL,family medicine,Medicaid|BlueCross|Medicare|Kaiser,2026-07-09,v121
+2000000044,Dr. Priya Johnson,6173800545,"694 Oak Ave, Austin",78701,TX,pediatrics,Aetna|Medicare|Medicaid|Cigna,2026-07-01,v121
+2000000051,Dr. Sarah Garcia,4043745508,"274 Oak Ave, Cambridge",02139,MA,family medicine,Aetna|UnitedHealth|Medicare|Medicaid,2026-07-11,v121
+2000000060,Dr. Aisha Cohen,4040812135,"161 Maple Dr, Atlanta",30303,GA,orthopedics,Medicaid|Medicare|Humana|UnitedHealth,2026-06-21,v121
+2000000077,Dr. Carlos Wilson,9999999999,"252 Park Blvd, Cambridge",02139,MA,internal medicine,Cigna|Aetna|Medicaid,2026-07-03,v121
+2000000085,Dr. Ghost Entry,,,,,,,,v121
+1000000004,Dr. John Okafor,,"433 Main St, Cambridge",02139,MA,cardiology,UnitedHealth|BlueCross,2026-02-01,v121
+1000000012,Dr. Raj Okafor,(512) 990-0489,"715 Park Blvd, Boston",02115,MA,internal medicine,Cigna|BlueCross|Medicaid,2026-02-10,v121
+1000000020,Dr. Aisha Nguyen,5129407816,"81 Cedar Ln, Austin",78701,TX,orthopedics,Kaiser|Humana|BlueCross|Aetna|Cigna,2026-06-21,v121
+1000000038,Dr. Fatima Garcia,617-164-7525,"364 Oak Ave, Hartford",06103,CT,orthopedics,Medicaid|Kaiser|Humana|BlueCross,2026-01-26,v121
+1000000046,Dr. Luis Brown,312-835-0305,"411 Elm St, Providence",02903,RI,family medicine,Kaiser|BlueCross,2025-12-05,v121
+1000000053,Dr. Luis Chen,(312) 238-8496,"920 Cedar Ln, Austin",78701,TX,neurology,UnitedHealth|BlueCross|Humana,2026-03-09,v121
+1000000061,Dr. Aisha Chen,,"542 Elm St, Boston",02115,MA,cardiology,BlueCross|Kaiser|Humana|Cigna,2026-06-21,v121
+1000000079,Dr. Fatima Brown,415-704-8281,"892 Maple Dr, Cambridge",2139,MA,orthopedics,UnitedHealth|BlueCross|Cigna|Medicare,2026-04-18,v121
+1000000087,Dr. James Khan,2121543039,N/A,02115,MA,family medicine,Medicaid|Medicare|Aetna|Humana,2026-03-01,v121
+1000000095,Dr. Emily Johnson,4049638346,"688 Maple Dr, Denver",80202,CO,internal medicine,Medicaid|Aetna|BlueCross,2026-06-12,v121
+,Dr. Null Key,6172863266,"941 Park Blvd, Austin",78701,TX,oncology,Kaiser|Aetna|UnitedHealth|BlueCross,2026-06-20,v121
+N/A,Dr. Missing Key,5125626060,"677 Maple Dr, Boston",02115,MA,pediatrics,Aetna|Kaiser|Medicare|Humana,2026-07-05,v121

@@ -1,0 +1,1603 @@
+{
+  "run_id": "20260716T125331Z-6311",
+  "pipeline_version": null,
+  "comparison_mode": "same_input",
+  "config_fingerprint": "011208b056ffe185",
+  "regression_mode": "compare",
+  "baseline_label": null,
+  "candidate_label": null,
+  "volume_summary": {
+    "baseline_count": 400,
+    "candidate_count": 393,
+    "added_count": 9,
+    "deleted_count": 16,
+    "updated_count": 88,
+    "unchanged_count": 296,
+    "added_pct": 0.0225,
+    "deleted_pct": 0.04
+  },
+  "dedupe_report_baseline": {
+    "raw_count": 400,
+    "duplicate_npi_count": 0,
+    "dropped_duplicate_rows": 0,
+    "null_npi_count": 0
+  },
+  "dedupe_report_candidate": {
+    "raw_count": 405,
+    "duplicate_npi_count": 10,
+    "dropped_duplicate_rows": 10,
+    "null_npi_count": 2
+  },
+  "normalization_report_baseline": {
+    "failure_counts": {},
+    "row_count": 400
+  },
+  "normalization_report_candidate": {
+    "failure_counts": {},
+    "row_count": 393
+  },
+  "suppressed_by_normalization": 35,
+  "suppressed_by_set_compare": 10,
+  "total_field_changes": 105,
+  "metrics_baseline": [
+    {
+      "name": "completeness",
+      "score": 0.9971428571428571,
+      "weight": 0.25,
+      "direction": "higher_is_better",
+      "status": "ok",
+      "sample_size": 400
+    },
+    {
+      "name": "phone_validity",
+      "score": 0.9925,
+      "weight": 0.2,
+      "direction": "higher_is_better",
+      "status": "ok",
+      "sample_size": 400
+    },
+    {
+      "name": "npi_validity",
+      "score": 1.0,
+      "weight": 0.0,
+      "direction": "higher_is_better",
+      "status": "ok",
+      "sample_size": 400
+    },
+    {
+      "name": "duplicate_rate",
+      "score": 0.0,
+      "weight": 0.15,
+      "direction": "lower_is_better",
+      "status": "ok",
+      "sample_size": 400
+    },
+    {
+      "name": "address_completeness",
+      "score": 0.9875,
+      "weight": 0.0,
+      "direction": "higher_is_better",
+      "status": "ok",
+      "sample_size": 400
+    },
+    {
+      "name": "freshness",
+      "score": 0.85,
+      "weight": 0.15,
+      "direction": "higher_is_better",
+      "status": "ok",
+      "sample_size": 400
+    },
+    {
+      "name": "state_zip_consistency",
+      "score": 1.0,
+      "weight": 0.05,
+      "direction": "higher_is_better",
+      "status": "ok",
+      "sample_size": 398
+    },
+    {
+      "name": "normalization_failure_rate",
+      "score": 0.0,
+      "weight": 0.0,
+      "direction": "lower_is_better",
+      "status": "ok",
+      "sample_size": 400
+    }
+  ],
+  "metrics_candidate": [
+    {
+      "name": "completeness",
+      "score": 0.9905488913122501,
+      "weight": 0.25,
+      "direction": "higher_is_better",
+      "status": "ok",
+      "sample_size": 393
+    },
+    {
+      "name": "phone_validity",
+      "score": 0.9312977099236641,
+      "weight": 0.2,
+      "direction": "higher_is_better",
+      "status": "ok",
+      "sample_size": 393
+    },
+    {
+      "name": "npi_validity",
+      "score": 1.0,
+      "weight": 0.0,
+      "direction": "higher_is_better",
+      "status": "ok",
+      "sample_size": 393
+    },
+    {
+      "name": "duplicate_rate",
+      "score": 0.024691358024691357,
+      "weight": 0.15,
+      "direction": "lower_is_better",
+      "status": "ok",
+      "sample_size": 405
+    },
+    {
+      "name": "address_completeness",
+      "score": 0.9847328244274809,
+      "weight": 0.0,
+      "direction": "higher_is_better",
+      "status": "ok",
+      "sample_size": 393
+    },
+    {
+      "name": "freshness",
+      "score": 0.712468193384224,
+      "weight": 0.15,
+      "direction": "higher_is_better",
+      "status": "ok",
+      "sample_size": 393
+    },
+    {
+      "name": "state_zip_consistency",
+      "score": 0.9743589743589743,
+      "weight": 0.05,
+      "direction": "higher_is_better",
+      "status": "ok",
+      "sample_size": 390
+    },
+    {
+      "name": "normalization_failure_rate",
+      "score": 0.0,
+      "weight": 0.0,
+      "direction": "lower_is_better",
+      "status": "ok",
+      "sample_size": 393
+    },
+    {
+      "name": "change_quality",
+      "score": 0.6237623762376238,
+      "weight": 0.25,
+      "direction": "higher_is_better",
+      "status": "ok",
+      "sample_size": 101
+    },
+    {
+      "name": "addition_quality",
+      "score": 0.6666666666666666,
+      "weight": 0.1,
+      "direction": "higher_is_better",
+      "status": "ok",
+      "sample_size": 9
+    },
+    {
+      "name": "deletion_quality",
+      "score": 0.0,
+      "weight": 0.0,
+      "direction": "higher_is_better",
+      "status": "ok",
+      "sample_size": 16
+    }
+  ],
+  "overall_score": 0.8334,
+  "metrics_included": [
+    "completeness",
+    "phone_validity",
+    "duplicate_rate",
+    "freshness",
+    "state_zip_consistency",
+    "change_quality",
+    "addition_quality"
+  ],
+  "metrics_excluded": [
+    "npi_validity",
+    "address_completeness",
+    "normalization_failure_rate",
+    "deletion_quality"
+  ],
+  "change_quality": {
+    "auto_accepted": 48,
+    "judged_valid": 15,
+    "judged_regression": 38,
+    "review_approved": 0,
+    "review_rejected": 0,
+    "auto_flagged": 0,
+    "uncertain": 4,
+    "budget_deferred": 0
+  },
+  "addition_quality": {
+    "auto_accepted": 4,
+    "judged_valid": 2,
+    "judged_invalid": 0,
+    "structural_rejected": 3,
+    "review_approved": 0,
+    "review_rejected": 0,
+    "auto_flagged": 0,
+    "uncertain": 0,
+    "budget_deferred": 0
+  },
+  "deletion_verdicts": [
+    {
+      "npi": "1000000368",
+      "was_complete": 1.0,
+      "likely_valid_retirement": false,
+      "recommended_action": "review"
+    },
+    {
+      "npi": "1000000483",
+      "was_complete": 1.0,
+      "likely_valid_retirement": false,
+      "recommended_action": "review"
+    },
+    {
+      "npi": "1000000590",
+      "was_complete": 1.0,
+      "likely_valid_retirement": false,
+      "recommended_action": "review"
+    },
+    {
+      "npi": "1000000830",
+      "was_complete": 1.0,
+      "likely_valid_retirement": false,
+      "recommended_action": "review"
+    },
+    {
+      "npi": "1000000954",
+      "was_complete": 1.0,
+      "likely_valid_retirement": false,
+      "recommended_action": "review"
+    },
+    {
+      "npi": "1000001044",
+      "was_complete": 1.0,
+      "likely_valid_retirement": false,
+      "recommended_action": "review"
+    },
+    {
+      "npi": "1000001143",
+      "was_complete": 1.0,
+      "likely_valid_retirement": false,
+      "recommended_action": "review"
+    },
+    {
+      "npi": "1000001523",
+      "was_complete": 1.0,
+      "likely_valid_retirement": false,
+      "recommended_action": "review"
+    },
+    {
+      "npi": "1000001531",
+      "was_complete": 1.0,
+      "likely_valid_retirement": false,
+      "recommended_action": "review"
+    },
+    {
+      "npi": "1000001911",
+      "was_complete": 1.0,
+      "likely_valid_retirement": false,
+      "recommended_action": "review"
+    },
+    {
+      "npi": "1000002232",
+      "was_complete": 1.0,
+      "likely_valid_retirement": false,
+      "recommended_action": "review"
+    },
+    {
+      "npi": "1000002448",
+      "was_complete": 1.0,
+      "likely_valid_retirement": false,
+      "recommended_action": "review"
+    },
+    {
+      "npi": "1000002455",
+      "was_complete": 1.0,
+      "likely_valid_retirement": false,
+      "recommended_action": "review"
+    },
+    {
+      "npi": "1000002620",
+      "was_complete": 1.0,
+      "likely_valid_retirement": false,
+      "recommended_action": "review"
+    },
+    {
+      "npi": "1000003453",
+      "was_complete": 1.0,
+      "likely_valid_retirement": false,
+      "recommended_action": "review"
+    },
+    {
+      "npi": "1000003701",
+      "was_complete": 1.0,
+      "likely_valid_retirement": false,
+      "recommended_action": "review"
+    }
+  ],
+  "judge_coverage": 1.0,
+  "judge_calls_made": 59,
+  "estimated_judge_cost": 0.118,
+  "judge_accuracy": {
+    "n_labeled_judged": 53,
+    "regression_precision": 1.0,
+    "regression_recall": 1.0,
+    "planted_regressions": 38,
+    "planted_regressions_caught": 38,
+    "traps_flagged": 0,
+    "planted_invalid_additions": 3,
+    "planted_invalid_additions_caught": 3
+  },
+  "competition_summary": null,
+  "prod_recommendation": null,
+  "prod_rationale": [],
+  "field_change_summaries": [
+    {
+      "npi": "1000000004",
+      "field": "phone",
+      "old_value": "3123321819",
+      "new_value": null,
+      "change_kind": "wiped",
+      "disposition": "regression",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000000012",
+      "field": "phone",
+      "old_value": "4046379402",
+      "new_value": "5129900489",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000000061",
+      "field": "phone",
+      "old_value": "4156916697",
+      "new_value": null,
+      "change_kind": "wiped",
+      "disposition": "regression",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000000210",
+      "field": "phone",
+      "old_value": "3106073375",
+      "new_value": null,
+      "change_kind": "wiped",
+      "disposition": "regression",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000000442",
+      "field": "phone",
+      "old_value": "4158120679",
+      "new_value": "3036421476",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000000459",
+      "field": "phone",
+      "old_value": "4013618324",
+      "new_value": null,
+      "change_kind": "wiped",
+      "disposition": "regression",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000000723",
+      "field": "phone",
+      "old_value": "3120244550",
+      "new_value": "4157456449",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000000871",
+      "field": "phone",
+      "old_value": "3038862392",
+      "new_value": null,
+      "change_kind": "wiped",
+      "disposition": "regression",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000000897",
+      "field": "phone",
+      "old_value": "3105305152",
+      "new_value": "2066170758",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000000947",
+      "field": "phone",
+      "old_value": "2060430305",
+      "new_value": null,
+      "change_kind": "wiped",
+      "disposition": "regression",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000000970",
+      "field": "phone",
+      "old_value": "2121658202",
+      "new_value": "4014118005",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000001127",
+      "field": "phone",
+      "old_value": "4048794705",
+      "new_value": "9999999999",
+      "change_kind": "modified",
+      "disposition": "regression",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000001135",
+      "field": "phone",
+      "old_value": "4019309728",
+      "new_value": "3106423610",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000001176",
+      "field": "phone",
+      "old_value": "3127338484",
+      "new_value": "2064996165",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000001242",
+      "field": "phone",
+      "old_value": "4043391878",
+      "new_value": "6174591123",
+      "change_kind": "modified",
+      "disposition": "regression",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000001432",
+      "field": "phone",
+      "old_value": "3106315999",
+      "new_value": "4159657724",
+      "change_kind": "modified",
+      "disposition": "regression",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000001549",
+      "field": "phone",
+      "old_value": "6178282586",
+      "new_value": null,
+      "change_kind": "wiped",
+      "disposition": "regression",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000001630",
+      "field": "phone",
+      "old_value": "4155367294",
+      "new_value": "4012304501",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000001655",
+      "field": "phone",
+      "old_value": "3125892975",
+      "new_value": "9999999999",
+      "change_kind": "modified",
+      "disposition": "regression",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000001887",
+      "field": "phone",
+      "old_value": "3120785932",
+      "new_value": "9999999999",
+      "change_kind": "modified",
+      "disposition": "regression",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000001895",
+      "field": "phone",
+      "old_value": "6179559059",
+      "new_value": "2062158624",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000001978",
+      "field": "phone",
+      "old_value": "3038844431",
+      "new_value": "9999999999",
+      "change_kind": "modified",
+      "disposition": "regression",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000002034",
+      "field": "phone",
+      "old_value": "4011485646",
+      "new_value": null,
+      "change_kind": "wiped",
+      "disposition": "regression",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000002117",
+      "field": "phone",
+      "old_value": "5122074466",
+      "new_value": "3035915201",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000002133",
+      "field": "phone",
+      "old_value": "5125494717",
+      "new_value": "4041476174",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000002240",
+      "field": "phone",
+      "old_value": "3037621202",
+      "new_value": "9999999999",
+      "change_kind": "modified",
+      "disposition": "regression",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000002257",
+      "field": "phone",
+      "old_value": "2061670145",
+      "new_value": null,
+      "change_kind": "wiped",
+      "disposition": "regression",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000002299",
+      "field": "phone",
+      "old_value": null,
+      "new_value": "9999999999",
+      "change_kind": "filled",
+      "disposition": "regression",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000002315",
+      "field": "phone",
+      "old_value": "3030917798",
+      "new_value": null,
+      "change_kind": "wiped",
+      "disposition": "regression",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000002331",
+      "field": "phone",
+      "old_value": "4044858333",
+      "new_value": "3031371504",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000002646",
+      "field": "phone",
+      "old_value": "2129883920",
+      "new_value": "4044993908",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000002695",
+      "field": "phone",
+      "old_value": "6173343333",
+      "new_value": null,
+      "change_kind": "wiped",
+      "disposition": "regression",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000002703",
+      "field": "phone",
+      "old_value": "4040759579",
+      "new_value": "9999999999",
+      "change_kind": "modified",
+      "disposition": "regression",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000002844",
+      "field": "phone",
+      "old_value": "2128021442",
+      "new_value": "3031085732",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000002901",
+      "field": "phone",
+      "old_value": "2067848739",
+      "new_value": "9999999999",
+      "change_kind": "modified",
+      "disposition": "regression",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000002968",
+      "field": "phone",
+      "old_value": "4158685289",
+      "new_value": "4045700272",
+      "change_kind": "modified",
+      "disposition": "regression",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000003131",
+      "field": "phone",
+      "old_value": "2062897526",
+      "new_value": null,
+      "change_kind": "wiped",
+      "disposition": "regression",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000003149",
+      "field": "phone",
+      "old_value": null,
+      "new_value": "3102481569",
+      "change_kind": "filled",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000003172",
+      "field": "phone",
+      "old_value": "4018266570",
+      "new_value": "2067490509",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000003255",
+      "field": "phone",
+      "old_value": "4016605583",
+      "new_value": "2060320320",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000003404",
+      "field": "phone",
+      "old_value": "5121909862",
+      "new_value": null,
+      "change_kind": "wiped",
+      "disposition": "regression",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000003420",
+      "field": "phone",
+      "old_value": "3122201027",
+      "new_value": null,
+      "change_kind": "wiped",
+      "disposition": "regression",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000003438",
+      "field": "phone",
+      "old_value": null,
+      "new_value": "9999999999",
+      "change_kind": "filled",
+      "disposition": "regression",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000003677",
+      "field": "phone",
+      "old_value": "2127811379",
+      "new_value": "3102151342",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000003693",
+      "field": "phone",
+      "old_value": "6175435209",
+      "new_value": "9999999999",
+      "change_kind": "modified",
+      "disposition": "regression",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000003800",
+      "field": "phone",
+      "old_value": "2122547292",
+      "new_value": null,
+      "change_kind": "wiped",
+      "disposition": "regression",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000003917",
+      "field": "phone",
+      "old_value": "3124518952",
+      "new_value": "4045625728",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000003933",
+      "field": "phone",
+      "old_value": "2069852401",
+      "new_value": "5122809242",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000003982",
+      "field": "phone",
+      "old_value": "3128015716",
+      "new_value": "4012515837",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000000111",
+      "field": "address",
+      "old_value": "100 maple dr, hartford",
+      "new_value": "311 cedar ln, denver",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000000301",
+      "field": "address",
+      "old_value": "489 main st, chicago",
+      "new_value": "350 oak ave, new york",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000000665",
+      "field": "address",
+      "old_value": "130 maple dr, boston",
+      "new_value": "940 main st, cambridge",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000000749",
+      "field": "address",
+      "old_value": "117 elm st, cambridge",
+      "new_value": "862 oak ave, new york",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000001713",
+      "field": "address",
+      "old_value": "397 cedar ln, austin",
+      "new_value": "445 cedar ln, cambridge",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000003008",
+      "field": "address",
+      "old_value": "953 main st, cambridge",
+      "new_value": "602 maple dr, chicago",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000003115",
+      "field": "address",
+      "old_value": "326 main st, providence",
+      "new_value": "677 maple dr, denver",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000003560",
+      "field": "address",
+      "old_value": "725 park blvd, boston",
+      "new_value": "472 maple dr, denver",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000003776",
+      "field": "address",
+      "old_value": "920 oak ave, seattle",
+      "new_value": "788 cedar ln, cambridge",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000003784",
+      "field": "address",
+      "old_value": "356 park blvd, providence",
+      "new_value": "864 park blvd, providence",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000000111",
+      "field": "zip",
+      "old_value": "06103",
+      "new_value": "80202",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000000301",
+      "field": "zip",
+      "old_value": "60601",
+      "new_value": "10001",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000000665",
+      "field": "zip",
+      "old_value": "02115",
+      "new_value": "02139",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000000749",
+      "field": "zip",
+      "old_value": "02139",
+      "new_value": "10001",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000001713",
+      "field": "zip",
+      "old_value": "78701",
+      "new_value": "02139",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000003008",
+      "field": "zip",
+      "old_value": "02139",
+      "new_value": "60601",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000003115",
+      "field": "zip",
+      "old_value": "02903",
+      "new_value": "80202",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000003560",
+      "field": "zip",
+      "old_value": "02115",
+      "new_value": "80202",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000003776",
+      "field": "zip",
+      "old_value": "98101",
+      "new_value": "02139",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000000111",
+      "field": "state",
+      "old_value": "CT",
+      "new_value": "CO",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000000301",
+      "field": "state",
+      "old_value": "IL",
+      "new_value": "NY",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000000376",
+      "field": "state",
+      "old_value": "CT",
+      "new_value": "TX",
+      "change_kind": "modified",
+      "disposition": "regression",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000000384",
+      "field": "state",
+      "old_value": "MA",
+      "new_value": "OH",
+      "change_kind": "modified",
+      "disposition": "regression",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000000616",
+      "field": "state",
+      "old_value": "TX",
+      "new_value": "FL",
+      "change_kind": "modified",
+      "disposition": "regression",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000000749",
+      "field": "state",
+      "old_value": "MA",
+      "new_value": "NY",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000001051",
+      "field": "state",
+      "old_value": "MA",
+      "new_value": "FL",
+      "change_kind": "modified",
+      "disposition": "regression",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000001580",
+      "field": "state",
+      "old_value": "CO",
+      "new_value": "TX",
+      "change_kind": "modified",
+      "disposition": "regression",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000001713",
+      "field": "state",
+      "old_value": "TX",
+      "new_value": "MA",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000001770",
+      "field": "state",
+      "old_value": "RI",
+      "new_value": "TX",
+      "change_kind": "modified",
+      "disposition": "regression",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000002182",
+      "field": "state",
+      "old_value": "MA",
+      "new_value": "OH",
+      "change_kind": "modified",
+      "disposition": "regression",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000002414",
+      "field": "state",
+      "old_value": "MA",
+      "new_value": "FL",
+      "change_kind": "modified",
+      "disposition": "regression",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000002729",
+      "field": "state",
+      "old_value": "GA",
+      "new_value": "CA",
+      "change_kind": "modified",
+      "disposition": "regression",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000003008",
+      "field": "state",
+      "old_value": "MA",
+      "new_value": "IL",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000003115",
+      "field": "state",
+      "old_value": "RI",
+      "new_value": "CO",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000003560",
+      "field": "state",
+      "old_value": "MA",
+      "new_value": "CO",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000003602",
+      "field": "state",
+      "old_value": "CO",
+      "new_value": "OH",
+      "change_kind": "modified",
+      "disposition": "regression",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000003776",
+      "field": "state",
+      "old_value": "WA",
+      "new_value": "MA",
+      "change_kind": "modified",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "1000000293",
+      "field": "specialty",
+      "old_value": "neurology",
+      "new_value": "dermatology",
+      "change_kind": "modified",
+      "disposition": "valid_update",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000000418",
+      "field": "specialty",
+      "old_value": "oncology",
+      "new_value": "orthopedics",
+      "change_kind": "modified",
+      "disposition": "uncertain",
+      "confidence": 0.5
+    },
+    {
+      "npi": "1000001499",
+      "field": "specialty",
+      "old_value": "cardiology",
+      "new_value": "oncology",
+      "change_kind": "modified",
+      "disposition": "valid_update",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000001986",
+      "field": "specialty",
+      "old_value": "family medicine",
+      "new_value": "pediatrics",
+      "change_kind": "modified",
+      "disposition": "valid_update",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000002091",
+      "field": "specialty",
+      "old_value": "neurology",
+      "new_value": "family medicine",
+      "change_kind": "modified",
+      "disposition": "uncertain",
+      "confidence": 0.5
+    },
+    {
+      "npi": "1000002810",
+      "field": "specialty",
+      "old_value": "cardiology",
+      "new_value": "oncology",
+      "change_kind": "modified",
+      "disposition": "uncertain",
+      "confidence": 0.5
+    },
+    {
+      "npi": "1000003222",
+      "field": "specialty",
+      "old_value": "neurology",
+      "new_value": "oncology",
+      "change_kind": "modified",
+      "disposition": "valid_update",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000003354",
+      "field": "specialty",
+      "old_value": "internal medicine",
+      "new_value": "neurology",
+      "change_kind": "modified",
+      "disposition": "valid_update",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000003461",
+      "field": "specialty",
+      "old_value": "cardiology",
+      "new_value": "family medicine",
+      "change_kind": "modified",
+      "disposition": "uncertain",
+      "confidence": 0.5
+    },
+    {
+      "npi": "1000000020",
+      "field": "insurance_accepted",
+      "old_value": "kaiser|humana|bluecross|aetna",
+      "new_value": "kaiser|humana|bluecross|aetna|cigna",
+      "change_kind": "modified",
+      "disposition": "valid_update",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000000400",
+      "field": "insurance_accepted",
+      "old_value": "kaiser|bluecross",
+      "new_value": "kaiser|bluecross|cigna",
+      "change_kind": "modified",
+      "disposition": "valid_update",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000000921",
+      "field": "insurance_accepted",
+      "old_value": "aetna|kaiser|unitedhealth",
+      "new_value": "aetna|kaiser|unitedhealth|medicare",
+      "change_kind": "modified",
+      "disposition": "valid_update",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000001002",
+      "field": "insurance_accepted",
+      "old_value": "unitedhealth|aetna|bluecross",
+      "new_value": "unitedhealth|aetna|bluecross|humana",
+      "change_kind": "modified",
+      "disposition": "valid_update",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000001309",
+      "field": "insurance_accepted",
+      "old_value": "humana|bluecross",
+      "new_value": "humana|bluecross|aetna",
+      "change_kind": "modified",
+      "disposition": "valid_update",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000001846",
+      "field": "insurance_accepted",
+      "old_value": "bluecross|humana|medicare|cigna",
+      "new_value": "bluecross|humana|medicare|cigna|kaiser",
+      "change_kind": "modified",
+      "disposition": "valid_update",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000001853",
+      "field": "insurance_accepted",
+      "old_value": "medicare|unitedhealth|aetna|medicaid",
+      "new_value": "medicare|unitedhealth|aetna|medicaid|kaiser",
+      "change_kind": "modified",
+      "disposition": "valid_update",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000002422",
+      "field": "insurance_accepted",
+      "old_value": "bluecross|aetna",
+      "new_value": "bluecross|aetna|unitedhealth",
+      "change_kind": "modified",
+      "disposition": "valid_update",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000002679",
+      "field": "insurance_accepted",
+      "old_value": "unitedhealth|medicare|cigna|medicaid",
+      "new_value": "unitedhealth|medicare|cigna|medicaid|aetna",
+      "change_kind": "modified",
+      "disposition": "valid_update",
+      "confidence": 0.95
+    },
+    {
+      "npi": "1000003313",
+      "field": "insurance_accepted",
+      "old_value": "unitedhealth|cigna|bluecross|kaiser",
+      "new_value": "unitedhealth|cigna|bluecross|kaiser|aetna",
+      "change_kind": "modified",
+      "disposition": "valid_update",
+      "confidence": 0.95
+    }
+  ],
+  "record_event_summaries": [
+    {
+      "npi": "2000000002",
+      "kind": "added",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "2000000010",
+      "kind": "added",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "2000000028",
+      "kind": "added",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "2000000036",
+      "kind": "added",
+      "disposition": "auto_accepted",
+      "confidence": 1.0
+    },
+    {
+      "npi": "2000000044",
+      "kind": "added",
+      "disposition": "valid_addition",
+      "confidence": 0.95
+    },
+    {
+      "npi": "2000000051",
+      "kind": "added",
+      "disposition": "valid_addition",
+      "confidence": 0.95
+    },
+    {
+      "npi": "2000000060",
+      "kind": "added",
+      "disposition": "structural_reject",
+      "confidence": 0.0
+    },
+    {
+      "npi": "2000000077",
+      "kind": "added",
+      "disposition": "structural_reject",
+      "confidence": 0.0
+    },
+    {
+      "npi": "2000000085",
+      "kind": "added",
+      "disposition": "structural_reject",
+      "confidence": 0.0
+    },
+    {
+      "npi": "1000000368",
+      "kind": "deleted",
+      "disposition": "review",
+      "confidence": null
+    },
+    {
+      "npi": "1000000483",
+      "kind": "deleted",
+      "disposition": "review",
+      "confidence": null
+    },
+    {
+      "npi": "1000000590",
+      "kind": "deleted",
+      "disposition": "review",
+      "confidence": null
+    },
+    {
+      "npi": "1000000830",
+      "kind": "deleted",
+      "disposition": "review",
+      "confidence": null
+    },
+    {
+      "npi": "1000000954",
+      "kind": "deleted",
+      "disposition": "review",
+      "confidence": null
+    },
+    {
+      "npi": "1000001044",
+      "kind": "deleted",
+      "disposition": "review",
+      "confidence": null
+    },
+    {
+      "npi": "1000001143",
+      "kind": "deleted",
+      "disposition": "review",
+      "confidence": null
+    },
+    {
+      "npi": "1000001523",
+      "kind": "deleted",
+      "disposition": "review",
+      "confidence": null
+    },
+    {
+      "npi": "1000001531",
+      "kind": "deleted",
+      "disposition": "review",
+      "confidence": null
+    },
+    {
+      "npi": "1000001911",
+      "kind": "deleted",
+      "disposition": "review",
+      "confidence": null
+    },
+    {
+      "npi": "1000002232",
+      "kind": "deleted",
+      "disposition": "review",
+      "confidence": null
+    },
+    {
+      "npi": "1000002448",
+      "kind": "deleted",
+      "disposition": "review",
+      "confidence": null
+    },
+    {
+      "npi": "1000002455",
+      "kind": "deleted",
+      "disposition": "review",
+      "confidence": null
+    },
+    {
+      "npi": "1000002620",
+      "kind": "deleted",
+      "disposition": "review",
+      "confidence": null
+    },
+    {
+      "npi": "1000003453",
+      "kind": "deleted",
+      "disposition": "review",
+      "confidence": null
+    },
+    {
+      "npi": "1000003701",
+      "kind": "deleted",
+      "disposition": "review",
+      "confidence": null
+    }
+  ],
+  "field_change_summaries_truncated": false,
+  "review_queue": [
+    {
+      "npi": "1000000418",
+      "field": "specialty",
+      "old_value": "oncology",
+      "new_value": "orthopedics",
+      "change_kind": "modified",
+      "reason": "uncertain",
+      "confidence": 0.5,
+      "cross_source_status": "unverifiable",
+      "judge_rationale": "Mock judge: no ground-truth label for this change."
+    },
+    {
+      "npi": "1000002091",
+      "field": "specialty",
+      "old_value": "neurology",
+      "new_value": "family medicine",
+      "change_kind": "modified",
+      "reason": "uncertain",
+      "confidence": 0.5,
+      "cross_source_status": "unverifiable",
+      "judge_rationale": "Mock judge: no ground-truth label for this change."
+    },
+    {
+      "npi": "1000002810",
+      "field": "specialty",
+      "old_value": "cardiology",
+      "new_value": "oncology",
+      "change_kind": "modified",
+      "reason": "uncertain",
+      "confidence": 0.5,
+      "cross_source_status": "unverifiable",
+      "judge_rationale": "Mock judge: no ground-truth label for this change."
+    },
+    {
+      "npi": "1000003461",
+      "field": "specialty",
+      "old_value": "cardiology",
+      "new_value": "family medicine",
+      "change_kind": "modified",
+      "reason": "uncertain",
+      "confidence": 0.5,
+      "cross_source_status": "unverifiable",
+      "judge_rationale": "Mock judge: no ground-truth label for this change."
+    }
+  ],
+  "regression": {
+    "mode": "compare",
+    "compared_run_id": "20260716T125329Z-6da6",
+    "config_mismatch": false,
+    "metric_deltas": {
+      "completeness": -0.0066,
+      "phone_validity": -0.0612,
+      "npi_validity": 0.0,
+      "duplicate_rate": 0.0247,
+      "address_completeness": -0.0028,
+      "freshness": -0.1375,
+      "state_zip_consistency": -0.0256,
+      "normalization_failure_rate": 0.0,
+      "overall_score": -0.1357
+    },
+    "notes": []
+  },
+  "critical_alerts": [
+    {
+      "metric": "phone_validity",
+      "severity": "critical",
+      "kind": "drop",
+      "message": "phone_validity dropped 6.1% (99.2% -> 93.1%) [within_run]",
+      "baseline_value": 0.9925,
+      "candidate_value": 0.9312977099236641
+    },
+    {
+      "metric": "duplicate_rate",
+      "severity": "critical",
+      "kind": "rise",
+      "message": "duplicate_rate rose 2.5% (0.0% -> 2.5%) [within_run]",
+      "baseline_value": 0.0,
+      "candidate_value": 0.024691358024691357
+    },
+    {
+      "metric": "state_zip_consistency",
+      "severity": "critical",
+      "kind": "drop",
+      "message": "state_zip_consistency dropped 2.6% (100.0% -> 97.4%) [within_run]",
+      "baseline_value": 1.0,
+      "candidate_value": 0.9743589743589743
+    },
+    {
+      "metric": "deleted_pct",
+      "severity": "critical",
+      "kind": "volume",
+      "message": "deleted_pct = 4.0% (16 records) exceeds 3% — rate metrics cannot see silent row drops; this alert can.",
+      "baseline_value": null,
+      "candidate_value": 0.04
+    },
+    {
+      "metric": "phone_validity",
+      "severity": "critical",
+      "kind": "drop",
+      "message": "phone_validity dropped 6.1% (99.2% -> 93.1%) [history]",
+      "baseline_value": 0.9925,
+      "candidate_value": 0.9312977099236641
+    },
+    {
+      "metric": "duplicate_rate",
+      "severity": "critical",
+      "kind": "rise",
+      "message": "duplicate_rate rose 2.5% (0.0% -> 2.5%) [history]",
+      "baseline_value": 0.0,
+      "candidate_value": 0.024691358024691357
+    },
+    {
+      "metric": "state_zip_consistency",
+      "severity": "critical",
+      "kind": "drop",
+      "message": "state_zip_consistency dropped 2.6% (100.0% -> 97.4%) [history]",
+      "baseline_value": 1.0,
+      "candidate_value": 0.9743589743589743
+    }
+  ],
+  "warnings": [
+    {
+      "metric": "freshness",
+      "severity": "warning",
+      "kind": "drop",
+      "message": "freshness dropped 13.8% (85.0% -> 71.2%) [within_run]",
+      "baseline_value": 0.85,
+      "candidate_value": 0.712468193384224
+    },
+    {
+      "metric": "freshness",
+      "severity": "warning",
+      "kind": "drop",
+      "message": "freshness dropped 13.8% (85.0% -> 71.2%) [history]",
+      "baseline_value": 0.85,
+      "candidate_value": 0.712468193384224
+    },
+    {
+      "metric": "overall_score",
+      "severity": "warning",
+      "kind": "drop",
+      "message": "overall_score dropped 13.6% (96.9% -> 83.3%) [history]",
+      "baseline_value": 0.9691,
+      "candidate_value": 0.8334
+    }
+  ],
+  "release_decision": "REJECT",
+  "top_findings": [
+    "phone_validity dropped 6.1% (99.2% -> 93.1%) [within_run]",
+    "duplicate_rate rose 2.5% (0.0% -> 2.5%) [within_run]",
+    "state_zip_consistency dropped 2.6% (100.0% -> 97.4%) [within_run]",
+    "45 format-only differences suppressed by normalization/set-compare (not counted as changes)."
+  ]
+}

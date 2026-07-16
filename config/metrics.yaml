@@ -1,0 +1,121 @@
+# Quality metrics, weights, alert thresholds, judge routing, and the release
+# decision policy. A reviewer can read this file and know what the system does.
+
+metrics:
+  completeness:            # share of non-null values across diffable fields
+    direction: higher_is_better
+    weight: 0.25
+  phone_validity:          # rows with a valid, non-placeholder 10-digit phone
+    direction: higher_is_better
+    weight: 0.20
+  duplicate_rate:          # surplus duplicate-NPI rows / raw rows
+    direction: lower_is_better
+    weight: 0.15
+  freshness:               # rows with last_updated within freshness_window_days
+    direction: higher_is_better
+    weight: 0.15
+  change_quality:          # valid changes / eligible changes (see judge_policy)
+    direction: higher_is_better
+    weight: 0.25
+    min_sample: 20         # below this many eligible changes: low_confidence, alerts suppressed
+  addition_quality:        # valid additions / eligible additions; structural
+    direction: higher_is_better   # rejects (bad NPI checksum, placeholder phone)
+    weight: 0.10                  # are KNOWN-invalid and count in the denominator
+    min_sample: 5
+  state_zip_consistency:   # cross-column: 3-digit ZIP prefix must belong to the
+    direction: higher_is_better   # state (reference: config/zip_prefixes.yaml);
+    weight: 0.05                  # unknown prefixes excluded, never penalized
+  # Report-only metrics (weight 0): visible in every report, never in the score.
+  deletion_quality:        # plausible retirements / total deletions (heuristic)
+    direction: higher_is_better
+    weight: 0
+    report_only: true
+  npi_validity:
+    direction: higher_is_better
+    weight: 0
+    report_only: true
+  address_completeness:
+    direction: higher_is_better
+    weight: 0
+    report_only: true
+  normalization_failure_rate:
+    direction: lower_is_better
+    weight: 0
+    report_only: true
+
+overall_score:
+  method: weighted_average
+  renormalize_on_na: true  # N/A metrics are excluded and weights renormalized —
+                           # never silently defaulted to 0 or 1
+
+freshness_window_days: 180
+
+# Metric-movement alerts. Evaluated on baseline->candidate movement within the
+# run, and again vs. the compared historical run (overall_score is history-only,
+# because change_quality has no within-run baseline).
+alerts:
+  - metric: phone_validity
+    drop_threshold: 0.05
+    severity: critical
+  - metric: completeness
+    drop_threshold: 0.05
+    severity: critical
+  - metric: duplicate_rate
+    rise_threshold: 0.02
+    severity: critical
+  - metric: state_zip_consistency
+    drop_threshold: 0.02
+    severity: critical
+  - metric: freshness
+    drop_threshold: 0.10
+    severity: warning
+  - metric: overall_score
+    drop_threshold: 0.03
+    severity: warning
+    scope: history
+
+# A sudden large improvement is as suspicious as a drop (metric gaming guard).
+improvement_anomaly:
+  rise_threshold: 0.10
+  severity: warning
+
+# Volume churn alerts: absolute thresholds on this run's pairwise churn.
+# Rate metrics cannot see silent row drops; these can.
+volume_alerts:
+  - metric: deleted_pct
+    max: 0.03
+    severity: critical
+  - metric: added_pct
+    max: 0.10
+    severity: warning
+
+judge_policy:
+  max_judge_calls: 100     # cost lever: budget cap per run (shared: changes first, then additions)
+  cost_per_call: 0.002     # rough $ per judge call, for the report's cost estimate
+  bands:
+    auto_accept:           # pre-verified, no judge needed
+      min_confidence: 0.95
+      cross_source: verified
+    must_judge:            # the ambiguous band is DERIVED: everything between
+                           # auto_flag.max_confidence and auto_accept.min_confidence
+      change_kinds: [wiped]   # a wipe is almost never a valid update: always judged
+      cross_source: [conflict]  # sources disagree: always judged
+    auto_flag:             # too weak to trust: straight to human review
+      max_confidence: 0.50
+  # Changes deferred by budget are EXCLUDED from the change_quality denominator
+  # and reported as judge_deferred_count — never counted as invalid.
+  budget_overflow: exclude_from_denominator
+
+decision:
+  review_queue_threshold: 20   # queue larger than this forces REVIEW
+
+# same_input: both snapshots came from the same frozen input through two
+# pipeline versions -> alerts are attributable to the pipeline.
+# temporal: snapshots are from different days -> drift monitoring; alerts are
+# signals, not proof of pipeline regression.
+comparison_mode: same_input
+
+placeholder_values:
+  phone: ["9999999999", "0000000000", "1234567890"]
+  zip: ["00000", "99999"]
+  text: ["unknown", "tbd", "n/a", "test"]

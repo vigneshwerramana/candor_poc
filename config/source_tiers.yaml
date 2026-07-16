@@ -1,0 +1,12 @@
+# Trust weight per evidence source (0..1). Adding a source = one entry here.
+# Unknown sources fall back to default_tier.
+tiers:
+  npi_registry: 1.0        # government registry
+  state_medical_board: 0.95
+  claims: 0.9              # billing claims data
+  hospital_website: 0.8
+  insurance_directory: 0.7
+  provider_self_report: 0.6
+  web_scrape: 0.4
+  social: 0.3
+default_tier: 0.4

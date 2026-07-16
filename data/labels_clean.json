@@ -1,0 +1,783 @@
+{
+  "field_changes": [
+    {
+      "npi": "1000003149",
+      "field": "phone",
+      "old": null,
+      "new": "3102481569",
+      "truth_label": "valid_update",
+      "note": "missing phone filled from evidence"
+    },
+    {
+      "npi": "1000000970",
+      "field": "phone",
+      "old": "2121658202",
+      "new": "4014118005",
+      "truth_label": "valid_update",
+      "note": "real phone change, 2 sources agree"
+    },
+    {
+      "npi": "1000000012",
+      "field": "phone",
+      "old": "4046379402",
+      "new": "5129900489",
+      "truth_label": "valid_update",
+      "note": "real phone change, 2 sources agree"
+    },
+    {
+      "npi": "1000003933",
+      "field": "phone",
+      "old": "2069852401",
+      "new": "5122809242",
+      "truth_label": "valid_update",
+      "note": "real phone change, 2 sources agree"
+    },
+    {
+      "npi": "1000001895",
+      "field": "phone",
+      "old": "6179559059",
+      "new": "2062158624",
+      "truth_label": "valid_update",
+      "note": "real phone change, 2 sources agree"
+    },
+    {
+      "npi": "1000000723",
+      "field": "phone",
+      "old": "312-024-4550",
+      "new": "4157456449",
+      "truth_label": "valid_update",
+      "note": "real phone change, 2 sources agree"
+    },
+    {
+      "npi": "1000003917",
+      "field": "phone",
+      "old": "3124518952",
+      "new": "4045625728",
+      "truth_label": "valid_update",
+      "note": "real phone change, 2 sources agree"
+    },
+    {
+      "npi": "1000003255",
+      "field": "phone",
+      "old": "(401) 660-5583",
+      "new": "2060320320",
+      "truth_label": "valid_update",
+      "note": "real phone change, 2 sources agree"
+    },
+    {
+      "npi": "1000000897",
+      "field": "phone",
+      "old": "(310) 530-5152",
+      "new": "2066170758",
+      "truth_label": "valid_update",
+      "note": "real phone change, 2 sources agree"
+    },
+    {
+      "npi": "1000003677",
+      "field": "phone",
+      "old": "2127811379",
+      "new": "3102151342",
+      "truth_label": "valid_update",
+      "note": "real phone change, 2 sources agree"
+    },
+    {
+      "npi": "1000002646",
+      "field": "phone",
+      "old": "(212) 988-3920",
+      "new": "4044993908",
+      "truth_label": "valid_update",
+      "note": "real phone change, 2 sources agree"
+    },
+    {
+      "npi": "1000002331",
+      "field": "phone",
+      "old": "404-485-8333",
+      "new": "3031371504",
+      "truth_label": "valid_update",
+      "note": "real phone change, 2 sources agree"
+    },
+    {
+      "npi": "1000002117",
+      "field": "phone",
+      "old": "512-207-4466",
+      "new": "3035915201",
+      "truth_label": "valid_update",
+      "note": "real phone change, 2 sources agree"
+    },
+    {
+      "npi": "1000003172",
+      "field": "phone",
+      "old": "401-826-6570",
+      "new": "2067490509",
+      "truth_label": "valid_update",
+      "note": "real phone change, 2 sources agree"
+    },
+    {
+      "npi": "1000001630",
+      "field": "phone",
+      "old": "(415) 536-7294",
+      "new": "4012304501",
+      "truth_label": "valid_update",
+      "note": "real phone change, 2 sources agree"
+    },
+    {
+      "npi": "1000001135",
+      "field": "phone",
+      "old": "401-930-9728",
+      "new": "3106423610",
+      "truth_label": "valid_update",
+      "note": "real phone change, 2 sources agree"
+    },
+    {
+      "npi": "1000000442",
+      "field": "phone",
+      "old": "(415) 812-0679",
+      "new": "3036421476",
+      "truth_label": "valid_update",
+      "note": "real phone change, 2 sources agree"
+    },
+    {
+      "npi": "1000003982",
+      "field": "phone",
+      "old": "(312) 801-5716",
+      "new": "4012515837",
+      "truth_label": "valid_update",
+      "note": "real phone change, 2 sources agree"
+    },
+    {
+      "npi": "1000001176",
+      "field": "phone",
+      "old": "312-733-8484",
+      "new": "2064996165",
+      "truth_label": "valid_update",
+      "note": "real phone change, 2 sources agree"
+    },
+    {
+      "npi": "1000002844",
+      "field": "phone",
+      "old": "2128021442",
+      "new": "3031085732",
+      "truth_label": "valid_update",
+      "note": "real phone change, 2 sources agree"
+    },
+    {
+      "npi": "1000002133",
+      "field": "phone",
+      "old": "512-549-4717",
+      "new": "4041476174",
+      "truth_label": "valid_update",
+      "note": "real phone change, 2 sources agree"
+    },
+    {
+      "npi": "1000000749",
+      "field": "address",
+      "old": "117 Elm St, Cambridge",
+      "new": "862 Oak Ave, New York",
+      "truth_label": "valid_update",
+      "note": "provider moved, 2 sources agree"
+    },
+    {
+      "npi": "1000000665",
+      "field": "address",
+      "old": "130 Maple Dr, Boston",
+      "new": "940 Main St, Cambridge",
+      "truth_label": "valid_update",
+      "note": "provider moved, 2 sources agree"
+    },
+    {
+      "npi": "1000003115",
+      "field": "address",
+      "old": "326 Main St, Providence",
+      "new": "677 Maple Dr, Denver",
+      "truth_label": "valid_update",
+      "note": "provider moved, 2 sources agree"
+    },
+    {
+      "npi": "1000003776",
+      "field": "address",
+      "old": "920 Oak Ave, Seattle",
+      "new": "788 Cedar Ln, Cambridge",
+      "truth_label": "valid_update",
+      "note": "provider moved, 2 sources agree"
+    },
+    {
+      "npi": "1000003784",
+      "field": "address",
+      "old": "356 Park Blvd, Providence",
+      "new": "864 Park Blvd, Providence",
+      "truth_label": "valid_update",
+      "note": "provider moved, 2 sources agree"
+    },
+    {
+      "npi": "1000003008",
+      "field": "address",
+      "old": "953 Main St, Cambridge",
+      "new": "602 Maple Dr, Chicago",
+      "truth_label": "valid_update",
+      "note": "provider moved, 2 sources agree"
+    },
+    {
+      "npi": "1000000301",
+      "field": "address",
+      "old": "489 Main St, Chicago",
+      "new": "350 Oak Ave, New York",
+      "truth_label": "valid_update",
+      "note": "provider moved, 2 sources agree"
+    },
+    {
+      "npi": "1000001713",
+      "field": "address",
+      "old": "397 Cedar Ln, Austin",
+      "new": "445 Cedar Ln, Cambridge",
+      "truth_label": "valid_update",
+      "note": "provider moved, 2 sources agree"
+    },
+    {
+      "npi": "1000003560",
+      "field": "address",
+      "old": "725 Park Blvd, Boston",
+      "new": "472 Maple Dr, Denver",
+      "truth_label": "valid_update",
+      "note": "provider moved, 2 sources agree"
+    },
+    {
+      "npi": "1000000111",
+      "field": "address",
+      "old": "100 Maple Dr, Hartford",
+      "new": "311 Cedar Ln, Denver",
+      "truth_label": "valid_update",
+      "note": "provider moved, 2 sources agree"
+    },
+    {
+      "npi": "1000001853",
+      "field": "insurance_accepted",
+      "old": "Medicare|UnitedHealth|Aetna|Medicaid",
+      "new": "Medicare|UnitedHealth|Aetna|Medicaid|Kaiser",
+      "truth_label": "valid_update",
+      "note": "new insurer accepted, 1 source (weak evidence -> judged)"
+    },
+    {
+      "npi": "1000001846",
+      "field": "insurance_accepted",
+      "old": "BlueCross|Humana|Medicare|Cigna",
+      "new": "BlueCross|Humana|Medicare|Cigna|Kaiser",
+      "truth_label": "valid_update",
+      "note": "new insurer accepted, 1 source (weak evidence -> judged)"
+    },
+    {
+      "npi": "1000000400",
+      "field": "insurance_accepted",
+      "old": "Kaiser|BlueCross",
+      "new": "Kaiser|BlueCross|Cigna",
+      "truth_label": "valid_update",
+      "note": "new insurer accepted, 1 source (weak evidence -> judged)"
+    },
+    {
+      "npi": "1000003313",
+      "field": "insurance_accepted",
+      "old": "UnitedHealth|Cigna|BlueCross|Kaiser",
+      "new": "UnitedHealth|Cigna|BlueCross|Kaiser|Aetna",
+      "truth_label": "valid_update",
+      "note": "new insurer accepted, 1 source (weak evidence -> judged)"
+    },
+    {
+      "npi": "1000001309",
+      "field": "insurance_accepted",
+      "old": "Humana|BlueCross",
+      "new": "Humana|BlueCross|Aetna",
+      "truth_label": "valid_update",
+      "note": "new insurer accepted, 1 source (weak evidence -> judged)"
+    },
+    {
+      "npi": "1000000020",
+      "field": "insurance_accepted",
+      "old": "Kaiser|Humana|BlueCross|Aetna",
+      "new": "Kaiser|Humana|BlueCross|Aetna|Cigna",
+      "truth_label": "valid_update",
+      "note": "new insurer accepted, 1 source (weak evidence -> judged)"
+    },
+    {
+      "npi": "1000001002",
+      "field": "insurance_accepted",
+      "old": "UnitedHealth|Aetna|BlueCross",
+      "new": "UnitedHealth|Aetna|BlueCross|Humana",
+      "truth_label": "valid_update",
+      "note": "new insurer accepted, 1 source (weak evidence -> judged)"
+    },
+    {
+      "npi": "1000002679",
+      "field": "insurance_accepted",
+      "old": "UnitedHealth|Medicare|Cigna|Medicaid",
+      "new": "UnitedHealth|Medicare|Cigna|Medicaid|Aetna",
+      "truth_label": "valid_update",
+      "note": "new insurer accepted, 1 source (weak evidence -> judged)"
+    },
+    {
+      "npi": "1000000921",
+      "field": "insurance_accepted",
+      "old": "Aetna|Kaiser|UnitedHealth",
+      "new": "Aetna|Kaiser|UnitedHealth|Medicare",
+      "truth_label": "valid_update",
+      "note": "new insurer accepted, 1 source (weak evidence -> judged)"
+    },
+    {
+      "npi": "1000002422",
+      "field": "insurance_accepted",
+      "old": "BlueCross|Aetna",
+      "new": "BlueCross|Aetna|UnitedHealth",
+      "truth_label": "valid_update",
+      "note": "new insurer accepted, 1 source (weak evidence -> judged)"
+    },
+    {
+      "npi": "1000001986",
+      "field": "specialty",
+      "old": "family medicine",
+      "new": "pediatrics",
+      "truth_label": "valid_update",
+      "note": "no evidence -> unverifiable -> judged"
+    },
+    {
+      "npi": "1000000293",
+      "field": "specialty",
+      "old": "neurology",
+      "new": "dermatology",
+      "truth_label": "valid_update",
+      "note": "no evidence -> unverifiable -> judged"
+    },
+    {
+      "npi": "1000001499",
+      "field": "specialty",
+      "old": "cardiology",
+      "new": "oncology",
+      "truth_label": "valid_update",
+      "note": "no evidence -> unverifiable -> judged"
+    },
+    {
+      "npi": "1000003354",
+      "field": "specialty",
+      "old": "internal medicine",
+      "new": "neurology",
+      "truth_label": "valid_update",
+      "note": "no evidence -> unverifiable -> judged"
+    },
+    {
+      "npi": "1000003222",
+      "field": "specialty",
+      "old": "neurology",
+      "new": "oncology",
+      "truth_label": "valid_update",
+      "note": "no evidence -> unverifiable -> judged"
+    },
+    {
+      "npi": "1000000269",
+      "field": "phone",
+      "old": "6174332003",
+      "new": "(617) 433-2003",
+      "truth_label": "false_positive_trap",
+      "note": "same digits, different format"
+    },
+    {
+      "npi": "1000003966",
+      "field": "phone",
+      "old": "401-083-3428",
+      "new": "4010833428",
+      "truth_label": "false_positive_trap",
+      "note": "same digits, different format"
+    },
+    {
+      "npi": "1000002059",
+      "field": "phone",
+      "old": "2065469137",
+      "new": "(206) 546-9137",
+      "truth_label": "false_positive_trap",
+      "note": "same digits, different format"
+    },
+    {
+      "npi": "1000002992",
+      "field": "phone",
+      "old": "(401) 334-4196",
+      "new": "401-334-4196",
+      "truth_label": "false_positive_trap",
+      "note": "same digits, different format"
+    },
+    {
+      "npi": "1000003370",
+      "field": "phone",
+      "old": "4013827615",
+      "new": "(401) 382-7615",
+      "truth_label": "false_positive_trap",
+      "note": "same digits, different format"
+    },
+    {
+      "npi": "1000002786",
+      "field": "phone",
+      "old": "212-234-1326",
+      "new": "2122341326",
+      "truth_label": "false_positive_trap",
+      "note": "same digits, different format"
+    },
+    {
+      "npi": "1000003156",
+      "field": "phone",
+      "old": "4019988081",
+      "new": "(401) 998-8081",
+      "truth_label": "false_positive_trap",
+      "note": "same digits, different format"
+    },
+    {
+      "npi": "1000003990",
+      "field": "phone",
+      "old": "(206) 520-7167",
+      "new": "206-520-7167",
+      "truth_label": "false_positive_trap",
+      "note": "same digits, different format"
+    },
+    {
+      "npi": "1000001234",
+      "field": "phone",
+      "old": "404-414-5933",
+      "new": "4044145933",
+      "truth_label": "false_positive_trap",
+      "note": "same digits, different format"
+    },
+    {
+      "npi": "1000000988",
+      "field": "phone",
+      "old": "2129275571",
+      "new": "(212) 927-5571",
+      "truth_label": "false_positive_trap",
+      "note": "same digits, different format"
+    },
+    {
+      "npi": "1000003891",
+      "field": "phone",
+      "old": "312-715-8904",
+      "new": "3127158904",
+      "truth_label": "false_positive_trap",
+      "note": "same digits, different format"
+    },
+    {
+      "npi": "1000002893",
+      "field": "phone",
+      "old": "(512) 281-2735",
+      "new": "512-281-2735",
+      "truth_label": "false_positive_trap",
+      "note": "same digits, different format"
+    },
+    {
+      "npi": "1000003362",
+      "field": "phone",
+      "old": "206-245-9928",
+      "new": "2062459928",
+      "truth_label": "false_positive_trap",
+      "note": "same digits, different format"
+    },
+    {
+      "npi": "1000001416",
+      "field": "phone",
+      "old": "512-918-0339",
+      "new": "5129180339",
+      "truth_label": "false_positive_trap",
+      "note": "same digits, different format"
+    },
+    {
+      "npi": "1000003123",
+      "field": "phone",
+      "old": "312-742-3122",
+      "new": "3127423122",
+      "truth_label": "false_positive_trap",
+      "note": "same digits, different format"
+    },
+    {
+      "npi": "1000002802",
+      "field": "phone",
+      "old": "2062829979",
+      "new": "(206) 282-9979",
+      "truth_label": "false_positive_trap",
+      "note": "same digits, different format"
+    },
+    {
+      "npi": "1000003503",
+      "field": "phone",
+      "old": "404-604-7658",
+      "new": "4046047658",
+      "truth_label": "false_positive_trap",
+      "note": "same digits, different format"
+    },
+    {
+      "npi": "1000000632",
+      "field": "phone",
+      "old": "4046926179",
+      "new": "(404) 692-6179",
+      "truth_label": "false_positive_trap",
+      "note": "same digits, different format"
+    },
+    {
+      "npi": "1000000327",
+      "field": "phone",
+      "old": "(303) 272-0465",
+      "new": "303-272-0465",
+      "truth_label": "false_positive_trap",
+      "note": "same digits, different format"
+    },
+    {
+      "npi": "1000002083",
+      "field": "phone",
+      "old": "212-293-3334",
+      "new": "2122933334",
+      "truth_label": "false_positive_trap",
+      "note": "same digits, different format"
+    },
+    {
+      "npi": "1000001226",
+      "field": "insurance_accepted",
+      "old": "UnitedHealth|Aetna|Kaiser|Medicare",
+      "new": "Medicare|Kaiser|Aetna|UnitedHealth",
+      "truth_label": "false_positive_trap",
+      "note": "order shuffle, same set"
+    },
+    {
+      "npi": "1000000228",
+      "field": "insurance_accepted",
+      "old": "Medicare|Cigna",
+      "new": "Cigna|Medicare",
+      "truth_label": "false_positive_trap",
+      "note": "order shuffle, same set"
+    },
+    {
+      "npi": "1000000707",
+      "field": "insurance_accepted",
+      "old": "Kaiser|Medicare|Medicaid",
+      "new": "Medicaid|Medicare|Kaiser",
+      "truth_label": "false_positive_trap",
+      "note": "order shuffle, same set"
+    },
+    {
+      "npi": "1000003107",
+      "field": "insurance_accepted",
+      "old": "Kaiser|UnitedHealth|Humana",
+      "new": "Humana|UnitedHealth|Kaiser",
+      "truth_label": "false_positive_trap",
+      "note": "order shuffle, same set"
+    },
+    {
+      "npi": "1000000350",
+      "field": "insurance_accepted",
+      "old": "Kaiser|Aetna|UnitedHealth|Medicaid",
+      "new": "Medicaid|UnitedHealth|Aetna|Kaiser",
+      "truth_label": "false_positive_trap",
+      "note": "order shuffle, same set"
+    },
+    {
+      "npi": "1000003289",
+      "field": "insurance_accepted",
+      "old": "Kaiser|Medicaid|Aetna",
+      "new": "Aetna|Medicaid|Kaiser",
+      "truth_label": "false_positive_trap",
+      "note": "order shuffle, same set"
+    },
+    {
+      "npi": "1000003925",
+      "field": "insurance_accepted",
+      "old": "Cigna|Aetna",
+      "new": "Aetna|Cigna",
+      "truth_label": "false_positive_trap",
+      "note": "order shuffle, same set"
+    },
+    {
+      "npi": "1000002638",
+      "field": "insurance_accepted",
+      "old": "Aetna|Medicare|BlueCross|UnitedHealth",
+      "new": "UnitedHealth|BlueCross|Medicare|Aetna",
+      "truth_label": "false_positive_trap",
+      "note": "order shuffle, same set"
+    },
+    {
+      "npi": "1000000038",
+      "field": "insurance_accepted",
+      "old": "BlueCross|Humana|Kaiser|Medicaid",
+      "new": "Medicaid|Kaiser|Humana|BlueCross",
+      "truth_label": "false_positive_trap",
+      "note": "order shuffle, same set"
+    },
+    {
+      "npi": "1000002885",
+      "field": "insurance_accepted",
+      "old": "Medicaid|Aetna",
+      "new": "Aetna|Medicaid",
+      "truth_label": "false_positive_trap",
+      "note": "order shuffle, same set"
+    },
+    {
+      "npi": "1000003545",
+      "field": "name",
+      "old": "Dr. David Silva",
+      "new": "SILVA, DAVID, MD",
+      "truth_label": "false_positive_trap",
+      "note": "name reformat"
+    },
+    {
+      "npi": "1000000202",
+      "field": "name",
+      "old": "Dr. Elena Patel",
+      "new": "PATEL, ELENA, MD",
+      "truth_label": "false_positive_trap",
+      "note": "name reformat"
+    },
+    {
+      "npi": "1000003669",
+      "field": "name",
+      "old": "Dr. Priya Khan",
+      "new": "KHAN, PRIYA, MD",
+      "truth_label": "false_positive_trap",
+      "note": "name reformat"
+    },
+    {
+      "npi": "1000003339",
+      "field": "name",
+      "old": "Dr. Fatima Martinez",
+      "new": "MARTINEZ, FATIMA, MD",
+      "truth_label": "false_positive_trap",
+      "note": "name reformat"
+    },
+    {
+      "npi": "1000001150",
+      "field": "name",
+      "old": "Dr. Omar Nguyen",
+      "new": "NGUYEN, OMAR, MD",
+      "truth_label": "false_positive_trap",
+      "note": "name reformat"
+    },
+    {
+      "npi": "1000002372",
+      "field": "name",
+      "old": "Dr. Raj Silva",
+      "new": "SILVA, RAJ, MD",
+      "truth_label": "false_positive_trap",
+      "note": "name reformat"
+    },
+    {
+      "npi": "1000002141",
+      "field": "name",
+      "old": "Dr. Fatima Brown",
+      "new": "BROWN, FATIMA, MD",
+      "truth_label": "false_positive_trap",
+      "note": "name reformat"
+    },
+    {
+      "npi": "1000003818",
+      "field": "name",
+      "old": "Dr. Sarah Garcia",
+      "new": "GARCIA, SARAH, MD",
+      "truth_label": "false_positive_trap",
+      "note": "name reformat"
+    },
+    {
+      "npi": "1000000715",
+      "field": "name",
+      "old": "Dr. Fatima Nguyen",
+      "new": "NGUYEN, FATIMA, MD",
+      "truth_label": "false_positive_trap",
+      "note": "name reformat"
+    },
+    {
+      "npi": "1000003057",
+      "field": "name",
+      "old": "Dr. Wei Garcia",
+      "new": "GARCIA, WEI, MD",
+      "truth_label": "false_positive_trap",
+      "note": "name reformat"
+    },
+    {
+      "npi": "1000003594",
+      "field": "zip",
+      "old": "00202",
+      "new": "202",
+      "truth_label": "false_positive_trap",
+      "note": "leading zero stripped by candidate pipeline"
+    },
+    {
+      "npi": "1000000798",
+      "field": "zip",
+      "old": "02139",
+      "new": "2139",
+      "truth_label": "false_positive_trap",
+      "note": "leading zero stripped by candidate pipeline"
+    },
+    {
+      "npi": "1000003644",
+      "field": "zip",
+      "old": "00303",
+      "new": "303",
+      "truth_label": "false_positive_trap",
+      "note": "leading zero stripped by candidate pipeline"
+    },
+    {
+      "npi": "1000000079",
+      "field": "zip",
+      "old": "02139",
+      "new": "2139",
+      "truth_label": "false_positive_trap",
+      "note": "leading zero stripped by candidate pipeline"
+    },
+    {
+      "npi": "1000002752",
+      "field": "zip",
+      "old": "02115",
+      "new": "2115",
+      "truth_label": "false_positive_trap",
+      "note": "leading zero stripped by candidate pipeline"
+    },
+    {
+      "npi": "1000001812",
+      "field": "address",
+      "old": null,
+      "new": null,
+      "truth_label": "false_positive_trap",
+      "note": "'' vs 'N/A' null representations"
+    },
+    {
+      "npi": "1000000855",
+      "field": "address",
+      "old": null,
+      "new": null,
+      "truth_label": "false_positive_trap",
+      "note": "'' vs 'N/A' null representations"
+    },
+    {
+      "npi": "1000002950",
+      "field": "address",
+      "old": null,
+      "new": null,
+      "truth_label": "false_positive_trap",
+      "note": "'' vs 'N/A' null representations"
+    },
+    {
+      "npi": "1000003685",
+      "field": "address",
+      "old": null,
+      "new": null,
+      "truth_label": "false_positive_trap",
+      "note": "'' vs 'N/A' null representations"
+    },
+    {
+      "npi": "1000000087",
+      "field": "address",
+      "old": null,
+      "new": null,
+      "truth_label": "false_positive_trap",
+      "note": "'' vs 'N/A' null representations"
+    }
+  ],
+  "record_events": {
+    "additions": {
+      "2000000002": "valid_addition",
+      "2000000010": "valid_addition",
+      "2000000028": "valid_addition",
+      "2000000036": "valid_addition",
+      "2000000044": "valid_addition",
+      "2000000051": "valid_addition"
+    }
+  },
+  "row_events": {}
+}

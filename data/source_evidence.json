@@ -1,0 +1,1542 @@
+{
+  "1000003149": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "3102481569",
+        "observed_at": "2026-06-21"
+      },
+      {
+        "source": "hospital_website",
+        "value": "3102481569",
+        "observed_at": "2026-06-18"
+      }
+    ]
+  },
+  "1000002968": {
+    "phone": [
+      {
+        "source": "claims",
+        "value": "415-868-5289",
+        "observed_at": "2026-07-14"
+      },
+      {
+        "source": "web_scrape",
+        "value": "4045700272",
+        "observed_at": "2026-07-02"
+      }
+    ]
+  },
+  "1000001242": {
+    "phone": [
+      {
+        "source": "claims",
+        "value": "4043391878",
+        "observed_at": "2026-06-28"
+      },
+      {
+        "source": "web_scrape",
+        "value": "6174591123",
+        "observed_at": "2026-06-22"
+      }
+    ]
+  },
+  "1000001432": {
+    "phone": [
+      {
+        "source": "claims",
+        "value": "3106315999",
+        "observed_at": "2026-07-09"
+      },
+      {
+        "source": "web_scrape",
+        "value": "4159657724",
+        "observed_at": "2026-06-23"
+      }
+    ]
+  },
+  "1000000970": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "4014118005",
+        "observed_at": "2026-06-15"
+      },
+      {
+        "source": "hospital_website",
+        "value": "4014118005",
+        "observed_at": "2026-07-07"
+      }
+    ]
+  },
+  "1000000012": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "5129900489",
+        "observed_at": "2026-07-02"
+      },
+      {
+        "source": "hospital_website",
+        "value": "5129900489",
+        "observed_at": "2026-07-05"
+      }
+    ]
+  },
+  "1000003933": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "5122809242",
+        "observed_at": "2026-06-28"
+      },
+      {
+        "source": "hospital_website",
+        "value": "5122809242",
+        "observed_at": "2026-06-29"
+      }
+    ]
+  },
+  "1000001895": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "2062158624",
+        "observed_at": "2026-07-11"
+      },
+      {
+        "source": "hospital_website",
+        "value": "2062158624",
+        "observed_at": "2026-07-04"
+      }
+    ]
+  },
+  "1000000723": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "4157456449",
+        "observed_at": "2026-06-18"
+      },
+      {
+        "source": "hospital_website",
+        "value": "4157456449",
+        "observed_at": "2026-06-20"
+      }
+    ]
+  },
+  "1000003917": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "4045625728",
+        "observed_at": "2026-06-17"
+      },
+      {
+        "source": "hospital_website",
+        "value": "4045625728",
+        "observed_at": "2026-06-15"
+      }
+    ]
+  },
+  "1000003255": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "2060320320",
+        "observed_at": "2026-06-29"
+      },
+      {
+        "source": "hospital_website",
+        "value": "2060320320",
+        "observed_at": "2026-07-06"
+      }
+    ]
+  },
+  "1000000897": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "2066170758",
+        "observed_at": "2026-06-29"
+      },
+      {
+        "source": "hospital_website",
+        "value": "2066170758",
+        "observed_at": "2026-06-30"
+      }
+    ]
+  },
+  "1000003677": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "3102151342",
+        "observed_at": "2026-06-18"
+      },
+      {
+        "source": "hospital_website",
+        "value": "3102151342",
+        "observed_at": "2026-07-09"
+      }
+    ]
+  },
+  "1000002646": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "4044993908",
+        "observed_at": "2026-06-20"
+      },
+      {
+        "source": "hospital_website",
+        "value": "4044993908",
+        "observed_at": "2026-06-26"
+      }
+    ]
+  },
+  "1000002331": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "3031371504",
+        "observed_at": "2026-06-23"
+      },
+      {
+        "source": "hospital_website",
+        "value": "3031371504",
+        "observed_at": "2026-06-23"
+      }
+    ]
+  },
+  "1000002117": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "3035915201",
+        "observed_at": "2026-06-30"
+      },
+      {
+        "source": "hospital_website",
+        "value": "3035915201",
+        "observed_at": "2026-06-18"
+      }
+    ]
+  },
+  "1000003172": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "2067490509",
+        "observed_at": "2026-06-30"
+      },
+      {
+        "source": "hospital_website",
+        "value": "2067490509",
+        "observed_at": "2026-07-04"
+      }
+    ]
+  },
+  "1000001630": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "4012304501",
+        "observed_at": "2026-06-27"
+      },
+      {
+        "source": "hospital_website",
+        "value": "4012304501",
+        "observed_at": "2026-06-25"
+      }
+    ]
+  },
+  "1000001135": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "3106423610",
+        "observed_at": "2026-06-17"
+      },
+      {
+        "source": "hospital_website",
+        "value": "3106423610",
+        "observed_at": "2026-07-08"
+      }
+    ]
+  },
+  "1000000442": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "3036421476",
+        "observed_at": "2026-06-21"
+      },
+      {
+        "source": "hospital_website",
+        "value": "3036421476",
+        "observed_at": "2026-06-19"
+      }
+    ]
+  },
+  "1000003982": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "4012515837",
+        "observed_at": "2026-06-30"
+      },
+      {
+        "source": "hospital_website",
+        "value": "4012515837",
+        "observed_at": "2026-06-16"
+      }
+    ]
+  },
+  "1000001176": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "2064996165",
+        "observed_at": "2026-06-25"
+      },
+      {
+        "source": "hospital_website",
+        "value": "2064996165",
+        "observed_at": "2026-07-09"
+      }
+    ]
+  },
+  "1000002844": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "3031085732",
+        "observed_at": "2026-06-15"
+      },
+      {
+        "source": "hospital_website",
+        "value": "3031085732",
+        "observed_at": "2026-06-29"
+      }
+    ]
+  },
+  "1000002133": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "4041476174",
+        "observed_at": "2026-07-10"
+      },
+      {
+        "source": "hospital_website",
+        "value": "4041476174",
+        "observed_at": "2026-07-10"
+      }
+    ]
+  },
+  "1000000749": {
+    "address": [
+      {
+        "source": "npi_registry",
+        "value": "862 Oak Ave, New York",
+        "observed_at": "2026-06-28"
+      },
+      {
+        "source": "state_medical_board",
+        "value": "862 Oak Ave, New York",
+        "observed_at": "2026-07-01"
+      }
+    ],
+    "zip": [
+      {
+        "source": "npi_registry",
+        "value": "10001",
+        "observed_at": "2026-07-05"
+      },
+      {
+        "source": "state_medical_board",
+        "value": "10001",
+        "observed_at": "2026-06-26"
+      }
+    ],
+    "state": [
+      {
+        "source": "npi_registry",
+        "value": "NY",
+        "observed_at": "2026-07-13"
+      },
+      {
+        "source": "state_medical_board",
+        "value": "NY",
+        "observed_at": "2026-06-27"
+      }
+    ]
+  },
+  "1000000665": {
+    "address": [
+      {
+        "source": "npi_registry",
+        "value": "940 Main St, Cambridge",
+        "observed_at": "2026-06-28"
+      },
+      {
+        "source": "state_medical_board",
+        "value": "940 Main St, Cambridge",
+        "observed_at": "2026-07-11"
+      }
+    ],
+    "zip": [
+      {
+        "source": "npi_registry",
+        "value": "02139",
+        "observed_at": "2026-06-28"
+      },
+      {
+        "source": "state_medical_board",
+        "value": "02139",
+        "observed_at": "2026-07-01"
+      }
+    ],
+    "state": [
+      {
+        "source": "npi_registry",
+        "value": "MA",
+        "observed_at": "2026-07-01"
+      },
+      {
+        "source": "state_medical_board",
+        "value": "MA",
+        "observed_at": "2026-07-11"
+      }
+    ]
+  },
+  "1000003115": {
+    "address": [
+      {
+        "source": "npi_registry",
+        "value": "677 Maple Dr, Denver",
+        "observed_at": "2026-06-26"
+      },
+      {
+        "source": "state_medical_board",
+        "value": "677 Maple Dr, Denver",
+        "observed_at": "2026-06-18"
+      }
+    ],
+    "zip": [
+      {
+        "source": "npi_registry",
+        "value": "80202",
+        "observed_at": "2026-07-06"
+      },
+      {
+        "source": "state_medical_board",
+        "value": "80202",
+        "observed_at": "2026-07-03"
+      }
+    ],
+    "state": [
+      {
+        "source": "npi_registry",
+        "value": "CO",
+        "observed_at": "2026-07-06"
+      },
+      {
+        "source": "state_medical_board",
+        "value": "CO",
+        "observed_at": "2026-06-26"
+      }
+    ]
+  },
+  "1000003776": {
+    "address": [
+      {
+        "source": "npi_registry",
+        "value": "788 Cedar Ln, Cambridge",
+        "observed_at": "2026-07-14"
+      },
+      {
+        "source": "state_medical_board",
+        "value": "788 Cedar Ln, Cambridge",
+        "observed_at": "2026-07-11"
+      }
+    ],
+    "zip": [
+      {
+        "source": "npi_registry",
+        "value": "02139",
+        "observed_at": "2026-06-21"
+      },
+      {
+        "source": "state_medical_board",
+        "value": "02139",
+        "observed_at": "2026-06-23"
+      }
+    ],
+    "state": [
+      {
+        "source": "npi_registry",
+        "value": "MA",
+        "observed_at": "2026-06-30"
+      },
+      {
+        "source": "state_medical_board",
+        "value": "MA",
+        "observed_at": "2026-07-09"
+      }
+    ]
+  },
+  "1000003784": {
+    "address": [
+      {
+        "source": "npi_registry",
+        "value": "864 Park Blvd, Providence",
+        "observed_at": "2026-07-13"
+      },
+      {
+        "source": "state_medical_board",
+        "value": "864 Park Blvd, Providence",
+        "observed_at": "2026-07-12"
+      }
+    ],
+    "zip": [
+      {
+        "source": "npi_registry",
+        "value": "02903",
+        "observed_at": "2026-07-01"
+      },
+      {
+        "source": "state_medical_board",
+        "value": "02903",
+        "observed_at": "2026-06-16"
+      }
+    ],
+    "state": [
+      {
+        "source": "npi_registry",
+        "value": "RI",
+        "observed_at": "2026-06-22"
+      },
+      {
+        "source": "state_medical_board",
+        "value": "RI",
+        "observed_at": "2026-07-05"
+      }
+    ]
+  },
+  "1000003008": {
+    "address": [
+      {
+        "source": "npi_registry",
+        "value": "602 Maple Dr, Chicago",
+        "observed_at": "2026-06-30"
+      },
+      {
+        "source": "state_medical_board",
+        "value": "602 Maple Dr, Chicago",
+        "observed_at": "2026-06-20"
+      }
+    ],
+    "zip": [
+      {
+        "source": "npi_registry",
+        "value": "60601",
+        "observed_at": "2026-06-23"
+      },
+      {
+        "source": "state_medical_board",
+        "value": "60601",
+        "observed_at": "2026-06-30"
+      }
+    ],
+    "state": [
+      {
+        "source": "npi_registry",
+        "value": "IL",
+        "observed_at": "2026-06-25"
+      },
+      {
+        "source": "state_medical_board",
+        "value": "IL",
+        "observed_at": "2026-06-19"
+      }
+    ]
+  },
+  "1000000301": {
+    "address": [
+      {
+        "source": "npi_registry",
+        "value": "350 Oak Ave, New York",
+        "observed_at": "2026-07-08"
+      },
+      {
+        "source": "state_medical_board",
+        "value": "350 Oak Ave, New York",
+        "observed_at": "2026-07-09"
+      }
+    ],
+    "zip": [
+      {
+        "source": "npi_registry",
+        "value": "10001",
+        "observed_at": "2026-07-12"
+      },
+      {
+        "source": "state_medical_board",
+        "value": "10001",
+        "observed_at": "2026-06-21"
+      }
+    ],
+    "state": [
+      {
+        "source": "npi_registry",
+        "value": "NY",
+        "observed_at": "2026-06-25"
+      },
+      {
+        "source": "state_medical_board",
+        "value": "NY",
+        "observed_at": "2026-07-06"
+      }
+    ]
+  },
+  "1000001713": {
+    "address": [
+      {
+        "source": "npi_registry",
+        "value": "445 Cedar Ln, Cambridge",
+        "observed_at": "2026-07-14"
+      },
+      {
+        "source": "state_medical_board",
+        "value": "445 Cedar Ln, Cambridge",
+        "observed_at": "2026-07-14"
+      }
+    ],
+    "zip": [
+      {
+        "source": "npi_registry",
+        "value": "02139",
+        "observed_at": "2026-07-02"
+      },
+      {
+        "source": "state_medical_board",
+        "value": "02139",
+        "observed_at": "2026-07-11"
+      }
+    ],
+    "state": [
+      {
+        "source": "npi_registry",
+        "value": "MA",
+        "observed_at": "2026-07-14"
+      },
+      {
+        "source": "state_medical_board",
+        "value": "MA",
+        "observed_at": "2026-07-09"
+      }
+    ]
+  },
+  "1000003560": {
+    "address": [
+      {
+        "source": "npi_registry",
+        "value": "472 Maple Dr, Denver",
+        "observed_at": "2026-07-02"
+      },
+      {
+        "source": "state_medical_board",
+        "value": "472 Maple Dr, Denver",
+        "observed_at": "2026-06-17"
+      }
+    ],
+    "zip": [
+      {
+        "source": "npi_registry",
+        "value": "80202",
+        "observed_at": "2026-06-23"
+      },
+      {
+        "source": "state_medical_board",
+        "value": "80202",
+        "observed_at": "2026-06-21"
+      }
+    ],
+    "state": [
+      {
+        "source": "npi_registry",
+        "value": "CO",
+        "observed_at": "2026-06-25"
+      },
+      {
+        "source": "state_medical_board",
+        "value": "CO",
+        "observed_at": "2026-06-21"
+      }
+    ]
+  },
+  "1000000111": {
+    "address": [
+      {
+        "source": "npi_registry",
+        "value": "311 Cedar Ln, Denver",
+        "observed_at": "2026-06-18"
+      },
+      {
+        "source": "state_medical_board",
+        "value": "311 Cedar Ln, Denver",
+        "observed_at": "2026-06-25"
+      }
+    ],
+    "zip": [
+      {
+        "source": "npi_registry",
+        "value": "80202",
+        "observed_at": "2026-07-03"
+      },
+      {
+        "source": "state_medical_board",
+        "value": "80202",
+        "observed_at": "2026-06-22"
+      }
+    ],
+    "state": [
+      {
+        "source": "npi_registry",
+        "value": "CO",
+        "observed_at": "2026-06-23"
+      },
+      {
+        "source": "state_medical_board",
+        "value": "CO",
+        "observed_at": "2026-06-22"
+      }
+    ]
+  },
+  "1000001853": {
+    "insurance_accepted": [
+      {
+        "source": "insurance_directory",
+        "value": "Medicare|UnitedHealth|Aetna|Medicaid|Kaiser",
+        "observed_at": "2026-06-19"
+      }
+    ]
+  },
+  "1000001846": {
+    "insurance_accepted": [
+      {
+        "source": "insurance_directory",
+        "value": "BlueCross|Humana|Medicare|Cigna|Kaiser",
+        "observed_at": "2026-07-12"
+      }
+    ]
+  },
+  "1000000400": {
+    "insurance_accepted": [
+      {
+        "source": "insurance_directory",
+        "value": "Kaiser|BlueCross|Cigna",
+        "observed_at": "2026-07-10"
+      }
+    ]
+  },
+  "1000003313": {
+    "insurance_accepted": [
+      {
+        "source": "insurance_directory",
+        "value": "UnitedHealth|Cigna|BlueCross|Kaiser|Aetna",
+        "observed_at": "2026-07-08"
+      }
+    ]
+  },
+  "1000001309": {
+    "insurance_accepted": [
+      {
+        "source": "insurance_directory",
+        "value": "Humana|BlueCross|Aetna",
+        "observed_at": "2026-06-18"
+      }
+    ]
+  },
+  "1000000020": {
+    "insurance_accepted": [
+      {
+        "source": "insurance_directory",
+        "value": "Kaiser|Humana|BlueCross|Aetna|Cigna",
+        "observed_at": "2026-06-22"
+      }
+    ]
+  },
+  "1000001002": {
+    "insurance_accepted": [
+      {
+        "source": "insurance_directory",
+        "value": "UnitedHealth|Aetna|BlueCross|Humana",
+        "observed_at": "2026-06-17"
+      }
+    ]
+  },
+  "1000002679": {
+    "insurance_accepted": [
+      {
+        "source": "insurance_directory",
+        "value": "UnitedHealth|Medicare|Cigna|Medicaid|Aetna",
+        "observed_at": "2026-07-08"
+      }
+    ]
+  },
+  "1000000921": {
+    "insurance_accepted": [
+      {
+        "source": "insurance_directory",
+        "value": "Aetna|Kaiser|UnitedHealth|Medicare",
+        "observed_at": "2026-06-24"
+      }
+    ]
+  },
+  "1000002422": {
+    "insurance_accepted": [
+      {
+        "source": "insurance_directory",
+        "value": "BlueCross|Aetna|UnitedHealth",
+        "observed_at": "2026-06-24"
+      }
+    ]
+  },
+  "2000000002": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "2066012277",
+        "observed_at": "2026-06-18"
+      },
+      {
+        "source": "hospital_website",
+        "value": "2066012277",
+        "observed_at": "2026-07-02"
+      }
+    ],
+    "address": [
+      {
+        "source": "npi_registry",
+        "value": "483 Main St, New York",
+        "observed_at": "2026-07-13"
+      },
+      {
+        "source": "state_medical_board",
+        "value": "483 Main St, New York",
+        "observed_at": "2026-07-04"
+      }
+    ]
+  },
+  "2000000010": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "3036799840",
+        "observed_at": "2026-07-14"
+      },
+      {
+        "source": "hospital_website",
+        "value": "3036799840",
+        "observed_at": "2026-07-01"
+      }
+    ],
+    "address": [
+      {
+        "source": "npi_registry",
+        "value": "500 Park Blvd, Boston",
+        "observed_at": "2026-06-26"
+      },
+      {
+        "source": "state_medical_board",
+        "value": "500 Park Blvd, Boston",
+        "observed_at": "2026-07-04"
+      }
+    ]
+  },
+  "2000000028": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "3037179576",
+        "observed_at": "2026-06-28"
+      },
+      {
+        "source": "hospital_website",
+        "value": "3037179576",
+        "observed_at": "2026-07-07"
+      }
+    ],
+    "address": [
+      {
+        "source": "npi_registry",
+        "value": "22 Oak Ave, Seattle",
+        "observed_at": "2026-06-26"
+      },
+      {
+        "source": "state_medical_board",
+        "value": "22 Oak Ave, Seattle",
+        "observed_at": "2026-06-15"
+      }
+    ]
+  },
+  "2000000036": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "3126657293",
+        "observed_at": "2026-06-25"
+      },
+      {
+        "source": "hospital_website",
+        "value": "3126657293",
+        "observed_at": "2026-06-29"
+      }
+    ],
+    "address": [
+      {
+        "source": "npi_registry",
+        "value": "290 Maple Dr, Chicago",
+        "observed_at": "2026-07-11"
+      },
+      {
+        "source": "state_medical_board",
+        "value": "290 Maple Dr, Chicago",
+        "observed_at": "2026-06-19"
+      }
+    ]
+  },
+  "1000001622": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "3036845504",
+        "observed_at": "2026-06-16"
+      },
+      {
+        "source": "hospital_website",
+        "value": "3036845504",
+        "observed_at": "2026-06-28"
+      }
+    ]
+  },
+  "1000002273": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "4156738997",
+        "observed_at": "2026-06-22"
+      },
+      {
+        "source": "hospital_website",
+        "value": "4156738997",
+        "observed_at": "2026-07-03"
+      }
+    ]
+  },
+  "1000000517": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "6174108562",
+        "observed_at": "2026-06-28"
+      },
+      {
+        "source": "hospital_website",
+        "value": "6174108562",
+        "observed_at": "2026-06-27"
+      }
+    ]
+  },
+  "1000001119": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "6171884852",
+        "observed_at": "2026-07-14"
+      },
+      {
+        "source": "hospital_website",
+        "value": "6171884852",
+        "observed_at": "2026-07-14"
+      }
+    ]
+  },
+  "1000000939": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "4014346810",
+        "observed_at": "2026-06-18"
+      },
+      {
+        "source": "hospital_website",
+        "value": "4014346810",
+        "observed_at": "2026-07-03"
+      }
+    ]
+  },
+  "1000000764": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "4045101749",
+        "observed_at": "2026-06-21"
+      },
+      {
+        "source": "hospital_website",
+        "value": "4045101749",
+        "observed_at": "2026-07-14"
+      }
+    ]
+  },
+  "1000001572": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "5123998935",
+        "observed_at": "2026-07-05"
+      },
+      {
+        "source": "hospital_website",
+        "value": "5123998935",
+        "observed_at": "2026-07-05"
+      }
+    ]
+  },
+  "1000000426": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "4156831589",
+        "observed_at": "2026-07-08"
+      },
+      {
+        "source": "hospital_website",
+        "value": "4156831589",
+        "observed_at": "2026-06-18"
+      }
+    ]
+  },
+  "1000002281": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "2061266110",
+        "observed_at": "2026-07-01"
+      },
+      {
+        "source": "hospital_website",
+        "value": "2061266110",
+        "observed_at": "2026-06-16"
+      }
+    ]
+  },
+  "1000001705": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "2063715869",
+        "observed_at": "2026-06-27"
+      },
+      {
+        "source": "hospital_website",
+        "value": "2063715869",
+        "observed_at": "2026-06-28"
+      }
+    ]
+  },
+  "1000003495": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "3129767762",
+        "observed_at": "2026-07-10"
+      },
+      {
+        "source": "hospital_website",
+        "value": "3129767762",
+        "observed_at": "2026-06-28"
+      }
+    ]
+  },
+  "1000003842": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "2067288137",
+        "observed_at": "2026-06-29"
+      },
+      {
+        "source": "hospital_website",
+        "value": "2067288137",
+        "observed_at": "2026-07-13"
+      }
+    ]
+  },
+  "1000003636": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "4045196115",
+        "observed_at": "2026-06-26"
+      },
+      {
+        "source": "hospital_website",
+        "value": "4045196115",
+        "observed_at": "2026-07-05"
+      }
+    ]
+  },
+  "1000001275": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "4042154544",
+        "observed_at": "2026-06-29"
+      },
+      {
+        "source": "hospital_website",
+        "value": "4042154544",
+        "observed_at": "2026-07-14"
+      }
+    ]
+  },
+  "1000002935": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "4159604432",
+        "observed_at": "2026-06-18"
+      },
+      {
+        "source": "hospital_website",
+        "value": "4159604432",
+        "observed_at": "2026-06-21"
+      }
+    ]
+  },
+  "1000003974": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "2121851067",
+        "observed_at": "2026-06-26"
+      },
+      {
+        "source": "hospital_website",
+        "value": "2121851067",
+        "observed_at": "2026-07-05"
+      }
+    ]
+  },
+  "1000002604": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "2065679228",
+        "observed_at": "2026-06-24"
+      },
+      {
+        "source": "hospital_website",
+        "value": "2065679228",
+        "observed_at": "2026-06-30"
+      }
+    ]
+  },
+  "1000002737": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "2062519966",
+        "observed_at": "2026-07-07"
+      },
+      {
+        "source": "hospital_website",
+        "value": "2062519966",
+        "observed_at": "2026-06-16"
+      }
+    ]
+  },
+  "1000003537": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "5128074120",
+        "observed_at": "2026-06-26"
+      },
+      {
+        "source": "hospital_website",
+        "value": "5128074120",
+        "observed_at": "2026-06-24"
+      }
+    ]
+  },
+  "1000002687": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "4041813989",
+        "observed_at": "2026-06-20"
+      },
+      {
+        "source": "hospital_website",
+        "value": "4041813989",
+        "observed_at": "2026-07-13"
+      }
+    ]
+  },
+  "1000003883": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "4043780182",
+        "observed_at": "2026-07-14"
+      },
+      {
+        "source": "hospital_website",
+        "value": "4043780182",
+        "observed_at": "2026-07-06"
+      }
+    ]
+  },
+  "1000000251": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "6179718956",
+        "observed_at": "2026-06-26"
+      },
+      {
+        "source": "hospital_website",
+        "value": "6179718956",
+        "observed_at": "2026-07-13"
+      }
+    ]
+  },
+  "1000002398": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "2125626085",
+        "observed_at": "2026-07-02"
+      },
+      {
+        "source": "hospital_website",
+        "value": "2125626085",
+        "observed_at": "2026-07-06"
+      }
+    ]
+  },
+  "1000000822": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "3101824224",
+        "observed_at": "2026-06-20"
+      },
+      {
+        "source": "hospital_website",
+        "value": "3101824224",
+        "observed_at": "2026-07-12"
+      }
+    ]
+  },
+  "1000000996": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "3126209520",
+        "observed_at": "2026-06-22"
+      },
+      {
+        "source": "hospital_website",
+        "value": "3126209520",
+        "observed_at": "2026-07-13"
+      }
+    ]
+  },
+  "1000001465": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "3031526546",
+        "observed_at": "2026-06-18"
+      },
+      {
+        "source": "hospital_website",
+        "value": "3031526546",
+        "observed_at": "2026-06-16"
+      }
+    ]
+  },
+  "1000000962": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "2123399378",
+        "observed_at": "2026-06-20"
+      },
+      {
+        "source": "hospital_website",
+        "value": "2123399378",
+        "observed_at": "2026-06-28"
+      }
+    ]
+  },
+  "1000000814": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "3104057861",
+        "observed_at": "2026-06-29"
+      },
+      {
+        "source": "hospital_website",
+        "value": "3104057861",
+        "observed_at": "2026-07-14"
+      }
+    ]
+  },
+  "1000002463": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "6170489138",
+        "observed_at": "2026-06-24"
+      },
+      {
+        "source": "hospital_website",
+        "value": "6170489138",
+        "observed_at": "2026-06-19"
+      }
+    ]
+  },
+  "1000003347": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "3129671832",
+        "observed_at": "2026-07-03"
+      },
+      {
+        "source": "hospital_website",
+        "value": "3129671832",
+        "observed_at": "2026-06-27"
+      }
+    ]
+  },
+  "1000003396": {
+    "phone": [
+      {
+        "source": "claims",
+        "value": "(415) 902-2784",
+        "observed_at": "2026-06-18"
+      },
+      {
+        "source": "npi_registry",
+        "value": "(415) 902-2784",
+        "observed_at": "2026-06-25"
+      }
+    ]
+  },
+  "1000003263": {
+    "phone": [
+      {
+        "source": "claims",
+        "value": "(212) 155-6990",
+        "observed_at": "2026-06-18"
+      },
+      {
+        "source": "npi_registry",
+        "value": "(212) 155-6990",
+        "observed_at": "2026-06-23"
+      }
+    ]
+  },
+  "1000000053": {
+    "phone": [
+      {
+        "source": "claims",
+        "value": "(312) 238-8496",
+        "observed_at": "2026-06-21"
+      },
+      {
+        "source": "npi_registry",
+        "value": "(312) 238-8496",
+        "observed_at": "2026-06-27"
+      }
+    ]
+  },
+  "1000003073": {
+    "phone": [
+      {
+        "source": "claims",
+        "value": "212-164-5104",
+        "observed_at": "2026-07-06"
+      },
+      {
+        "source": "npi_registry",
+        "value": "212-164-5104",
+        "observed_at": "2026-06-16"
+      }
+    ]
+  },
+  "1000001077": {
+    "phone": [
+      {
+        "source": "claims",
+        "value": "212-469-6325",
+        "observed_at": "2026-07-06"
+      },
+      {
+        "source": "npi_registry",
+        "value": "212-469-6325",
+        "observed_at": "2026-07-07"
+      }
+    ]
+  },
+  "3000000000": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "2069502097",
+        "observed_at": "2026-07-12"
+      },
+      {
+        "source": "hospital_website",
+        "value": "2069502097",
+        "observed_at": "2026-06-19"
+      }
+    ]
+  },
+  "3000000018": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "2061569562",
+        "observed_at": "2026-07-08"
+      },
+      {
+        "source": "hospital_website",
+        "value": "2061569562",
+        "observed_at": "2026-06-30"
+      }
+    ]
+  },
+  "3000000026": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "2124531943",
+        "observed_at": "2026-06-22"
+      },
+      {
+        "source": "hospital_website",
+        "value": "2124531943",
+        "observed_at": "2026-06-22"
+      }
+    ]
+  },
+  "3000000034": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "6176149872",
+        "observed_at": "2026-07-10"
+      },
+      {
+        "source": "hospital_website",
+        "value": "6176149872",
+        "observed_at": "2026-07-06"
+      }
+    ]
+  },
+  "3000000042": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "3123089487",
+        "observed_at": "2026-07-11"
+      },
+      {
+        "source": "hospital_website",
+        "value": "3123089487",
+        "observed_at": "2026-06-23"
+      }
+    ]
+  },
+  "3000000059": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "5128030468",
+        "observed_at": "2026-06-26"
+      },
+      {
+        "source": "hospital_website",
+        "value": "5128030468",
+        "observed_at": "2026-06-19"
+      }
+    ]
+  },
+  "3000000067": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "3031332541",
+        "observed_at": "2026-07-14"
+      },
+      {
+        "source": "hospital_website",
+        "value": "3031332541",
+        "observed_at": "2026-06-26"
+      }
+    ]
+  },
+  "3000000075": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "3107350583",
+        "observed_at": "2026-07-12"
+      },
+      {
+        "source": "hospital_website",
+        "value": "3107350583",
+        "observed_at": "2026-07-13"
+      }
+    ]
+  },
+  "3000000083": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "3102070496",
+        "observed_at": "2026-06-25"
+      },
+      {
+        "source": "hospital_website",
+        "value": "3102070496",
+        "observed_at": "2026-06-20"
+      }
+    ]
+  },
+  "3000000091": {
+    "phone": [
+      {
+        "source": "npi_registry",
+        "value": "4019076769",
+        "observed_at": "2026-07-08"
+      },
+      {
+        "source": "hospital_website",
+        "value": "4019076769",
+        "observed_at": "2026-07-11"
+      }
+    ]
+  }
+}

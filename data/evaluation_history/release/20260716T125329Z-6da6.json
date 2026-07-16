@@ -1,0 +1,260 @@
+{
+  "run_id": "20260716T125329Z-6da6",
+  "pipeline_version": null,
+  "comparison_mode": "same_input",
+  "config_fingerprint": "011208b056ffe185",
+  "regression_mode": "baseline",
+  "baseline_label": null,
+  "candidate_label": null,
+  "volume_summary": {
+    "baseline_count": 400,
+    "candidate_count": 400,
+    "added_count": 0,
+    "deleted_count": 0,
+    "updated_count": 0,
+    "unchanged_count": 400,
+    "added_pct": 0.0,
+    "deleted_pct": 0.0
+  },
+  "dedupe_report_baseline": {
+    "raw_count": 400,
+    "duplicate_npi_count": 0,
+    "dropped_duplicate_rows": 0,
+    "null_npi_count": 0
+  },
+  "dedupe_report_candidate": {
+    "raw_count": 400,
+    "duplicate_npi_count": 0,
+    "dropped_duplicate_rows": 0,
+    "null_npi_count": 0
+  },
+  "normalization_report_baseline": {
+    "failure_counts": {},
+    "row_count": 400
+  },
+  "normalization_report_candidate": {
+    "failure_counts": {},
+    "row_count": 400
+  },
+  "suppressed_by_normalization": 0,
+  "suppressed_by_set_compare": 0,
+  "total_field_changes": 0,
+  "metrics_baseline": [
+    {
+      "name": "completeness",
+      "score": 0.9971428571428571,
+      "weight": 0.25,
+      "direction": "higher_is_better",
+      "status": "ok",
+      "sample_size": 400
+    },
+    {
+      "name": "phone_validity",
+      "score": 0.9925,
+      "weight": 0.2,
+      "direction": "higher_is_better",
+      "status": "ok",
+      "sample_size": 400
+    },
+    {
+      "name": "npi_validity",
+      "score": 1.0,
+      "weight": 0.0,
+      "direction": "higher_is_better",
+      "status": "ok",
+      "sample_size": 400
+    },
+    {
+      "name": "duplicate_rate",
+      "score": 0.0,
+      "weight": 0.15,
+      "direction": "lower_is_better",
+      "status": "ok",
+      "sample_size": 400
+    },
+    {
+      "name": "address_completeness",
+      "score": 0.9875,
+      "weight": 0.0,
+      "direction": "higher_is_better",
+      "status": "ok",
+      "sample_size": 400
+    },
+    {
+      "name": "freshness",
+      "score": 0.85,
+      "weight": 0.15,
+      "direction": "higher_is_better",
+      "status": "ok",
+      "sample_size": 400
+    },
+    {
+      "name": "state_zip_consistency",
+      "score": 1.0,
+      "weight": 0.05,
+      "direction": "higher_is_better",
+      "status": "ok",
+      "sample_size": 398
+    },
+    {
+      "name": "normalization_failure_rate",
+      "score": 0.0,
+      "weight": 0.0,
+      "direction": "lower_is_better",
+      "status": "ok",
+      "sample_size": 400
+    }
+  ],
+  "metrics_candidate": [
+    {
+      "name": "completeness",
+      "score": 0.9971428571428571,
+      "weight": 0.25,
+      "direction": "higher_is_better",
+      "status": "ok",
+      "sample_size": 400
+    },
+    {
+      "name": "phone_validity",
+      "score": 0.9925,
+      "weight": 0.2,
+      "direction": "higher_is_better",
+      "status": "ok",
+      "sample_size": 400
+    },
+    {
+      "name": "npi_validity",
+      "score": 1.0,
+      "weight": 0.0,
+      "direction": "higher_is_better",
+      "status": "ok",
+      "sample_size": 400
+    },
+    {
+      "name": "duplicate_rate",
+      "score": 0.0,
+      "weight": 0.15,
+      "direction": "lower_is_better",
+      "status": "ok",
+      "sample_size": 400
+    },
+    {
+      "name": "address_completeness",
+      "score": 0.9875,
+      "weight": 0.0,
+      "direction": "higher_is_better",
+      "status": "ok",
+      "sample_size": 400
+    },
+    {
+      "name": "freshness",
+      "score": 0.85,
+      "weight": 0.15,
+      "direction": "higher_is_better",
+      "status": "ok",
+      "sample_size": 400
+    },
+    {
+      "name": "state_zip_consistency",
+      "score": 1.0,
+      "weight": 0.05,
+      "direction": "higher_is_better",
+      "status": "ok",
+      "sample_size": 398
+    },
+    {
+      "name": "normalization_failure_rate",
+      "score": 0.0,
+      "weight": 0.0,
+      "direction": "lower_is_better",
+      "status": "ok",
+      "sample_size": 400
+    },
+    {
+      "name": "change_quality",
+      "score": null,
+      "weight": 0.25,
+      "direction": "higher_is_better",
+      "status": "n/a",
+      "sample_size": 0
+    },
+    {
+      "name": "addition_quality",
+      "score": null,
+      "weight": 0.1,
+      "direction": "higher_is_better",
+      "status": "n/a",
+      "sample_size": 0
+    },
+    {
+      "name": "deletion_quality",
+      "score": null,
+      "weight": 0.0,
+      "direction": "higher_is_better",
+      "status": "n/a",
+      "sample_size": 0
+    }
+  ],
+  "overall_score": 0.9691,
+  "metrics_included": [
+    "completeness",
+    "phone_validity",
+    "duplicate_rate",
+    "freshness",
+    "state_zip_consistency"
+  ],
+  "metrics_excluded": [
+    "npi_validity",
+    "address_completeness",
+    "normalization_failure_rate",
+    "change_quality",
+    "addition_quality",
+    "deletion_quality"
+  ],
+  "change_quality": {
+    "auto_accepted": 0,
+    "judged_valid": 0,
+    "judged_regression": 0,
+    "review_approved": 0,
+    "review_rejected": 0,
+    "auto_flagged": 0,
+    "uncertain": 0,
+    "budget_deferred": 0
+  },
+  "addition_quality": {
+    "auto_accepted": 0,
+    "judged_valid": 0,
+    "judged_invalid": 0,
+    "structural_rejected": 0,
+    "review_approved": 0,
+    "review_rejected": 0,
+    "auto_flagged": 0,
+    "uncertain": 0,
+    "budget_deferred": 0
+  },
+  "deletion_verdicts": [],
+  "judge_coverage": 1.0,
+  "judge_calls_made": 0,
+  "estimated_judge_cost": 0.0,
+  "judge_accuracy": null,
+  "competition_summary": null,
+  "prod_recommendation": null,
+  "prod_rationale": [],
+  "field_change_summaries": [],
+  "record_event_summaries": [],
+  "field_change_summaries_truncated": false,
+  "review_queue": [],
+  "regression": {
+    "mode": "baseline",
+    "compared_run_id": null,
+    "config_mismatch": false,
+    "metric_deltas": {},
+    "notes": []
+  },
+  "critical_alerts": [],
+  "warnings": [],
+  "release_decision": "BASELINE_ESTABLISHED",
+  "top_findings": [
+    "No field changes between snapshots; metrics stable."
+  ]
+}
