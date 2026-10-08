@@ -23,12 +23,32 @@ python3 -m venv .venv && .venv/bin/pip install -e ".[dev,dashboard]"
   --baseline data/providers_v1.csv --candidate data/providers_v2.csv \
   --output data/evaluation_history/release
 
-# open the dashboard (includes Delta Explorer)
+# (optional) generate the other two report types the dashboard can show
+.venv/bin/python scripts/run_validation.py      # Data Quality (DQI) findings
+.venv/bin/python scripts/run_claims_check.py     # Claims-to-network mapping
+
+# open the dashboard — sidebar switches between three views (see below)
 .venv/bin/streamlit run app/dashboard.py
 
 # tests
 .venv/bin/python -m pytest
 ```
+
+## Dashboard — three views
+
+A sidebar radio switches the Streamlit app between three explorers, each reading
+its own report directory under `data/evaluation_history/`:
+
+| View | Answers | Fed by | Highlights |
+|---|---|---|---|
+| **Release Evaluation** | Is the candidate snapshot better than baseline? | `scripts/run_evaluation.py` → `release/` | Decision banner, at-a-glance charts, **Delta Explorer** (drill to any field change), review queue |
+| **Data Quality** | Is this roster internally and cross-source correct? | `scripts/run_validation.py` → `validation/` | DQI-1…9 findings table with severity/NPI/source, filterable, per-DQI counts, known demo providers |
+| **Claims Explorer** | Do these claims map to the right networks? | `scripts/run_claims_check.py` → `claims/` | Exhibit-A mapping + address match, reference-data coverage, the six assignment providers (Q1–Q6), flagged claims |
+
+The **Data Quality** and **Claims Explorer** views are new — they validate a live
+roster against NPPES/Candor (DQI rules) and reconcile a claims feed against
+Exhibit A network mappings, respectively. Each persists an `EvalReport` /
+`ValidationReport` / `ClaimsReport` JSON that the dashboard renders.
 
 **Exit codes:** `0` = APPROVE / BASELINE_ESTABLISHED · `1` = REVIEW · `2` = REJECT (drop-in CI gate; example in `docs/ARCHITECTURE.md`).
 
@@ -106,6 +126,8 @@ This is a **release gate / competition evaluator**, not a full enterprise data-q
   - **Record events**: `addition_quality` + deletion review heuristics
   - **Volume churn alerts**: catches silent row drops that rate metrics can’t see
   - **Model competition** (`model_compete`): head-to-head on disagreements with an explicit PROD recommendation
+  - **Data Quality validation** (dashboard *Data Quality* view): DQI-1…9 rules over a live roster — license coverage, stale license status, cross-source location conflicts, specialty gaps, facility hygiene, credential coverage — cross-checked against NPPES / Candor detail
+  - **Claims-to-network mapping** (dashboard *Claims Explorer* view): NPI + address match, Exhibit A network assignment, and coverage-gap detection over a claims feed
 - **Not covered (POC scope)**
   - Domain relevance manifests
   - Entity resolution beyond NPI
@@ -161,9 +183,13 @@ The synthetic generator emits ground-truth labels, so we can measure the evaluat
 config/          schema · source tiers · metrics/weights · judge prompts · zip↔state reference
 data/            snapshots (v1, v2, v2_clean, dev_a, dev_b) · labels (ground truth) ·
                  evidence store · evaluation_history/{release,compete}/
-src/candor_qa/   contracts.py · config.py · stage1_prepare/ … stage5_decide/ · pipeline.py
-scripts/         generate_sample_data.py · run_evaluation.py · export_delta.py
-app/ · api/      Streamlit dashboard · FastAPI wrapper
-tests/           one file per stage + record events, additions, compete, E2E
+src/candor_qa/   contracts.py · config.py · stage1_prepare/ … stage5_decide/ · pipeline.py ·
+                 validation/ (DQI rules) · sources/ (Candor + NPPES loaders)
+config/          schema · metrics/weights · rules.yaml (DQI) · exhibit_a.yaml (network mappings)
+scripts/         run_evaluation.py · run_validation.py · run_claims_check.py ·
+                 generate_sample_data.py · reconcile_sources.py · export_delta.py
+app/             dashboard.py (3-view router) · views/{validation,claims}.py
+api/             FastAPI wrapper
+tests/           one file per stage + record events, additions, compete, E2E, validation, claims
 docs/            ARCHITECTURE.md · SCORING.md · images/
 ```

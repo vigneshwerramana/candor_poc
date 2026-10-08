@@ -3,3 +3,10 @@ __pycache__/
 *.pyc
 *.egg-info/
 .pytest_cache/
+
+# Real Candor data + assignment deliverables — never commit (real provider PII/NPIs)
+data/candor_live/
+data/findings/
+data/_backup/
+data/claims/
+.env

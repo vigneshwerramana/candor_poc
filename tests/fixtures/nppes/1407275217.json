@@ -1,0 +1,95 @@
+{
+ "result_count": 1,
+ "results": [
+  {
+   "addresses": [
+    {
+     "address_1": "1165 N EUCLID ST",
+     "address_purpose": "LOCATION",
+     "address_type": "DOM",
+     "city": "ANAHEIM",
+     "country_code": "US",
+     "country_name": "United States",
+     "postal_code": "928011938",
+     "state": "CA",
+     "telephone_number": "714-991-9990"
+    },
+    {
+     "address_1": "1165 N EUCLID ST",
+     "address_purpose": "MAILING",
+     "address_type": "DOM",
+     "city": "ANAHEIM",
+     "country_code": "US",
+     "country_name": "United States",
+     "postal_code": "928011938",
+     "state": "CA",
+     "telephone_number": "714-991-9990"
+    }
+   ],
+   "basic": {
+    "enumeration_date": "2014-04-09",
+    "first_name": "SABRINA",
+    "last_name": "UDDIN",
+    "last_updated": "2019-10-30",
+    "sex": "F",
+    "sole_proprietor": "NO",
+    "status": "A"
+   },
+   "created_epoch": "1397041912000",
+   "endpoints": [],
+   "enumeration_type": "NPI-1",
+   "identifiers": [],
+   "last_updated_epoch": "1572447378000",
+   "number": "1407275217",
+   "other_names": [],
+   "practiceLocations": [
+    {
+     "address_1": "2358 LIFESTYLE WAY STE 212",
+     "address_purpose": "LOCATION",
+     "address_type": "DOM",
+     "city": "CHATTANOOGA",
+     "country_code": "US",
+     "country_name": "United States",
+     "fax_number": "423-521-1200",
+     "postal_code": "374212291",
+     "state": "TN",
+     "telephone_number": "423-521-1100"
+    }
+   ],
+   "taxonomies": [
+    {
+     "code": "207N00000X",
+     "desc": "Dermatology",
+     "license": "55722",
+     "primary": false,
+     "state": "TN",
+     "taxonomy_group": ""
+    },
+    {
+     "code": "207N00000X",
+     "desc": "Dermatology",
+     "license": "077800",
+     "primary": false,
+     "state": "GA",
+     "taxonomy_group": ""
+    },
+    {
+     "code": "207R00000X",
+     "desc": "Internal Medicine",
+     "license": "125065436",
+     "primary": false,
+     "state": "IL",
+     "taxonomy_group": ""
+    },
+    {
+     "code": "207N00000X",
+     "desc": "Dermatology",
+     "license": "A142051",
+     "primary": true,
+     "state": "CA",
+     "taxonomy_group": ""
+    }
+   ]
+  }
+ ]
+}

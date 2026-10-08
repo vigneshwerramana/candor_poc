@@ -1,0 +1,17 @@
+npi,name,specialty,practice_states,primary_link_facilities,has_booking_links,licenses,practice_without_license,expired_licenses,specialty_matches_nppes,nppes_location_overlap,null_name_facilities,duplicate_affiliations,nppes_enumerated
+1013204528,Priya Dedhia,Surgery: Surgical Oncology,OH,1,False,"WI(2019-10-31),MI(2021-01-31),OH(no-exp)",-,"MI:2021-01-31,WI:2019-10-31",True,True,0,0,2011-07-05
+1972882009,Michael Ryan,Psychologist: Clinical,MI,1,False,MI(no-exp),-,-,True,True,0,0,2011-08-07
+1730748385,Kyle Toth,(none),OH,0,False,"OH(2027-04-03),NC(2023-11-09)",-,"NC:2023-11-09,OH:2022-06-30",False,True,0,0,2019-06-07
+1063917557,Eric Reing,"Nurse Anesthetist, Certified Registered",OH,1,False,OH(no-exp),-,-,True,True,0,0,2018-03-27
+1508164609,Rashandra Collier,Social Worker,OH,0,True,OH(no-exp),-,-,True,True,1,0,2011-03-14
+1023581592,Claire Mcmahon,Counselor,OH,0,False,OH(no-exp),-,-,True,True,0,0,2019-01-08
+1548776198,Kathryn Connelly,Social Worker: Clinical,OH,1,False,OH(no-exp),-,-,True,True,0,0,2017-12-19
+1225983984,Justin Davia,Case Manager/Care Coordinator,OH,1,False,none,OH,-,True,False,0,0,2026-02-27
+1144157280,April Cousert,Case Manager/Care Coordinator,OH,1,False,none,OH,-,True,True,0,1,2026-05-05
+1083980890,Matthew Borowka,"Dietitian, Registered","CA,CO,NY,OH,TX",0,False,"NY(2025-12-31),TX(2028-03-06)","CA,CO,NY,OH",NY:2025-12-31,True,False,2,0,2012-03-26
+1982597399,Titus Kinuthia,Technician: Personal Care Attendant,OH,1,False,WA(2027-02-08),OH,-,True,True,1,0,2025-06-03
+1023778677,Winston Cooper,"Respiratory Therapist, Registered",OH,1,False,OH(2026-06-30),OH,OH:2026-06-30,True,True,0,0,2021-12-22
+1023549813,Mark Voils,Counselor: Addiction (Substance Use Disorder),OH,1,False,OH(no-exp),-,-,True,True,0,0,2017-03-23
+1023227774,Ivette Martinez,Homemaker,OH,1,False,OH(no-exp),-,-,True,True,1,0,2007-05-21
+1013617893,Tyler Seaver,Prosthetist,OH,1,False,OH(no-exp),-,-,True,True,0,0,2023-03-09
+1003638248,Stephen Anderson,"Emergency Medical Technician, Basic",OH,1,False,none,OH,-,True,True,1,0,2024-10-29

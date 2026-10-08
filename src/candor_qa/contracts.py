@@ -389,3 +389,66 @@ class EvalReport(BaseModel):
     warnings: list[Alert]
     release_decision: ReleaseDecision
     top_findings: list[str] = []
+
+
+# ---------------------------------------------------------------- Claims validation
+
+class ClaimCheckResult(BaseModel):
+    claim_id: str
+    npi: str
+    provider_name: str | None = None
+    contract: str
+    agreement_type: str
+    service_city: str | None = None
+    service_state: str | None = None
+    mapped_network: str
+    address_match: str
+    diagnosis: str
+    explanation: str
+    flagged: bool = False
+    reference_available: bool = False
+
+
+class ClaimsCacheCoverage(BaseModel):
+    unique_npis: int
+    nppes_cached: int
+    candor_detail_cached: int
+    claims_with_reference: int
+
+
+class ClaimsReport(BaseModel):
+    run_id: str
+    pipeline: Literal["claims"] = "claims"
+    total_claims: int
+    unmapped_count: int
+    flagged_count: int
+    exact_match_count: int = 0
+    mapping_and_address_match_count: int = 0
+    results: list[ClaimCheckResult]
+    summary_by_diagnosis: dict[str, int] = {}
+    assignment_npis: list[str] = []
+    cache_coverage: ClaimsCacheCoverage | None = None
+
+
+# ---------------------------------------------------------------- DQI validation
+
+class ValidationFinding(BaseModel):
+    dqi_id: str
+    rule_id: str
+    npi: str
+    provider_name: str | None = None
+    severity: Literal["critical", "warning", "info"]
+    message: str
+    observed: str | None = None
+    expected: str | None = None
+    source: str = "candor"
+
+
+class ValidationReport(BaseModel):
+    run_id: str
+    pipeline: Literal["validation"] = "validation"
+    provider_count: int
+    overall_score: float | None = None
+    findings: list[ValidationFinding]
+    summary_by_dqi: dict[str, int] = {}
+    summary_by_severity: dict[str, int] = {}

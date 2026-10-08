@@ -112,6 +112,27 @@ jobs:
         # exit 2 (REJECT) or 1 (REVIEW) fails the job; 0 (APPROVE) ships
 ```
 
+## Real assignment modes (DQI + Claims)
+
+The dashboard supports three views via the sidebar **View** radio:
+
+| Mode | Script | Input | Report path |
+|------|--------|-------|-------------|
+| **Release Evaluation** | `scripts/run_evaluation.py` | Synthetic CSV snapshots | `data/evaluation_history/release/` |
+| **Data Quality** | `scripts/run_validation.py` | Candor list 2111 JSON + NPPES cache | `data/evaluation_history/validation/` |
+| **Claims Explorer** | `scripts/run_claims_check.py` | Claims CSV/XLSX + Exhibit A + NPPES | `data/evaluation_history/claims/` |
+
+**Data Quality** runs DQI-1..9 rules from [`config/rules.yaml`](../config/rules.yaml) against
+offline Candor search/detail JSON and cached NPPES responses. No live API required.
+
+**Claims Explorer** applies three checks per claim: (1) Exhibit A network mapping from
+[`config/exhibit_a.yaml`](../config/exhibit_a.yaml), (2) service-address match vs Candor/NPPES,
+(3) diagnosis (`mapping_gap`, `address_mismatch`, `wrong_agreement_type`, `likely_matching_bug`, etc.).
+
+Regenerate reconciliation CSV: `python scripts/reconcile_sources.py`.
+
+Live data paths (gitignored): `data/candor_live/`, `data/claims/`.
+
 ## HTTP API (optional)
 
 ```bash

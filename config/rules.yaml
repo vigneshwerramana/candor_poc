@@ -1,0 +1,14 @@
+# DQI validation rules — list 2111 roster audit
+roster:
+  list_name_contains: Columbus
+  expected_city: Columbus
+  expected_state: OH
+
+allied_health_taxonomy_prefixes:
+  - "171M"   # Case Manager
+  - "146N"   # EMT
+  - "376K"   # Nurse's Aide / PCA
+
+placeholder_address_patterns:
+  - "call for appointment"
+  - "po box"

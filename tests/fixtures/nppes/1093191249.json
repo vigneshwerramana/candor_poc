@@ -1,0 +1,80 @@
+{
+ "result_count": 1,
+ "results": [
+  {
+   "addresses": [
+    {
+     "address_1": "PO BOX 740015",
+     "address_purpose": "MAILING",
+     "address_type": "DOM",
+     "city": "ATLANTA",
+     "country_code": "US",
+     "country_name": "United States",
+     "postal_code": "303740015",
+     "state": "GA",
+     "telephone_number": "312-733-9730"
+    },
+    {
+     "address_1": "677 CASCADE AVE SW",
+     "address_purpose": "LOCATION",
+     "address_type": "DOM",
+     "city": "ATLANTA",
+     "country_code": "US",
+     "country_name": "United States",
+     "fax_number": "470-467-7469",
+     "postal_code": "303102404",
+     "state": "GA",
+     "telephone_number": "470-444-3143"
+    }
+   ],
+   "basic": {
+    "certification_date": "2025-03-26",
+    "enumeration_date": "2015-08-10",
+    "first_name": "SHERYL",
+    "last_name": "LAMB",
+    "last_updated": "2025-03-26",
+    "sex": "F",
+    "sole_proprietor": "YES",
+    "status": "A"
+   },
+   "created_epoch": "1439238763000",
+   "endpoints": [],
+   "enumeration_type": "NPI-1",
+   "identifiers": [],
+   "last_updated_epoch": "1742988817000",
+   "number": "1093191249",
+   "other_names": [],
+   "practiceLocations": [
+    {
+     "address_1": "3527 MEMORIAL DR UNIT W",
+     "address_purpose": "LOCATION",
+     "address_type": "DOM",
+     "city": "DECATUR",
+     "country_code": "US",
+     "country_name": "United States",
+     "postal_code": "300322731",
+     "state": "GA",
+     "telephone_number": "404-573-4844"
+    }
+   ],
+   "taxonomies": [
+    {
+     "code": "363LG0600X",
+     "desc": "Nurse Practitioner, Gerontology",
+     "license": "RN125187",
+     "primary": false,
+     "state": "GA",
+     "taxonomy_group": ""
+    },
+    {
+     "code": "363LA2200X",
+     "desc": "Nurse Practitioner, Adult Health",
+     "license": "RN125187",
+     "primary": true,
+     "state": "GA",
+     "taxonomy_group": ""
+    }
+   ]
+  }
+ ]
+}

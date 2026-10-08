@@ -1,0 +1,17 @@
+# Exhibit A — contract + agreement_type → network (from assignment diagram)
+mappings:
+  - contract: partner
+    agreement_type: primary
+    network: Preferred
+  - contract: partner
+    agreement_type: billing
+    network: Bill
+  - contract: partner
+    agreement_type: self_pay
+    network: Bill
+  - contract: west_coast
+    agreement_type: leased
+    network: Third-Party
+  - contract: midwest
+    agreement_type: leased
+    network: Third-Party

@@ -22,8 +22,16 @@ except ModuleNotFoundError:  # pragma: no cover
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "src"))
 
-from candor_qa.contracts import EvalReport, ReviewItem  # noqa: E402
+from candor_qa.contracts import ClaimsReport, EvalReport, ReviewItem, ValidationReport  # noqa: E402
 from candor_qa.stage5_decide.review_queue import append_review, load_prior_reviews  # noqa: E402
+
+try:
+    from app.views.claims import render_claims_view  # noqa: E402
+    from app.views.validation import render_validation_view  # noqa: E402
+except ModuleNotFoundError:
+    sys.path.insert(0, str(ROOT / "app"))
+    from views.claims import render_claims_view  # noqa: E402
+    from views.validation import render_validation_view  # noqa: E402
 
 HISTORY_DIR = ROOT / "data" / "evaluation_history"
 REVIEWS_PATH = ROOT / "data" / "reviews.json"
@@ -36,9 +44,46 @@ DECISION_STYLE = {
 }
 
 st.set_page_config(page_title="Candor QA", layout="wide")
-st.title("Provider Data QA — Release Evaluation")
+st.title("Candor Provider Data QA")
 
+mode = st.sidebar.radio(
+    "View",
+    ["Release Evaluation", "Data Quality", "Claims Explorer"],
+    index=0,
+)
+
+if mode == "Claims Explorer":
+    claim_runs = sorted(
+        (HISTORY_DIR / "claims").glob("*.json") if (HISTORY_DIR / "claims").exists() else [],
+        key=lambda p: p.stem,
+        reverse=True,
+    )
+    if not claim_runs:
+        st.info("No claims reports yet. Run `python scripts/run_claims_check.py` first.")
+        st.stop()
+    selected = st.sidebar.selectbox("Run", claim_runs, format_func=lambda p: p.stem)
+    claims_report = ClaimsReport.model_validate_json(selected.read_text())
+    render_claims_view(claims_report)
+    st.stop()
+
+if mode == "Data Quality":
+    val_runs = sorted(
+        (HISTORY_DIR / "validation").glob("*.json") if (HISTORY_DIR / "validation").exists() else [],
+        key=lambda p: p.stem,
+        reverse=True,
+    )
+    if not val_runs:
+        st.info("No validation reports yet. Run `python scripts/run_validation.py` first.")
+        st.stop()
+    selected = st.sidebar.selectbox("Run", val_runs, format_func=lambda p: p.stem)
+    val_report = ValidationReport.model_validate_json(selected.read_text())
+    render_validation_view(val_report)
+    st.stop()
+
+st.sidebar.caption("Release evaluation reports")
 runs = sorted(HISTORY_DIR.rglob("*.json"), key=lambda p: p.stem, reverse=True)
+# Exclude claims/validation subdirs from release picker
+runs = [p for p in runs if p.parent.name not in ("claims", "validation")]
 if not runs:
     st.info("No evaluation runs yet. Run `python scripts/run_evaluation.py` first.")
     st.stop()
